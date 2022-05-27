@@ -11,7 +11,7 @@ import {
   twitterLogo,
   linkedinLogo,
   instaLogo,
-} from "./imports";
+} from "./imports"; 
 
 const Footer = () => {
   return (

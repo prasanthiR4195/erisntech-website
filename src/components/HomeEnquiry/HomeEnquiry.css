@@ -1,0 +1,10 @@
+.homeEnquiry_wrap {margin: 100px 0;}
+
+.homeEnquiry_inner {width: 76%;margin: auto;position: relative;box-shadow: 0px 3px 30px #72727221;
+border-radius: 7px;padding: 44px 20px 20px 20px;}
+
+.home_cube {position: absolute;width: 55px;top: -19px;}
+
+.homeEnquiry_inner button.common_btn.btn--primary--solid {position: absolute;right: 30px;top: 40px;}
+
+.homeEnquiry_inner p {margin: 0;}

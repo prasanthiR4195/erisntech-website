@@ -16,6 +16,7 @@ import Homeproducts from "../../components/Homeproducts/Homeproducts";
 import CommonSlider from "../../components/Slider/CommonSlider";
 import Slider from "../../components/Slider/Slider";
 import HomeBanner from "./HomeBanner";
+import HomeEnquiry from "../../components/HomeEnquiry/HomeEnquiry";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <HomeBlock />
       <HomeTechnologies />
       <Homeproducts />
+      <HomeEnquiry/>
       <CommonSlider subHead="OUR SERVICES" mainB1="What Services We Offering" />
       <Slider/>
       <Testimonial />
