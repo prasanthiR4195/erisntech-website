@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/erisntech-website/static/css/main.494db300.css",
-    "main.js": "/erisntech-website/static/js/main.2e3aa8f5.js",
+    "main.css": "/erisntech-website/static/css/main.5206be27.css",
+    "main.js": "/erisntech-website/static/js/main.4fa3b21d.js",
     "static/media/header-banner.png": "/erisntech-website/static/media/header-banner.6dc3d6e14365a7066542.png",
     "static/media/product-4.png": "/erisntech-website/static/media/product-4.182205ecd78219080f28.png",
     "static/media/mobile_explained.png": "/erisntech-website/static/media/mobile_explained.5ec78084f7c92c018ad9.png",
@@ -15,11 +15,13 @@
     "static/media/UXImg1.png": "/erisntech-website/static/media/UXImg1.d73abe4a696b7fa50de4.png",
     "static/media/table.png": "/erisntech-website/static/media/table.6e8815b6f0fdddba39b8.png",
     "static/media/product-3.png": "/erisntech-website/static/media/product-3.cc5822018c8dd35509c9.png",
+    "static/media/LMS.png": "/erisntech-website/static/media/LMS.5f6327d162f8659de60d.png",
     "static/media/screen.png": "/erisntech-website/static/media/screen.13c89da4629b82eaf50f.png",
+    "static/media/POS.png": "/erisntech-website/static/media/POS.5637f40a31b14c47935b.png",
     "static/media/product-1.png": "/erisntech-website/static/media/product-1.d895d240d2c5bae8c9fd.png",
+    "static/media/HMS1.png": "/erisntech-website/static/media/HMS1.ab096f2a55b00f5992b7.png",
     "static/media/web_dev_explained.png": "/erisntech-website/static/media/web_dev_explained.6b2e3caa9be4c366516d.png",
     "static/media/HRM.png": "/erisntech-website/static/media/HRM.9d025c8494fbb4562a3a.png",
-    "static/media/POS.png": "/erisntech-website/static/media/POS.9d025c8494fbb4562a3a.png",
     "static/media/banner-bg.png": "/erisntech-website/static/media/banner-bg.add988ea1b2b14a8dd41.png",
     "static/media/swImg1.png": "/erisntech-website/static/media/swImg1.358fa80da16d5d1d5000.png",
     "static/media/Cloud1.png": "/erisntech-website/static/media/Cloud1.72fbc5d4e289d88e2e8a.png",
@@ -37,11 +39,11 @@
     "static/media/clock.png": "/erisntech-website/static/media/clock.fd54afe13ea8c26ebb7d.png",
     "static/media/tajbakery.png": "/erisntech-website/static/media/tajbakery.91250aff005a08c63f62.png",
     "index.html": "/erisntech-website/index.html",
-    "main.494db300.css.map": "/erisntech-website/static/css/main.494db300.css.map",
-    "main.2e3aa8f5.js.map": "/erisntech-website/static/js/main.2e3aa8f5.js.map"
+    "main.5206be27.css.map": "/erisntech-website/static/css/main.5206be27.css.map",
+    "main.4fa3b21d.js.map": "/erisntech-website/static/js/main.4fa3b21d.js.map"
   },
   "entrypoints": [
-    "static/css/main.494db300.css",
-    "static/js/main.2e3aa8f5.js"
+    "static/css/main.5206be27.css",
+    "static/js/main.4fa3b21d.js"
   ]
 }
