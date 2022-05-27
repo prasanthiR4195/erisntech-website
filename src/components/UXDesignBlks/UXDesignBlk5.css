@@ -1,0 +1,31 @@
+.UXDesignBlk5_para {
+    text-align: center;
+    color: #545454;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.UXDesignBlk5_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 54%;
+    margin: 50px auto;
+}
+.UXDesignBlk5_inner .wrk_icon {
+    width: 50px;
+    margin: auto;
+    right: 69px;
+    bottom: -10px;
+    z-index: 1;
+    position: absolute;
+}
+.UXDesignBlk5_inner .wrk_color {
+    position: absolute;
+    width: 60px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}

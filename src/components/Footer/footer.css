@@ -1,0 +1,173 @@
+.footer-gradient-bg {
+  background-color: #000000d6;
+}
+.erisn__footer-content {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 3rem;
+}
+.erisn__footer-content-left {
+  flex: 3;
+  width: 100%;
+  height: 100%;
+}
+.erisn__footer-content-middle {
+  flex: 1.5;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+.erisn__footer-content-middle-end {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+.erisn__footer-content-middle-end h5 {
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #f23801;
+  width: 80%;
+  padding-bottom: 6px;
+}
+.erisn__footer-content-left img {
+  width: 100%;
+  max-width: 200px;
+  height: 70px;
+  object-fit: contain;
+}
+.erisn__footer-content-left p {
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  line-height: 24px;
+  width: 85%;
+} 
+.erisn__footer-content-middle h5 {
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #f23801;
+  width: 50%;
+  padding-bottom: 6px;
+} 
+.erisn__footer-content-middle__links p {
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300 !important;
+  line-height: 25px;
+} 
+.erisn__footer-content-middle__links {
+  padding: 0.5rem 0rem;
+} 
+.erisn__footer-icons {
+  display: flex;
+  padding: 3rem 3rem;
+  border-top: 0.1px solid #ffffff3d;
+  width: 98%;
+  margin: auto;
+} 
+.erisn__footer-icons__achievements {
+  display: flex;
+  flex: 2;
+  justify-content: flex-start;
+} 
+.erisn__footer-icons__achievements img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 0 3rem 0 2rem;
+} 
+.erisn__footer-icons__socials {
+  flex: 0.8;
+  width: 100%;
+  height: 100%;
+}
+.erisn__footer-icons__socials h5 {
+  font-family: var(--font-family-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #f23801;
+  width: 80%;
+  padding-bottom: 10px;
+}
+.erisn__footer-icons__socials-icons {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.erisn__footer-icons__socials-icons img {
+  margin-right: 15px;
+} 
+@media screen and (max-width: 1050px) {
+  .erisn__footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 3rem;
+  }
+  .erisn__footer-content-left {
+    width: 100%;
+    height: 100%;
+  } 
+  .erisn__footer-content-middle h5 {
+    padding: 20px 0px 10px 0px;
+    width: 26%;
+  } 
+  .erisn__footer-content-middle {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+  } 
+  .erisn__footer-content-left p {
+    width: 100%;
+  } 
+  .erisn__footer-icons {
+    display: flex;
+    padding: 3rem 3rem;
+    flex-direction: column;
+  } 
+  .erisn__footer-icons__socials {
+    margin-top: 20px;
+  } 
+  .erisn__footer-icons__achievements img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 2rem 0 0rem;
+  }
+  .erisn__footer-content-middle-end h5 {
+    width: 20%;
+    padding-bottom: 6px;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .erisn__footer-icons__achievements {
+    flex-wrap: wrap;
+  }
+  .erisn__footer-icons__achievements img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 2rem 1rem 0rem;
+  }
+  .erisn__footer-content-middle h5 {
+    padding: 20px 0px 10px 0px;
+    width: 44%;
+  }
+  .erisn__footer-icons__socials h5 {
+    width: 90%;
+  }
+  .erisn__footer-content-middle-end h5 {
+    width: 50%;
+    padding-bottom: 6px;
+  }
+}

@@ -1,0 +1,28 @@
+.service_inner {
+    display: flex;
+    width: 80%;
+    margin: 70px auto 10px;
+}
+
+.serviceBlk {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.serviceBlk img {
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.serviceBlk h4 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.serviceBlk p {
+    font-size: 14px;
+}
+
+.services_wrap {
+    margin-bottom: 100px;
+}

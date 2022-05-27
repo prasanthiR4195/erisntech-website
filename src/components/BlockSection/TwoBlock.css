@@ -1,0 +1,16 @@
+.two_block_left img {
+    width: 90px;
+} 
+.two_block_right h4 {
+    font-size: 22px;
+    font-weight: 700;
+} 
+.two_block_right p {
+    font-size: 13px;
+}
+.two_block_wrap {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    margin: 10px 20px;
+}

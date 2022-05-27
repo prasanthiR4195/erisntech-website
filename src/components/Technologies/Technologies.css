@@ -1,0 +1,39 @@
+.technologies_wrap {
+    background: #FEFAF1;
+    padding: 50px 0;
+}
+
+.technologies_wrap span {
+    display: block;
+}
+
+.technologies_wrap p {
+    width: 77%;
+    margin: 23px auto 0;
+    text-align: center;
+}
+
+.technologies_icons {
+    width: 140px;
+    text-align: center;
+  
+}
+
+.technologies_icons_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding:0 100px;
+}
+
+.technologies_icons h6 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.technologies_icons img {
+    height: 40px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,15 @@
+.swDev2_wrap {
+    display: flex;
+    padding: 50px 100px;
+}
+
+.swDev2_right {
+    flex: 55%;
+}
+
+.swDev2_wrap .swDeveloper_right {
+    padding-right: 10px;
+}
+.swDev2_right img {width: 68%;margin: auto;}
+
+.swDev2_right {text-align: center;}

@@ -1,0 +1,7 @@
+.bannerBG {
+    position: absolute;
+    top:-20px;
+    right: 0;
+    width: 74%;
+    z-index: 0;
+}

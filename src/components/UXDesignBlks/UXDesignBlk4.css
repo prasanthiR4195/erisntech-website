@@ -1,0 +1,40 @@
+.UXDesignBlk4_cover {
+    background: linear-gradient(90deg, rgb(248 102 9 / 72%) 0%, rgba(236, 70, 60, 0.7460026246826856) 54%, rgba(235, 53, 66, 0.6899802157191002) 100%);
+    margin: 50px 0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.UXDesignBlk4_cover h3 {
+    color: #fff;
+    position: relative;
+}
+
+.UXDesignBlk4_cover h3:before {
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    content: "";
+    background: #fff;
+    left: 0;
+    top: 15px;
+}
+
+.UXDesignBlk4_cover h3:after {
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    content: "";
+    background: #fff;
+    right: 0;
+    top: 15px;
+}
+
+
+.UXDesignBlk4_inner {display: flex;justify-content: center;align-items: center;margin: 50px 0;}
+
+.UXD4_Blk img {width: 40px;}
+
+.UXD4_Blk h4 {font-size: 15px;font-weight: 800;margin: 7px 0;}
+
+.UXD4_Blk {width: 190px;}

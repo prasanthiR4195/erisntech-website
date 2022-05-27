@@ -1,0 +1,14 @@
+.block_section_one {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+.block_section_two{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+.heading{
+    padding:20px 0;
+}

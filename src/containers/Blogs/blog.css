@@ -1,0 +1,41 @@
+.blog_upper_part {
+    font-family: var(--font-family-primary);
+    display: flex;
+}
+.container {
+    max-width: 90%;
+}
+.blog_upper_part h3 {
+    font-weight: 800;
+    font-size: 32px;
+}
+.blog-search-input {
+    border: none !important;
+    background: transparent !important;
+}
+.curved-border {
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+.blog-search-btn {
+    border: none;
+}
+.subtext_color {
+    color: var(--color-subtext);
+}
+.article_heading {
+    font-size: 25px;
+}
+.bl-2px {
+    border-left: 2px solid #c6c6c6;
+}
+.cat_list_item {
+    font-family: var(--font-family-secondary);
+    margin-bottom: 15px;
+}
+.cat_list_item:first-child {
+    margin-top: 20px;
+}

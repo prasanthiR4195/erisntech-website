@@ -1,0 +1,49 @@
+.UXDesign_block_cover {
+    width: 250px;
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+.UXDesign_block_cover h1 {
+    font-size: 47px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.UXDesignBlk1_right .UXDesign_block_cover h3 {
+    font-weight: 700;
+    font-size: 15px;
+    width: 60%;
+    margin-left:0;
+}
+
+.UXDesign_block_cover p {
+    font-size: 14px;
+    color: #787878;
+}
+.cl-1{
+    color: #049CE5 !important;
+    background-color: #fff !important;
+}
+.cl-2{
+    color: #FFB74D !important;
+    background-color: #fff !important;
+}
+.cl-3{
+    color: #48D4C2 !important;
+    background-color: #fff !important;
+}
+.cl-4{
+    color: #63BC6F !important;
+    background-color: #fff !important;
+}
+.cl-5{
+    color: #598695 !important;
+    background-color: #fff !important;
+}
+.cl-6{
+    color: #2CC2D6 !important;
+    background-color: #fff !important;
+}
+ 

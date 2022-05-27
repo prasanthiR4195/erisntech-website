@@ -1,0 +1,11 @@
+.mobile_dev_blk1_inner {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.mob_dev_para {
+    width: 40%;
+    margin: 20px auto 40px;
+    text-align: center;
+}

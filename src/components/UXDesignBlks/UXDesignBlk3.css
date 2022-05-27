@@ -1,0 +1,61 @@
+.UXDesignBlk3_inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.UXDesign_inner_blocks {
+    width: 160px;
+    margin: 20px 37px;
+    text-align: center;
+}
+
+.UXDesign_inner_blocks h1 {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50%;
+    margin: 0 auto 14px;
+}
+
+.UXDesign_inner_blocks h1:first-child{
+    background: #48D4C2;
+}
+
+.UXDesign_inner_blocks:nth-child(2) h1 {
+    background: #FFB74D;
+}
+
+.UXDesign_inner_blocks:nth-child(3) h1 {
+    background: #049CE5;
+}
+
+.UXDesign_inner_blocks:nth-child(4) h1  {
+    background: #598695;
+}
+
+.UXDesign_inner_blocks:nth-child(4) h1:after  {
+    display: none;
+}
+
+.UXDesign_inner_blocks p {
+    font-size: 14px;
+    color: #545454;
+    font-weight: 600;
+}
+
+.UXDesign_inner_blocks h1:after {
+    content: "";
+    position: absolute;
+    right: -164px;
+    height: 1px;
+    width: 164px;
+    background: #bfbfbf;
+}

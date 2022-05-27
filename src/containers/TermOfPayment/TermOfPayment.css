@@ -1,0 +1,17 @@
+.termof_banner {
+    background: #FEFAF1;
+    padding: 70px 100px;
+    text-align: center;
+}
+
+.termof_banner h1 {
+    font-weight: 800;
+}
+
+.termof_banner h1 span {
+    color: #f23801;
+}
+
+.termof_content {
+    padding: 50px 120px;
+}

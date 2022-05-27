@@ -1,0 +1,105 @@
+.swDevBanner_cover {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin-left: 210px;
+}
+
+.bannerFloatingE {
+    position: absolute;
+    width: 200px;
+    opacity: .6;
+  }
+  
+  .bannerFloatingE1 {
+    left: 10%; 
+    bottom: 10%;
+    transform: translatey(0px);
+    animation: float 10s ease-in-out infinite;
+    width: 100px;
+  } 
+  .bannerFloatingE2 { 
+    right: 25%;
+    bottom: 15%;
+    transform: translatey(0px); 
+    animation: float 10s ease-in-out infinite;
+     width: 100px;
+  }
+  .banner_main_cover {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .banner_img {
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    left: 0;
+    animation: floatxy 8s ease-in-out infinite;
+  }
+  .banner_img img.bannerImg {
+    width: 100%;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-20px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  @keyframes floatr {
+    0% {
+      transform: translatex(0px);
+    }
+  
+    50% {
+      transform: translatex(-20px);
+    }
+  
+    100% {
+      transform: translatex(0px);
+    }
+  }
+  @keyframes floatxy {
+    0% {
+      transform: translatey(2px); 
+    }
+  
+    50% {
+      transform: translatey(-22px); 
+    }
+  
+    100% {
+      transform: translatey(2px); 
+    }
+  }
+  .cloud1{
+    animation: floatr 15s ease-in-out infinite;
+    width: 90px;
+    position: absolute;
+    left: 17%;
+    bottom: 47%;
+    
+  }
+  .cloud2{
+    position: absolute;
+    width: 59px;
+    right: 46%;
+    top: 29%;
+    animation: floatr 15s ease-in-out infinite;
+
+  }
+  .cloud3{
+    position: absolute;
+    width: 134px; 
+    right: 13%; 
+    top: 35%;
+    animation: floatr 15s ease-in-out infinite;
+}

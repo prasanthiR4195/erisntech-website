@@ -1,0 +1,133 @@
+.slider_wrap .owl-theme .owl-dots .owl-dot.active span {
+  background: #EB3542 !important;
+    border:0 !important;
+}
+
+.slider_wrap .owl-theme .owl-dots .owl-dot span {
+  background: #D6D6D6 !important;
+  border: 0 !important;
+}
+.slider_wrap .owl-item.active.center img {
+  transform: scale(1.2);
+}
+
+.slider_wrap .owl-item.active img {
+  transform: scale(.6);
+}
+.owl-carousel { 
+  width: 81%;
+  margin: auto;
+}
+.tech_slider_wrap .owl-item.active.center img {
+  transform: scale(0);
+}
+
+  .slider_wrap .owl-carousel .owl-stage-outer {
+  padding: 45px 0 !important;
+}
+ .slider_wrap .owl-dot span {
+  width: 43px !important;
+  margin:-14px !important;
+}
+
+ .slider_wrap button.owl-dot.active span {
+  margin-right: -5px !important;
+  position: relative;
+  background: #EB3542 !important;
+}
+
+ .slider_wrap .owl-dots {
+  margin-top: 15px !important;
+}
+.slider_wrap {
+  margin: 100px 0 50px;
+  position: relative;
+}
+
+.slider_wrap .owl-nav {
+  position: absolute;
+  right: 45px;
+  top: -83px;
+  margin-top: 0 !important;
+  display:none;
+}
+
+.slider_head {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.slider_head h2 {
+  font-weight: 800;
+  margin: 10px 0;
+  color: #fff
+}
+
+.slider_wrap:before {
+  background: transparent linear-gradient(90deg, #f866098c 33%, #ec463cab 60%, #eb35429c 66%) 0% 0% no-repeat padding-box;
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  z-index: 0;
+  top: -40px;
+}
+
+.slider_wrap .owl-prev {
+  background-image: url('../../assets/homepage/right-arrow.png') !important;
+  width: 35px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  transform: rotate(180deg);
+  height: 12px !important;
+}
+
+.slider_wrap .owl-next {
+  background-image: url('../../assets/homepage/right-arrow.png') !important;
+  width: 35px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  height: 12px !important;
+}
+.slider_wrap .owl-carousel .owl-item img {
+  display: block; 
+  margin: auto;
+}
+
+.slider_wrap .owl-nav span {
+  opacity: 0 !important;
+}
+
+.slider_wrap .owl-theme .owl-nav [class*='owl-']:hover {
+  background: url('../../assets/homepage/right-arrow.png') !important;
+}
+
+.slider_wrap .owl-theme .owl-dots {
+  margin-top: 20px;
+}
+
+.tech_slider_wrap .item img {
+  width: 50px !important;
+  height: 45px;
+  margin: 0 auto 10px;
+}
+
+.tech_slider_wrap .item {
+  text-align: center;
+}
+
+.tech_slider_wrap .item h5 {
+  font-size: 16px;
+  color: #4F5B6A;
+}
+
+.tech_slider_wrap {
+  padding: 60px 100px;
+}
+
+.home_technologies_Wrap {
+  background: #F8F8F8;
+  padding-top: 15px;
+}

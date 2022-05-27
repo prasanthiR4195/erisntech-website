@@ -1,0 +1,15 @@
+.term_block p {
+    font-size: 15px;
+    color: #5E5E5E;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.term_block {
+    margin-bottom: 30px;
+}
+
+.term_block h4 {
+    font-weight: 700;
+    color: #404041;
+}

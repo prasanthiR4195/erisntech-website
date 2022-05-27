@@ -1,0 +1,10 @@
+.home_block_wrap {
+    display: flex;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 150px;
+}
+.home_block_outer {
+    padding: 75px 0 10px;  
+}

@@ -1,0 +1,132 @@
+.table {
+    animation: float 10s ease-in-out infinite;
+    transform: translatey(0px);
+    width: 340px;
+    left: 18%;
+    position: absolute;
+}
+
+.keys {
+    position: absolute;
+    top: -19px;
+    right: 149px;
+    width: 140px;
+    animation: float2 17s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.clock {
+    width: 100px;
+    right: 92px;
+    position: absolute;
+    top: 100px;
+    animation: float3 16s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.plant {
+    position: absolute;
+    width: 100px;
+    right: 111px;
+    bottom: 37px;
+    animation: float4 17s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.redcube {
+    width: 37px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    animation: float 14s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.gearR {
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 261px;
+    animation: float 18s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.gearY {
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 294px;
+    animation: float 16s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.sphere {
+    width: 50px;
+    position: absolute;
+    top: 89px;
+    left: 30px;
+    animation: float3 16s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+.whitecube {
+    width: 70px;
+    position: absolute;
+    top: -45px;
+    left: 76px;
+    animation: float3 13s ease-in-out infinite;
+    transform: translatey(0px);
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+@keyframes float2 {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatex(-20px);
+    }
+
+    100% {
+        transform: translatex(0px);
+    }
+}
+@keyframes float3 {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatex(-20px);
+    }
+
+    100% {
+        transform: translatex(0px);
+    }
+}
+@keyframes float4 {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatex(-20px);
+    }
+
+    100% {
+        transform: translatex(0px);
+    }
+}

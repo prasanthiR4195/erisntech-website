@@ -1,0 +1,50 @@
+.contactUs_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactUs_left {
+    background: #feebe5;
+    padding: 50px 100px 50px 100px;
+    flex:50%;
+}
+.contactUs_right {
+    padding: 50px 90px 50px 90px;
+    flex:50%;
+}
+.contact_heading {
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.contactUs_left p {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.contactUs_left .common_head {
+    margin-bottom: 10px;
+}
+.contact_subhead {
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+.contact_sec p {
+    font-size: 14px;
+    margin-bottom: 10px;
+} 
+.contact_sec {
+    margin-bottom: 30px;
+} 
+.contactUs_right .contact_heading {
+    margin-top: 35px;
+} 
+.contactUs_right .contact_sec {
+    display: flex;
+}
+.contactUs_right ul li {
+    list-style-type: none;
+}
+.MuiBox-root-7 {
+    font-size: 14px !important;
+}
+.contactUs_right .contact_subhead {
+    margin-top: 20px;
+}

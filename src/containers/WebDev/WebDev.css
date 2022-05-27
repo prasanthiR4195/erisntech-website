@@ -1,0 +1,46 @@
+.web_dev_block_section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+} 
+.web_dev_explained {
+    padding: 50px 120px;
+    display: flex;
+} 
+.web_dev_right img {
+    width: 335px;
+} 
+.web_dev_left {
+    flex: 45%;
+    padding: 20px 0;
+} 
+.web_dev_right {
+    flex: 50%;
+    text-align: right;
+} 
+.web_dev_heading h4 {
+    font-size: 30px;
+    position: relative;
+    font-weight: 700;
+} 
+.web_dev_heading h4 span {
+    color: #f23801;
+}
+.web_dev_gradient {
+    /* background: linear-gradient(360deg, #FFF6F4, transparent); */
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.web_dev_heading h4:before {
+    position: absolute;
+    content: "";
+    left: -16px;
+    height: 79%;
+    width: 5px;
+    top: 8px;
+    background: #f23801;
+} 
+.web_dev_left p {
+    font-size: 15px;
+    line-height: 29px;
+}

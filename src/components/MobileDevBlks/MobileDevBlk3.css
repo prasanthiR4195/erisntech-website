@@ -1,0 +1,28 @@
+.MobileDevBlk3_inner {
+    display: flex;
+    margin: 50px 100px;
+    justify-content: center;
+}
+.MobileDevBlk3_inner .wrk_icon {
+    width: 50px;
+    margin: auto;
+    right: 69px;
+    bottom: 2px;
+    z-index: 1;
+}
+.MobileDevBlk3_inner .wrk_color {
+    position: absolute;
+    width: 50px;
+    margin: auto;
+    left: -29px;
+    top: -8px;
+    z-index: 0;
+}
+.MobileDevBlk3_inner .wrk_icon {
+    width: 46px;
+    margin: auto;
+    left: 63px;
+    bottom: 13px;
+    z-index: 1;
+    position: absolute;
+}

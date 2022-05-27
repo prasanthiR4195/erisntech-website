@@ -1,0 +1,12 @@
+.mobileDev_para {
+    text-align: center;
+    color: #747474;
+    font-size: 14px;
+    width: 37%;
+    margin: auto;
+}
+.mobileDevBlk2_inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}

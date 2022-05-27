@@ -1,0 +1,45 @@
+.web_dev_services_wrap {
+    padding: 50px 120px;
+}
+
+.web_dev_services_top { 
+    margin: 20px 0 50px;
+}
+
+.web_dev_head {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto 30px;
+}
+.web_dev_services_top p {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.web_dev_head .subheadwithbg {
+    background: #FF8661;
+    font-size: 13px;
+    padding: 4px 23px;
+    display: inline-block;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.web_dev_head h3 {
+    margin: 10px 0;
+    font-weight: 800;
+    font-size: 29px;
+}
+
+.web_dev_head h3 span {
+    color: #f23801;
+    display: block;
+}
+
+.web_dev_block_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}

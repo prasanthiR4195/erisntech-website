@@ -1,0 +1,38 @@
+.banner_bg {
+    background: #fdf8f4;
+}
+.banner_inner {
+    padding: 40px 100px 0;
+    display: flex;
+}
+.banner_inner_left h3 {
+    font-size: 20px;
+    color: #ED8E58;
+}
+.banner_inner_left h3 span {
+    font-weight: 700;
+}
+.banner_inner_left h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px 0;
+    line-height: 35px;
+}
+.banner_inner_left h1 span {
+    color: #F23801;
+    display: block;
+}
+.banner_inner_left p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.banner_inner_right img {
+    width: 460px;
+}
+.banner_inner_left {
+    flex: 47%;
+}
+.banner_inner_right {
+    flex: 50%;
+    text-align: right;
+}

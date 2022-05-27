@@ -1,0 +1,37 @@
+.testimonial_inner {
+    margin: 50px 0;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial_left {
+    flex: 43%;
+}
+
+.testimonial_main {
+    width: 520px;
+    padding: 20px;
+    position: relative;
+} 
+.testimonial_main .owl-carousel .owl-stage-outer {
+    padding: 0px 0 !important;
+    margin-top: 0 !important;
+}
+
+.testimonial_main .owl-theme .owl-dots .owl-dot.active span {
+    background: #FFF0EB !important;
+    border: 3px solid #f23801 !important;
+}
+
+.testimonial_main .owl-theme .owl-dots .owl-dot span {
+    width: 60px;
+    height: 60px;
+    background: #FFF0EB; 
+}
+.testimonial_main .owl-dots{
+    margin-top: 10px;
+    position: absolute;
+    left: 55px;
+    bottom: -17px;
+} 

@@ -1,0 +1,97 @@
+.left_block_wrap {
+    width: 300px;
+    border: 1px solid #CCCCCC;
+    border-radius: 17px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.left_block_inner h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 62%;
+}
+
+.left_block_inner p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.bg-1 {
+    background-color: #049CE5 !important;
+}
+
+.bg-2 {
+    background-color: #FFB74D !important;
+}
+
+.bg-3 {
+    background-color: #48D4C2 !important;
+}
+
+.bg-4 {
+    background-color: #63BC6F !important;
+}
+
+.bg-5 {
+    background-color: #598695 !important;
+}
+
+.bg-6 {
+    background-color: #2CC2D6 !important;
+}
+
+.left_block_inner span {
+    content: "";
+    border-radius: 30% 70% 67% 33% / 61% 67% 33% 39%;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    left: 21px;
+    top: 1px;
+    z-index: 0;
+    background: #48D4C2 0% 0% no-repeat padding-box;
+    transition: .5s;
+    transform: rotate(360deg);
+}
+
+.left_block_inner {
+    position: relative;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.left_block_wrap:hover {
+    transition: .5s;
+    box-shadow: 0px 3px 30px #0000001a;
+}
+
+.left_block_inner:hover span {
+    transform: rotate(178deg);
+    transition: .5s;
+
+
+}
+ 
+.left_icon_block {
+    position: relative;
+    width: 50px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+
+.left_icon {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    right: -19px;
+    bottom: -14px;
+}
+
+.left_color {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    width: 55px;
+}

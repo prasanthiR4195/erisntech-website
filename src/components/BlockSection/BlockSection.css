@@ -1,0 +1,105 @@
+.block_section_one_wrap {
+    padding: 60px 56px;
+    display: flex;
+    justify-content: space-between;
+} 
+.block_section_one {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FEF1E9;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 22px;
+} 
+.block_img img {
+    width: 75px;
+} 
+.block_section_two {
+    display: flex;
+    margin: 60px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+}
+.block_img {
+    /* padding: 14px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.block_text {
+    padding-left: 10px;
+} 
+.block_text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+} 
+
+.block_text p {
+    font-size: 13px;
+    color: #828282;
+    font-family: var(--font-family-secondary);
+    line-height: 20px;
+} 
+.block_section_two_wrap {
+    padding: 60px 40px;
+
+} 
+
+.block_section_wrap {
+    background: linear-gradient(360deg, #FFF6F3, transparent);
+} 
+/*******************MEDIA QUERIES**********************/
+@media only screen and (max-width: 1024px) {
+    .block_section_two_head {
+        width: 40%;
+    } 
+    .block_section_one_wrap {
+        padding: 60px 30px;
+    } 
+    .block_wrap {
+        margin: 0 5px;
+    } 
+    .block_section_two_wrap {
+        padding: 60px 30px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    .block_section_two {
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .block_wrap {
+        margin: 0 10px 15px;
+        width: 234px;
+    }
+} 
+@media only screen and (max-width:768px) {
+    .block_section_one_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .block_section_one {
+        width: 300px;
+        margin-bottom: 13px;
+    } 
+    .block_section_two_wrap {
+        padding: 33px 30px;
+    } 
+    .block_wrap {
+        width: 213px;
+    } 
+} 
+@media only screen and (max-width: 767px) {
+    .block_section_one_wrap {
+        padding: 40px 30px;
+    } 
+    .block_section_two_head {
+        width: 100%;
+    } 
+    .block_wrap {
+        width: 320px;
+    }
+}

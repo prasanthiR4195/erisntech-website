@@ -1,0 +1,126 @@
+.team_section_one {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-around;
+    align-items: center;
+} 
+.team_right {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 42%;
+    justify-content: flex-end;
+} 
+.team_right_one {
+    display: flex;
+    align-items: center;
+} 
+.team_left {
+    flex: 32%;
+} 
+.sub-heading {
+    color: #FF3006;
+    font-size: 22px;
+    font-weight: 700;
+} 
+.team_right_two {
+    margin: 0 10px;
+} 
+
+.team_block_one {
+    box-shadow: 0px 3px 30px #0000001c;
+    border-radius: 5px;
+    text-align: center;
+    width: 225px;
+    padding: 25px 20px;
+    margin: 20px 5px;
+} 
+.team_block_one .sub-heading {
+    font-size: 16px;
+    margin-top: 15px;
+} 
+.team_block_one p {
+    color: #828282;
+    font-size: 14px;
+} 
+.team_block_one img {
+    width: 115px;
+} 
+.team_section_two {
+    padding: 50px 100px;
+} 
+.team_section_two_head {
+    text-align: center;
+} 
+.team_section_two_head h2 {
+    font-weight: 800;
+} 
+.team_section_two_head p {
+    font-family: var(--font-family-secondary);
+    font-size: 14px;
+    color: '#828282';
+} 
+.team_section_two_head {
+    width: 79%;
+    margin: auto;
+    margin-bottom: 60px;
+} 
+.team_section_two_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+@media only screen and (max-width: 1024px) {
+    .team_section_one {
+        padding: 50px 60px;
+    } 
+    .team_section_two {
+        padding: 50px 50px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    .team_block_one {
+        width: 207px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    .team_left_head h2 {
+        width: 95%;
+        font-size: 30px;
+    } 
+    .team_section_one {
+        padding: 50px 40px;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    .team_block_one img {
+        width: 100px;
+    } 
+    .team_block_one {
+        width: 180px;
+    } 
+    .team_right {
+        flex: 53% 1;
+    } 
+    .team_section_two {
+        padding: 50px 20px;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    .team_section_one {
+        display: block;
+    } 
+    .team_right {
+        display: block;
+    } 
+    .team_block_one {
+        width: 250px;
+        margin: 30px auto 32px;
+    } 
+    .team_right_one {
+        display: block;
+        align-items: center;
+    } 
+    .team_section_two {
+        padding: 30px 17px;
+    }
+}

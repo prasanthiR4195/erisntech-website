@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/erisn-website/static/css/main.985ccab0.css",
+    "main.js": "/erisn-website/static/js/main.5e61c929.js",
+    "static/media/header-banner.png": "/erisn-website/static/media/header-banner.6dc3d6e14365a7066542.png",
+    "static/media/product-4.png": "/erisn-website/static/media/product-4.182205ecd78219080f28.png",
+    "static/media/UXBanner1.png": "/erisn-website/static/media/UXBanner1.1531f897fb968a255272.png",
+    "static/media/swImg2.png": "/erisn-website/static/media/swImg2.1bcc9e3ade5d61483239.png",
+    "static/media/product-2.png": "/erisn-website/static/media/product-2.5f08fbf7393823af6903.png",
+    "static/media/swDev1.png": "/erisn-website/static/media/swDev1.3c4862169cee48038d3d.png",
+    "static/media/swDev2.png": "/erisn-website/static/media/swDev2.ea9d66a1c6efe687d7e4.png",
+    "static/media/sw.png": "/erisn-website/static/media/sw.91da373aef962f0a04e9.png",
+    "static/media/UXImg1.png": "/erisn-website/static/media/UXImg1.d73abe4a696b7fa50de4.png",
+    "static/media/table.png": "/erisn-website/static/media/table.6e8815b6f0fdddba39b8.png",
+    "static/media/product-3.png": "/erisn-website/static/media/product-3.cc5822018c8dd35509c9.png",
+    "static/media/screen.png": "/erisn-website/static/media/screen.13c89da4629b82eaf50f.png",
+    "static/media/product-1.png": "/erisn-website/static/media/product-1.d895d240d2c5bae8c9fd.png",
+    "static/media/web_dev_explained.png": "/erisn-website/static/media/web_dev_explained.6b2e3caa9be4c366516d.png",
+    "static/media/HRM.png": "/erisn-website/static/media/HRM.9d025c8494fbb4562a3a.png",
+    "static/media/POS.png": "/erisn-website/static/media/POS.9d025c8494fbb4562a3a.png",
+    "static/media/banner-bg.png": "/erisn-website/static/media/banner-bg.add988ea1b2b14a8dd41.png",
+    "static/media/swImg1.png": "/erisn-website/static/media/swImg1.358fa80da16d5d1d5000.png",
+    "static/media/Cloud1.png": "/erisn-website/static/media/Cloud1.72fbc5d4e289d88e2e8a.png",
+    "static/media/keys.png": "/erisn-website/static/media/keys.b5fb9d85e6711ddf36e0.png",
+    "static/media/blog.png": "/erisn-website/static/media/blog.eaeed4af466560866755.png",
+    "static/media/plant.png": "/erisn-website/static/media/plant.e0b6888619f5c9572975.png",
+    "static/media/Block1.png": "/erisn-website/static/media/Block1.104a868ae4acec30a9dc.png",
+    "static/media/bannerE2.png": "/erisn-website/static/media/bannerE2.c8056005035008b268df.png",
+    "static/media/Block2.png": "/erisn-website/static/media/Block2.87216cf8d84a58b79b87.png",
+    "static/media/bannerE1.png": "/erisn-website/static/media/bannerE1.7edb1492489aff79644b.png",
+    "static/media/erisn-logo-light.png": "/erisn-website/static/media/erisn-logo-light.b02a12d95d2cfaf25321.png",
+    "static/media/clock.png": "/erisn-website/static/media/clock.fd54afe13ea8c26ebb7d.png",
+    "static/media/tajbakery.png": "/erisn-website/static/media/tajbakery.91250aff005a08c63f62.png",
+    "index.html": "/erisn-website/index.html",
+    "main.985ccab0.css.map": "/erisn-website/static/css/main.985ccab0.css.map",
+    "main.5e61c929.js.map": "/erisn-website/static/js/main.5e61c929.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.985ccab0.css",
+    "static/js/main.5e61c929.js"
+  ]
+}

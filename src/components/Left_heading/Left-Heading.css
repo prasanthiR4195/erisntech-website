@@ -1,0 +1,22 @@
+.team_left_head h2 {
+    font-weight: 800;
+    font-family: var(--font-family-primary);
+    width: 72%;
+} 
+.team_left p {
+    font-size: 13px;
+    color: #828282;
+} 
+.team_left_head {
+    position: relative;
+    margin-bottom: 15px;
+} 
+/* .team_left_head:before {
+    position: absolute;
+    content: "";
+    background: #f23801;
+    height: 100px;
+    width: 4px;
+    left: -18px;
+    top: 4px;
+}  */

@@ -1,0 +1,65 @@
+.contact_wrap {
+    padding: 50px 150px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_left {
+    flex: 40% 1;
+    padding: 50px 50px 0 50px;
+    background: linear-gradient(360deg, #FFF6F3, #FFFFFF);
+    position: relative;
+    z-index: 1;
+}
+
+.contact_right {
+    flex: 40%;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.contact_left:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    background: linear-gradient(360deg, #ffe8e0, white);
+    width: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+}
+.contact_sec .MuiFormControlLabel-root { 
+    margin-bottom: 0;
+}
+.contact_left_content {
+    position: absolute;
+    top: 0;
+}
+
+.contact_left_content h1 {
+    font-weight: 800;
+}
+
+.contact_left_content p {
+    width: 80%;
+    font-size: 15px;
+}
+
+.contact_sec ul li {
+    list-style-type: none;
+}
+.contact_sec ul{
+    margin-bottom: 0;
+}
+.contact_sec {
+    display: flex;
+    margin-top: 0px;
+    padding-left: 15px;
+    margin-bottom: 0 !important;
+}
+.contact_sec .MuiBox-root {
+    font-size: 13px;
+    font-weight: 600;
+}

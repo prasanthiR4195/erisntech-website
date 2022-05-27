@@ -1,0 +1,23 @@
+.UXDesignBlk6_para {
+    text-align: center;
+    color: #545454;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.UXDesignBlk6_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+}
+.UXDesignBlk6_inner  .wrk_icon {
+    width: 50px;
+    margin: auto;
+    right: 69px;
+    bottom: 2px;
+    z-index: 1;
+    position: absolute;
+}
