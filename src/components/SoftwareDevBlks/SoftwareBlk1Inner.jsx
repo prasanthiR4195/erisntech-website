@@ -1,72 +1,76 @@
 import React from "react";
 import "./SoftwareDeBlk1.css";
-import SoftwareDevMoving from "./SoftwareDevMoving"; 
+import SoftwareDevMoving from "./SoftwareDevMoving";
 import MovingBlk from "./MovingBlk";
-import color1 from '../../assets/softwaredev/color1.png'
-import color2 from '../../assets/softwaredev/color2.png'
-import color3 from '../../assets/softwaredev/color3.png'
-import color4 from '../../assets/softwaredev/color4.png'
+import color1 from "../../assets/softwaredev/color1.png";
+import color2 from "../../assets/softwaredev/color2.png";
+import color3 from "../../assets/softwaredev/color3.png";
+import color4 from "../../assets/softwaredev/color4.png";
 
-
-const SoftwareBlk1Inner = ({leftHead,img1,rightHead,
-  img2,head1,para1,head2,para2,head3,para3,head4,para4,head5,para5,head6,
-  para6,head7,para7,head8,para8,icon1,icon2,icon3,icon4,icon5,icon6,icon7,icon8}) => {
+const SoftwareBlk1Inner = ({ block1 }) => {
+  console.log(block1.lefthead)
   return (
-    <div className="sw_inner_cover">
-      <div className="software_innr_wrap">
-        <SoftwareDevMoving head={leftHead} img={img1} />
-        <div className="swInnerRight">
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon1} color={color1}/>
-            <h5>{head1}</h5>
-            <p>{para1}</p>
-          </div>
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon2} color={color2}/>
-            <h5>{head2}</h5>
-            <p>{para2}</p>
-          </div>
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon3} color={color3}/>
-            <h5>{head3}</h5>
-            <p>{para3}</p>
-          </div>
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon4} color={color4}/>
-            <h5>{head4}</h5>
-            <p>{para4}</p>
-          </div>
-        </div>
-      </div>
+    <>
+      {block1.map((index) => {
+        return (
+          <div className="sw_inner_cover">
+            <div className="software_innr_wrap">
+              <SoftwareDevMoving head={index.lefthead} img={index.img1} />
+              <div className="swInnerRight">
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon1} color={color1} />
+                  <h5>{index.head1}</h5>
+                  <p>{index.para1}</p>
+                </div>
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon2} color={color2} />
+                  <h5>{index.head2}</h5>
+                  <p>{index.para2}</p>
+                </div>
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon3} color={color3} />
+                  <h5>{index.head3}</h5>
+                  <p>{index.para3}</p>
+                </div>
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon4} color={color4} />
+                  <h5>{index.head4}</h5>
+                  <p>{index.para4}</p>
+                </div>
+              </div>
+            </div>
 
-      <div className="software_innr_wrap"> 
-        <div className="swInnerRight">
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon5} color={color4}/>
-            <h5>{head5}</h5>
-            <p>{para5}</p>
+            <div className="software_innr_wrap">
+              <div className="swInnerRight">
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon5} color={color4} />
+                  <h5>{index.head5}</h5>
+                  <p>{index.para5}</p>
+                </div>
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon6} color={color1} />
+                  <h5>{index.head6}</h5>
+                  <p>{index.para6}</p>
+                </div>
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon7} color={color2} />
+                  <h5>{index.head7}</h5>
+                  <p>{index.para7}</p>
+                </div>
+                <div className="swInnerRightBlk">
+                  <MovingBlk icon={index.icon8} color={color3} />
+                  <h5>{index.head8}</h5>
+                  <p>{index.para8}</p>
+                </div>
+              </div>
+              <SoftwareDevMoving head={index.righthead} img={index.img2} />
+            </div>
           </div>
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon6} color={color1}/>
-            <h5>{head6}</h5>
-            <p>{para6}</p>
-          </div>
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon7} color={color2}/>
-            <h5>{head7}</h5>
-            <p>{para7}t</p>
-          </div>
-          <div className="swInnerRightBlk">
-            <MovingBlk icon={icon8} color={color3}/>
-            <h5>{head8}</h5>
-            <p>{para8}</p>
-          </div>
-        </div>
-        <SoftwareDevMoving head={rightHead} img={img2} />
-      </div>
-
-
-    </div>
+        );
+      })}
+      
+      
+    </>
   );
 };
 

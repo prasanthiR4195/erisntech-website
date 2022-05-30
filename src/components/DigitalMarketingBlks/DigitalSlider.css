@@ -1,0 +1,17 @@
+.digitalSlider_inner {
+    position: relative;
+}
+
+img.sliderleft {
+    position: absolute;
+    left: -47px;
+    width: 200px;
+    bottom: 38px;
+}
+
+img.sliderright {
+    position: absolute;
+    right: -47px;
+    width: 200px;
+    top: 0px;
+}

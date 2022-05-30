@@ -1,7 +1,7 @@
 import React from "react"; 
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import bannerBG from "../../assets/webdev/banner-bg.png";
+import bannerBG from "../../assets/uiux/banner-bg.png";
 import UXDesignBlk1 from "../../components/UXDesignBlks/UXDesignBlk1";
 import UXDesignBlk2 from "../../components/UXDesignBlks/UXDesignBlk2";
 import UXDesignBlk3 from "../../components/UXDesignBlks/UXDesignBlk3";
@@ -17,13 +17,14 @@ const UXDesign = () => {
   return (
     <div>
       <MainBanner
-        smallhead="Our Sevices"
-        mainHeadB1="Web Development"
-        bannerDesc=" Want to build your product? Turn to ErisnTech's UI and UX services. Our design team is a small design studio within a large software company that will help you build an engaging product easily and quickly"
+        smallhead="UIUX & Branding Design"
+        mainHeadB1="Branding & Design Services"
+        bannerDesc="Elevate your brand identity design and attract new customers. Meet with our branding experts to discuss your brand identity & design requirements."
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
         bannerStyle="banner-content-left"
         bannerImg={<UXBanner/>}
         bannerBG={bannerBG}
+        uxclass="uxclass"
       />
       <UXDesignBlk1 />
       <UXDesignBlk2 />

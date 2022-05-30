@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import "./WebDev.css";
 import CommonHeading from "../../components/commonHeading/CommonHeading";
 import Block from "../../components/BlockSection/Block";

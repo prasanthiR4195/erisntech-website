@@ -2,7 +2,7 @@ import React from "react";
 import "./SoftwareDev.css";
 import MainBanner from "../../components/Banner/MainBanner";
 import banner1 from "../../assets/homepage/header-banner.png"; 
-import bannerBG from "../../assets/webdev/banner-bg.png";
+import bannerBG from "../../assets/softwaredev/banner-bg.png";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import SoftwareDeBlk1 from "../../components/SoftwareDevBlks/SoftwareDeBlk1";
@@ -25,10 +25,42 @@ import sw3 from '../../assets/softwaredev/sw3.png'
 import sw4 from '../../assets/softwaredev/sw4.png'
 import sw5 from '../../assets/softwaredev/sw5.png'
 import sw6 from '../../assets/softwaredev/sw6.png'
-import sw7 from '../../assets/softwaredev/sw7.png'
+import sw7 from '../../assets/softwaredev/sw7.png' 
 import sw8 from '../../assets/softwaredev/sw8.png'
 
 const SoftwareDev = () => {
+  const block1 = [
+    {
+      lefthead  :  "Web Development",
+      img1 : webDev1,
+      icon1 :  sw1,
+      icon2 : sw2,
+      icon3 : sw3,
+      icon4 : sw3,
+      head1 : "Custom Web Development",
+      head2 : "Global SEO",
+      head3 : "E-Commerce SEO",
+      head4 : "Keyword Ideas & Strategy / Mobile Responsive SEO" ,
+      para1:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      para2:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      para3:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      para4:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      righthead : "Web Development",
+      img2:webDev2,
+      icon5:sw5,
+      icon6:sw6,
+      icon7:sw7,
+      icon8:sw8,
+      head5:"Social Media Management",
+      head6:"Bookmarking",
+      head7:"Guest Blogging",
+      head8:"Online Forums",
+      para5:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      para6:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      para7:"Lorem Ipsum is simply dummy text of he printing and all of it",
+      para8:"Lorem Ipsum is simply dummy text of he printing and all of it",
+    }
+  ] 
   return (
     <div className="software_dev_wrap">
       <MainBanner
@@ -47,36 +79,7 @@ const SoftwareDev = () => {
       subHead="OUR SERVICES"
       mainHead="Custom Software Development Services Dedicated Developer with Vast Industry Specific Experience"
       para="Lorem ipsum dolor in sit amet, consetetursadip scing elitr, sed diam nonumy eirmod temporod"
-      leftHead="Web Development"
-      img1={webDev1}
-      rightHead="Web Development"
-      img2={webDev2}
-      head1="Custom Web Development"
-      para1="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon1={sw1}
-      head2="Implementation & Deployment"
-      para2="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon2={sw2}
-      head3="API Development"
-      para3="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon3={sw3}
-      head4="System Integrations"
-      para4="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon4={sw4}
-      head5="Implementation & Deployment"
-      para5="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon5={sw5}
-      head6="API Development"
-      para6="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon6={sw6}
-      head7="API Integrations"
-      para7="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon7={sw7}
-      head8="UX/UI Design"
-      para8="Lorem Ipsum is simply dummy text of he printing and all of it"
-      icon8={sw8}
-
-
+      block1={block1}
       />
       <SwBandSection para="Want to learn more about our software development expertise?" />
       <SoftwareDevBlk2 />

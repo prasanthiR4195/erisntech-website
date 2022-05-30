@@ -1,7 +1,11 @@
 .bannerBG {
     position: absolute;
-    top:-20px;
+    top:0px;
     right: 0;
-    width: 74%;
+    width: 60%;
     z-index: 0;
 }
+/* .uxclass {
+    right: -63px;
+    top: -168px;
+}  */

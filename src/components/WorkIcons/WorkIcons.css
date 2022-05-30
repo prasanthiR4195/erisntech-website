@@ -83,6 +83,7 @@
     right: 69px;
     bottom: 2px;
     z-index: 1;
+    position: absolute;
 }
 
 .wrk_color {

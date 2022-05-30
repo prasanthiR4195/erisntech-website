@@ -5,3 +5,62 @@
     margin: 4px auto;
     text-align: center;
 }
+
+.digitalmarketingCover {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+img.digital1 { 
+    position: absolute;
+    width: 400px;
+    right: -19px;
+    bottom: 0;
+    animation: float 10s ease-in-out infinite;
+}
+
+img.digital2 {
+    position: absolute;
+    left: 0;
+    width: 157px;
+    bottom: 38px;
+    animation: float 15s ease-in-out infinite;
+}
+
+img.digital3 {
+    position: absolute;
+    right: -27px;
+    top: 110px;
+    width: 85px;
+    animation: float 16s ease-in-out infinite;
+}
+
+img.digital4 {
+    position: absolute;
+    top: 87px;
+    left: 66px;
+    width: 64px;
+    animation: float 17s ease-in-out infinite;
+}
+
+img.digital5 {
+    position: absolute;
+    right: -14px;
+    bottom: 148px;
+    width: 60px;
+    animation: float 18s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-20px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }

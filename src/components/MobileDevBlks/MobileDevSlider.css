@@ -29,3 +29,6 @@
 .mobileSlider_cover .owl-carousel .owl-dots.disabled {
     display: block;
 }
+.mobiledevSlider_inner{
+    position: relative;
+}

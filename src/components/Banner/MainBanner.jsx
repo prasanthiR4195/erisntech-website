@@ -19,7 +19,7 @@ const MainBanner = ({  mainHeadB1,
     smallhead,
     subHeadwithBg,
     subhead,
-    bannerImg,bannerBG}) => {
+    bannerImg,bannerBG,uxclass}) => {
 
 
         const checkBannerStyle = STYLES.includes(bannerStyle)
@@ -27,7 +27,7 @@ const MainBanner = ({  mainHeadB1,
         : STYLES[0];
   return (
     <div className="banner_main_cover">
-     <img src={bannerBG} className="bannerBG" />
+     <img src={bannerBG} className={`bannerBG ${uxclass}` } />
     <div className={`banner_content ${checkBannerStyle}`}>
       
      

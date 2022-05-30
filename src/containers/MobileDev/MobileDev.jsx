@@ -2,7 +2,7 @@ import React from "react";
 import "./MobileDev.css";
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai"; 
-import bannerBG from "../../assets/webdev/banner-bg.png";
+import bannerBG from "../../assets/mobiledev/banner-bg.png";
 import MobileDevBlk1 from "../../components/MobileDevBlks/MobileDevBlk1"; 
 import MobileDevSlider from "../../components/MobileDevBlks/MobileDevSlider";
 import MobileDevBanner from "./MobileDevBanner";

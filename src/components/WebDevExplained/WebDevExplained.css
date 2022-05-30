@@ -14,4 +14,21 @@
       transform: translatey(0px);
     }
   }
-  
+  .web_dev_heading h5 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.web_dev_heading .web_dev_left p {
+  font-size: 15px;
+  line-height: 24px;
+}
+.web_dev_explained .web_dev_right {
+  flex: 50% 1;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web_dev_explained .web_dev_right img {
+  width: 460px;
+}

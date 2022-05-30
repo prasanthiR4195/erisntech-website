@@ -1,21 +1,21 @@
 import React from 'react'
-import Cloud1 from "../../assets/softwaredev/Cloud1.png";
-import Cloud2 from "../../assets/softwaredev/Cloud1.png";
-import Cloud3 from "../../assets/softwaredev/Cloud1.png";
+ 
 import classes from './DigitalMarketingBanner.css'
-import BannerE1 from "../../assets/softwaredev/Block1.png";
-import BannerE2 from "../../assets/softwaredev/Block2.png";
-import banner1 from "../../assets/softwaredev/screen.png";
+import digital from "../../assets/digitalmarketing/digital.png";
+import man from "../../assets/digitalmarketing/man.png";
+import love from "../../assets/digitalmarketing/love.png";
+import like from "../../assets/digitalmarketing/like.png";
+import likeR from "../../assets/digitalmarketing/likeR.png";
+
 
 const DigitalMarketingBanner = () => {
   return (
-    <div className={classes.swDevBanner_cover}>
-    {/* <img src={banner1} className={classes.banner_img} alt=""/>
-    <img src={BannerE1} alt="banner" className={`${classes.bannerFloatingE} ${classes.bannerFloatingE1}`}  />
-<img src={BannerE2} alt="banner" className={`${classes.bannerFloatingE} ${classes.bannerFloatingE2}`} />
-<img src={Cloud1} className={classes.cloud1} alt=""/>
-<img src={Cloud2} className={classes.cloud2} alt=""/>
-<img src={Cloud3} className={classes.cloud3} alt=""/> */}
+    <div className="digitalmarketingCover">
+       <img src={digital} className="digital1" alt=""/>
+       <img src={man} className="digital2" alt=""/>
+       <img src={love} className="digital3" alt=""/>
+       <img src={like} className="digital4" alt=""/>
+       <img src={likeR} className="digital5" alt=""/> 
 </div>
   )
 }
