@@ -33,7 +33,7 @@ import webdevExp from '../../assets/webdev/web_dev_explained.png'
 
 const WebDev = () => {
   return (
-    <div>
+    <div className="webdev">
       <MainBanner
         smallhead="Our Sevices"
         mainHeadB1="Web Development"
