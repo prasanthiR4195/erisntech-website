@@ -36,10 +36,24 @@
 
 .contactForm_img {
     width: 111px;
-    box-shadow: 0px 0px 154px 11px rgb(255 204 0);
-    border-radius: 50%;
+    /* box-shadow: 0px 0px 154px 11px rgb(255 204 0); */
+    /* border-radius: 50%; */
+    position: relative;
+    z-index: 1;
 }
-
+.contact_form_head:after {
+    position: absolute;
+    content: "";
+    bottom: 56px;
+    right: 40px;
+    width: 21px;
+    height: 15px;
+    box-shadow: 0px 62px 154px 69px rgb(255 204 0);
+    z-index: 0;
+}
+.contact_form_head {
+    position: relative;
+}
 .contact_heading {
     font-weight: 800;
     margin-bottom: 15px;
