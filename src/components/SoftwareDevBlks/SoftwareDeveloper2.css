@@ -12,4 +12,4 @@
 }
 .swDev2_right img {width: 68%;margin: auto;}
 
-.swDev2_right {text-align: center;}
+.swDev2_right {text-align: center;display: flex;}

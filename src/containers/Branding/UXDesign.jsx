@@ -15,7 +15,7 @@ import Contact from "../../components/Contact/Contact";
 
 const UXDesign = () => {
   return (
-    <div>
+    <div className="uiux_cover">
       <MainBanner
         smallhead="UIUX & Branding Design"
         mainHeadB1="Branding & Design Services"

@@ -2,49 +2,129 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .contactUs_left {
     background: #feebe5;
-    padding: 50px 100px 50px 100px;
-    flex:50%;
+    padding: 140px 100px 50px 100px;
+    flex: 40% 1;
+    background: linear-gradient(180deg, rgba(255,226,141,1) -10%, rgba(255,181,192,1) 100%);
 }
+
 .contactUs_right {
-    padding: 50px 90px 50px 90px;
-    flex:50%;
+    padding: 140px 100px 50px 100px;
+    flex: 50% 1;
+    background: transparent linear-gradient(180deg, #F86609 0%, #EC463C 47%, #EB3542 100%) 0% 0% no-repeat padding-box;
 }
+
+.contact_form_bg {
+    border-radius: 17px;
+    background: #fff6;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+}
+
+.contact_form_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form_bg .contact_heading {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.contactForm_img {
+    width: 111px;
+    box-shadow: 0px 0px 154px 11px rgb(255 204 0);
+    border-radius: 50%;
+}
+
 .contact_heading {
     font-weight: 800;
     margin-bottom: 15px;
+    font-size: 30px;
 }
+
 .contactUs_left p {
     font-weight: 700;
     margin-bottom: 35px;
 }
+
 .contactUs_left .common_head {
     margin-bottom: 10px;
 }
+
 .contact_subhead {
     font-weight: 800;
     margin-bottom: 6px;
 }
+
 .contact_sec p {
     font-size: 14px;
     margin-bottom: 10px;
-} 
-.contact_sec {
+}
+
+.contactUs_wrap .contact_sec {
     margin-bottom: 30px;
-} 
+    display: block;
+}
+.contactUs_left .contact_sec {
+    margin-bottom: 30px !important; 
+    padding-left: 0px;
+}
 .contactUs_right .contact_heading {
     margin-top: 35px;
-} 
+}
+
 .contactUs_right .contact_sec {
     display: flex;
 }
+
 .contactUs_right ul li {
     list-style-type: none;
 }
+
 .MuiBox-root-7 {
     font-size: 14px !important;
 }
+
 .contactUs_right .contact_subhead {
     margin-top: 20px;
+}
+.contactUs_right .MuiFormLabel-root {
+    color: #fff !important;
+    font-size: 13px !important;
+}
+.contactUs_right .MuiInput-underline:after { 
+    border-bottom: 2px solid #ffffff !important;
+}
+.contactUs_right .MuiInput-underline:before { 
+    border-bottom: 1px solid rgb(255 255 255 / 42%) !important; 
+}
+.contactUs_right .contact_form_bg .contact_sec { 
+    padding-left: 0; 
+}
+.contactUs_right .contact_sec .MuiBox-root { 
+    color: #fff;
+    font-size: 12px;
+}
+.contactUs_button {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #F23801;
+    padding: 3px 25px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.contact_form_bg .MuiBox-root-7 {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+.contact_form_bg  .contact_sec .MuiBox-root {
+    font-size: 13px;
+    font-weight: 300;
+}
+.contact_form_bg  .contact_sec .MuiFormControlLabel-root { 
+    margin-right: 6px;
 }

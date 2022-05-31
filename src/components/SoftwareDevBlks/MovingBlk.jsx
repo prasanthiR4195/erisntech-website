@@ -11,8 +11,8 @@ const MovingBlk = ({icon,color}) => {
     <div className='movingBlk_wrap'>
         <div className="moving_inner">
             <span></span>
-            <img src={icon} className="movng_icon" data-aos="flip-up" data-aos-delay="300"/>
-            <img src={color} className="colorr" data-aos="flip-down" data-aos-delay="300"/>
+            <img src={icon} className="movng_icon" data-aos="flip-up" data-aos-delay="100"/>
+            <img src={color} className="colorr" data-aos="flip-down" data-aos-delay="100"/>
         </div>
     </div>
   )

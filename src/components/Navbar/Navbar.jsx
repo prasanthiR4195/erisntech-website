@@ -105,7 +105,11 @@ const Navbar = () => {
     if (loc.pathname == "/erisntech-website") {
       console.log("homepage", loc.pathname);
       setNav(true);
-    } else {
+    }else if(loc.pathname == "/about"){
+      console.log("about", loc.pathname);
+      setNav(true);
+    } 
+     else {
       console.log("other pages", loc.pathname);
       setNav(false);
     }

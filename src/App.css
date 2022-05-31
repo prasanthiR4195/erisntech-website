@@ -126,8 +126,8 @@ a {
 .tab_content_right {
   flex: 48% 1 !important; 
 }
-.erisn__home .banner_img {
-  width: 650px;
+  .banner_img {
+  width: 650px !important;
 }
 .webdev .web_dev_services_wrap {
   padding: 50px 100px;
@@ -137,6 +137,41 @@ a {
 }
 .webdev .our_work_wrap {
   padding: 0px 100px;
+}
+ .software_dev_wrap .swInnerRightBlk h5 { 
+  width: 90% !important; 
+}
+.software_dev_wrap .sw_block_cover {
+  padding: 50px 70px; 
+}
+.software_dev_wrap .software_solution_inner { 
+  padding: 0px 81px;
+  align-items: center;
+  justify-content: center;
+}
+.mobiledev_cover .mobileDevBlk2_inner { 
+  margin: 50px 60px;
+}
+.mobiledev_cover  .work_icon {
+  width: 260px; 
+}
+.uiux_cover .UXDesignBlk1_right h3 { 
+  width: 43%;
+}
+.uiux_cover .work_icon {
+  width: 230px; 
+}
+.digital .SwMoving h1 { 
+  font-size: 40px;
+}
+.digital .SwMoving h1 { 
+  width: 65%; 
+}
+.digital .digitalWorks_inner { 
+  width: 90%; 
+}
+.digital .web_dev_explained {
+  padding: 0px 120px; 
 }
 }
 @media screen and (max-width: 1100px) {
@@ -155,7 +190,92 @@ a {
 .webdev .our_work_wrap {
   padding: 0px 50px;
 }
+.software_dev_wrap .software_innr_wrap {
+  padding: 50px 60px; 
 }
+.software_dev_wrap .swDevBlk2_wrap {
+  padding: 80px 60px; 
+}
+.software_dev_wrap .swDeveloper_right { 
+  padding-right: 0;
+}
+.software_dev_wrap .swDevAnimation_cover { 
+  width: 544px; 
+}
+.software_dev_wrap  .table { 
+  width: 329px;
+  left: 13%; 
+}
+.software_dev_wrap .swDev2_wrap { 
+  padding: 50px 60px;
+}
+.mobiledev_cover .banner_content h1 { 
+  font-size: 40px; 
+}
+.mobiledev_cover .wrk_icon {
+  left: 0px;
+  right: 0;
+}
+.mobiledev_cover .sawBlkWrap {
+  width: 282px; 
+}
+.mobiledev_cover .web_dev_explained .web_dev_right img {
+  width: 420px;
+}
+.uiux_cover .UXDesign_block_cover {
+  width: 220px; 
+}
+.uiux_cover .UXDesignBlk1_right .UXDesign_block_cover h3 { 
+  width: 90%; 
+}
+.uiux_cover .UXDesignBlk3_inner { 
+  width: 100%; 
+}
+.uiux_cover  .UXDesignBlk4_cover h3:before { 
+  left: -25px; 
+}
+.uiux_cover .UXDesignBlk4_cover h3:after { 
+  right: -25px; 
+} 
+.digital .software_innr_wrap {
+  padding: 30px 80px; 
+}
+.digital  .SwMoving img {
+  width: 320px;
+  margin-left: 55px;
+}
+.digital  .mobileSlider_cover {
+  padding: 50px 150px;
+}
+.digital .digitalWorks_inner {
+  width: 95%;
+}
+.digital .web_dev_explained .web_dev_right img {
+  width: 440px;
+}
+.digital .web_dev_explained {
+  padding: 0px 70px;
+}
+.faq_inner_wrap {
+  padding: 30px 60px !important;
+}
+}
+@media screen and (max-width: 1050px) {
+  .submenu_inner{
+    position: relative !important;
+    top:0 !important;
+    width: 250px !important;
+  }
+  .submenu_block {
+    display: block !important;
+}
+.submenu_block ul { 
+  padding: 6px 15px !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+}
+}
+
 @media screen and (max-width: 1024px) {
   .erisn__home .banner_content h1 { 
     font-size: 36px; 
@@ -194,8 +314,8 @@ a {
   width: 450px !important;
   margin-top: 40px;
 }
-.webdev .banner_img {
-  width: 538px; 
+ .banner_img {
+  width: 538px !important; 
 }
 .webdev  .swDevBlk3_inner {
   display: flex;
@@ -214,6 +334,118 @@ a {
 .webdev .left_block_wrap {
   width: 323px;
 }
+.software_dev_wrap .banner-content-left { 
+  left: 3%;
+  width: 46%;
+  bottom: 19%;
+}
+.software_dev_wrap .swInnerRightBlk {
+  flex: 40% 1; 
+}
+.software_dev_wrap .software_band_wrap { 
+  width: 80%; 
+}
+.software_dev_wrap .swDevAnimation_cover {
+  width: 506px;
+}
+.software_dev_wrap  .clock { 
+  right: 43px; 
+}
+.software_dev_wrap .keys { 
+  right: 78px; 
+}
+.software_dev_wrap .sphere { 
+  left: 16px; 
+}
+.software_dev_wrap .plant { 
+  right: 87px;
+  bottom: 27px; 
+}
+.software_dev_wrap .swDeveloper_right_head h2 { 
+  width: 90%;
+}
+.software_dev_wrap .swDev2_right {
+  flex: 40% 1;
+}
+.software_dev_wrap .swDev2_right img {
+  width: 85%;
+  margin: auto;
+}
+.software_dev_wrap .faq_inner_wrap {
+  padding: 30px 40px;
+} 
+.mobiledev_cover .mobile_dev_blk1_inner { 
+  width: 85%; 
+}
+.mobiledev_cover .mobileDevBlk2_inner {
+  margin: 28px 28px;
+}
+.mobiledev_cover  .web_dev_explained {
+  padding: 50px 60px; 
+}
+.uiux_cover .UX1 {
+  width: 440px;
+  right: -15px;
+}
+.uiux_cover .UX2 {
+  left: 276px;
+  top: 56px; 
+  width: 143px; 
+}
+.uiux_cover .UX3 {
+  left: 257px;
+  bottom: 35px; 
+  width: 135px; 
+}
+.uiux_cover .UXDesign_block_cover {
+  width: 222px;
+  margin: 15px;
+}
+.faq_inner_wrap {
+  padding: 30px 50px !important;
+}
+.digital  .digital1 { 
+  width: 363px;
+  right: 32px;
+  bottom: 0; 
+}
+.digital  .digital2 { 
+  left: -8px;
+  width: 146px;
+  bottom: 38px; 
+}
+.digital .digital3 { 
+  right: 0;
+  top: 110px;
+  width: 77px; 
+}
+.digital .digital5 { 
+  right: 23px;
+  bottom: 94px;
+  width: 58px; 
+}
+.digital .software_innr_wrap {
+  padding: 30px 50px;
+}
+.digital .SwMoving h1 {
+  width: 70%;
+}
+.digital .mobileSlider_cover {
+  padding: 50px 100px;
+}
+.digital .left_block_wrap {
+  width: 280px;  
+  margin: 15px; 
+}
+.digital .web_dev_clients_wrap {
+  padding: 50px 50px;
+}
+.digital .web_dev_explained {
+  padding: 0px 50px;
+}
+.digital .web_dev_left p {
+  font-size: 14px; 
+}
 }
 @media screen and (max-width: 992px) {
   .webdev  .web_dev_gradient { 
@@ -225,10 +457,63 @@ a {
 .software_band_wrap { 
   width: 80%; 
 }
+.software_dev_wrap .software_innr_wrap {
+  padding: 50px 30px;
+}
+.software_dev_wrap .SwMoving img {
+  width: 300px; 
+}
+.software_dev_wrap .swDevAnimation_cover {
+  width: 480px;
+}
+.software_dev_wrap .table {
+  width: 314px;
+  left: 13%;
+  bottom: 58px;
+}
+.mobiledev_cover .mobileSlider_cover {
+  padding: 50px 120px;
+}
+.mobiledev_cover .sawBlkWrap {
+  width: 282px;
+  margin: 12px;
+}
+.mobiledev_cover .swNumber { 
+  margin: 10px 20px;
+}
+.mobiledev_cover .web_dev_explained .web_dev_right img {
+  width: 364px;
+}
+.mobiledev_cover .web_dev_left p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.mobiledev_cover .faq_inner_wrap {
+  padding: 30px 30px;
+}
+.uiux_cover .UXDesign_block_cover {
+  width: 222px;
+  margin: 10px;
+}
+.uiux_cover .UXDesignBlk1_right h3 {
+  width: 54%;
+}
+.uiux_cover .UXDesignBlk5_inner { 
+  width: 65%; 
+}
+.uiux_cover  .UXDesignBlk6_inner { 
+  width: 90%; 
+}
+.digital .swInnerRightBlk {
+  flex: 38% 1; 
+}
+  .faq_wrap {
+  padding: 50px 50px !important;
+}
 }
 @media screen and (max-width: 768px) {
-  .erisn__home .banner_img {
-    width: 510px;
+  .banner_img {
+    width: 510px !important;
 }
 .erisn__home .banner-content-left {
   bottom: 0%;
@@ -369,7 +654,311 @@ a {
 .webdev .work_icon {
   width: 185px;
 }
-.webdev .faq_wrap {
-  padding: 50px 30px;
+ .faq_wrap {
+  padding: 50px 30px !important;
+}
+.software_dev_wrap .software_dev_blk_1_wrap p {
+  width: 70%; 
+}
+.software_dev_wrap .software_innr_wrap {
+  padding: 50px 10px;
+}
+.software_dev_wrap .swInnerRight { 
+  flex: 52% 1;
+} 
+.software_dev_wrap .SwMoving img {
+  width: 200px;
+  margin-left: 30px;
+}
+.software_dev_wrap .SwMoving h1 { 
+  font-size: 33px;
+  width: 71%;
+}
+.software_dev_wrap .software_dev_blk_1_wrap p {
+  width: 95%;
+}
+.software_dev_wrap .SwMoving { 
+  flex: 30% 1;
+}
+.software_dev_wrap .swInnerRightBlk h5 { 
+  font-size: 14px; 
+}
+.software_dev_wrap .software_innr_wrap {
+  padding: 24px 10px;
+}
+.software_dev_wrap .movng_icon {
+  width: 50px;
+}
+.software_dev_wrap .software_band_wrap {
+  width: 82%;
+}
+.software_dev_wrap .swDevBlk2_left img {
+  width: 250px; 
+}
+.software_dev_wrap .colorY { 
+  width: 220px !important;
+}
+.software_dev_wrap .swDevBlk2_wrap {
+  padding: 80px 20px;
+}
+.software_dev_wrap .swDevBlk2_right h2 { 
+  width: 90%; 
+}
+.software_dev_wrap .swDevBlk2_left {
+  flex: 35% 1;
+}
+.software_dev_wrap .sw_block_cover {
+  padding: 50px 40px;
+}
+.software_dev_wrap .sawBlkWrap {
+  width: 290px; 
+}
+.software_dev_wrap .sw_block_cover {
+  padding: 0px 40px 50px;
+}
+.software_dev_wrap .swDevBlk3_inner {
+  display: flex;
+  margin: 40px 40px;
+}
+.software_dev_wrap .swInnerRightBlk { 
+  margin: 0 10px 40px;
+}
+.software_dev_wrap .swDevAnimation_cover {
+  width: 360px;
+}
+.software_dev_wrap .keys {
+  right: 62px;
+  width: 107px;
+  top: 0px;
+}
+.software_dev_wrap .table {
+  width: 270px; 
+}
+.software_dev_wrap .sphere {
+  left: -19px;
+}
+.software_dev_wrap .clock {
+  right: 10px;
+  width: 86px;
+}
+.software_dev_wrap .table {
+  width: 270px;
+  left: 8%;
+}
+.software_dev_wrap .whitecube {
+  width: 66px; 
+  top: -36px;
+}
+.software_dev_wrap .plant {
+  right: 64px;
+  bottom: 27px;
+}
+.software_dev_wrap .swDeveloper_right_head h2 {
+  width: 100%;
+  font-size: 28px;
+}
+.software_dev_wrap  .swDeveloper_wrap { 
+  margin: 30px;
+}
+.software_dev_wrap .swDeveloper_img {
+  flex: 40% 1;
+}
+.software_dev_wrap .software_solution_inner {
+  padding: 0px 40px; 
+}
+.software_dev_wrap  .swNumber { 
+  margin: 10px;
+}
+.software_dev_wrap .sawBlkWrap h4 {
+  width: 90%;
+}
+.software_dev_wrap .common_slider_wrap {
+  margin: 40px 0;
+}
+.software_dev_wrap .swDev2_wrap {
+  padding: 50px 40px;
+}
+  .faq_wrap {
+  padding: 50px 30px !important;
+}
+ .banner_img {
+  width: 500px !important; 
+}
+.mobiledev_cover .mobiledev {
+  width: 344px; 
+  right: 60px;
+  bottom: 26px; 
+}
+.mobiledev_cover .banner_content {
+  bottom: 21%;
+  left: 5%;
+  width: 50%;
+}
+.mobiledev_cover .banner_content h1 {
+  font-size: 35px;
+}
+.mobiledev_cover .mobile_dev_blk1_cover {
+  margin-top: 40px;
+}
+.mobiledev_cover  .wrk_icon {
+  width: 40px;
+}
+.mobiledev_cover .mobileSlider_cover {
+  padding: 50px 70px;
+}
+.mobiledev_cover  .mobileSlider_cover .owl-carousel img { 
+  width: 90%;
+}
+.mobiledev_cover .mobileDevBlk2_inner { 
+  justify-content: center;
+}
+.mobiledev_cover .MobileDevBlk3_inner { 
+  margin: 50px 30px; 
+}
+.mobiledev_cover .web_dev_explained {
+  padding: 20px 40px;
+}
+.mobiledev_cover .web_dev_explained .web_dev_right img {
+  width: 330px;
+}
+.faq_wrap {
+  padding: 50px 40px !important;
+}
+.uiux_cover .UX1 {
+  width: 358px;
+  right: -15px;
+  top: 23px;
+  bottom: auto;
+}
+.uiux_cover .UX2 {
+  left: 121px;
+  top: 56px;
+  width: 108px;
+}
+.banner_content p { 
+  font-size: 14px !important;
+}
+.uiux_cover .UX3 {
+  left: 103px;
+  bottom: 143px;
+  width: 95px;
+}
+.uiux_cover .UXDesignBlk1_right h3 {
+  width: 67%;
+}
+.uiux_cover .UXDesignBlk1_left {
+  flex: 35% 1; 
+}
+.uiux_cover .UXdesignBlk1_cover { 
+  padding: 70px 15px;
+}
+.uiux_cover .UXDesign_block_cover h1 {
+  font-size: 40px; 
+}
+.uiux_cover .UXDesignBlk1_right {
+  flex: 58% 1;
+}
+.uiux_cover .UXDesign_block_cover {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+}
+.uiux_cover .UXDesignBlk1_left img {
+  width: 100%;
+}
+.uiux_cover .UXDesign_inner_blocks {
+  width: 140px;
+  margin: 20px 20px;
+}
+.uiux_cover .UXDesign_inner_blocks p {
+  font-size: 13px; 
+}
+.uiux_cover .UXD4_Blk {
+  width: 130px;
+}
+.uiux_cover .UXD4_Blk h4 {
+  font-size: 13px; 
+  margin: 7px;
+}
+.uiux_cover .UXDesignBlk5_inner {
+  width: 80%;
+}
+.uiux_cover  .wrk_color { 
+  width: 40px; 
+}
+.uiux_cover  .UXDesignBlk6_inner .wrk_icon {
+  width: 40px; 
+  right: 76px;
+  bottom: 12px; 
+}
+.uiux_cover .work_icon {
+  width: 210px;
+  margin: 20px 10px;
+}
+.uiux_cover .UXDesignBlk6_inner {
+  width: 95%;
+}
+.digital .digital1 {
+  width: 300px;
+  right: 17px;
+  bottom: 0;
+}
+.digital .digital2 {
+  left: 32px;
+  width: 114px;
+  bottom: 52px;
+}
+.digital .digital4 {
+  top: 57px;
+  left: 64px;
+  width: 58px;
+}
+.digital .digital3 {
+  right: -2px;
+  top: 89px;
+  width: 68px;
+}
+.digital .digital5 {
+  right: 8px;
+  bottom: 99px;
+  width: 53px;
+}
+.digital .digitalmarketingCover { 
+  width: 420px;
+  height: 390px;
+}
+.digital .swInnerRight { 
+  flex: 40% 1;
+}
+.digital .SwMoving img {
+  width: 310px;
+  margin-left: 0px;
+}
+.digital .SwMoving h1 {
+  width: 70%;
+  font-size: 30px;
+}
+.digital .swInnerRightBlk {
+  flex: 35% 1;
+  margin: 0 10px 20px;
+}
+.digital .movng_icon {
+  width: 40px;
+}
+.digital .colorr {
+  width: 42px !important; 
+}
+.digital .swInnerRightBlk h5 { 
+  font-size: 14px;
+  width: 100%; 
+}
+.digital .software_band_wrap { 
+  width: 86%;
+}
+.digital .mobileSlider_cover .owl-carousel img { 
+  width: 100%;
+}
+.digital .web_dev_explained .web_dev_right img {
+  width: 300px;
 }
 }

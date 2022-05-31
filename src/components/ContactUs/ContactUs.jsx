@@ -8,6 +8,7 @@ import {
 } from "@material-ui/core";
 import Button from "../CommonButton/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import contact from '../../assets/contact/contact.png'
 
 const useStyle = makeStyles((theme) => ({
   textField: {
@@ -37,17 +38,17 @@ const ContactUs = () => {
     <div className="contactUs_wrap">
       <div className="contactUs_left">
         <div className="common_head">
-          CONTACT <span className="red_font">US</span>
+          CONTACT US 
         </div>
         <h2 className="contact_heading">
           Excited about the works?
           <br /> Please
-          <span className="red_font"> get in touch.</span>
+            get in touch. 
         </h2>
         <p>Let's turn your business dreams into reality</p>
         <div className="contact_sec">
           <div className="contact_subhead">
-            Contact <span className="red_font">Us</span>
+            Contact Us 
           </div>
           <p>
             No 46, 3rd Floor, Sadath Center, Beside Canara Bank, Nandi Durga Rd,
@@ -57,23 +58,26 @@ const ContactUs = () => {
 
         <div className="contact_sec">
           <div className="contact_subhead">
-            General <span className="red_font">Enquiries</span>
+            General Enquiries 
           </div>
           <p>info@erisn.com</p>
         </div>
 
         <div className="contact_sec">
           <div className="contact_subhead">
-            Phone <span className="red_font">Number</span>
+            Phone Number 
           </div>
           <p>+91-73378 96392</p>
         </div>
       </div>
       <div className="contactUs_right">
-        <h2 className="contact_heading">
+      <div className="contact_form_bg">
+       <div className="contact_form_head">
+       <h2 className="contact_heading">
           Let’s Work Together & <br />
-          <span className="red_font"> Create Magic</span>
-        </h2>
+            Create Magic   </h2>
+            <img src={contact} className="contactForm_img"/>
+       </div>
         <form>
           <div className="textField">
             <TextField
@@ -106,9 +110,9 @@ const ContactUs = () => {
               value={number}
             />
           </div>
-          <div className="contact_subhead">
+          {/* <div className="contact_subhead">
             Services you <span className="red_font">need</span>
-          </div>
+          </div> */}
           <div className="contact_sec">
             <ul>
               <li>
@@ -116,7 +120,7 @@ const ContactUs = () => {
                   control={
                     <Checkbox
                       style={{
-                        color: "#F23801",
+                        color:' #fff',
                         transform: "scale(.8)",
                       }}
                     />
@@ -134,7 +138,7 @@ const ContactUs = () => {
                   control={
                     <Checkbox
                       style={{
-                        color: "#F23801",
+                        color:' #fff',
                         transform: "scale(.8)",
                       }}
                     />
@@ -152,7 +156,7 @@ const ContactUs = () => {
                   control={
                     <Checkbox
                       style={{
-                        color: "#F23801",
+                        color:' #fff',
                         transform: "scale(.8)",
                       }}
                     />
@@ -173,7 +177,7 @@ const ContactUs = () => {
                     <Checkbox
                       defaultChecked
                       style={{
-                        color: "#F23801",
+                        color:' #fff',
                         transform: "scale(.8)",
                       }}
                     />
@@ -191,7 +195,7 @@ const ContactUs = () => {
                   control={
                     <Checkbox
                       style={{
-                        color: "#F23801",
+                        color:' #fff',
                         transform: "scale(.8)"
                       }}
                     />
@@ -206,15 +210,11 @@ const ContactUs = () => {
               </li>
             </ul> 
           </div>
-          <Button
-            type="button"
-            buttonStyle="btn--primary--solid"
-            style={{ borderRadius: "0" }}
-            onClick={submitHandler}
-          >
+          <button className="contactUs_button">
             Submit <AiOutlineArrowRight className="arrow" />
-          </Button>
+          </button>
         </form>
+        </div>
       </div>
     </div>
   );

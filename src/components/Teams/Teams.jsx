@@ -2,6 +2,10 @@ import React from "react";
 import LeftHeading from "../Left_heading/Left-Heading";
 import Team from "./Team";
 import "./Teams.css";
+import head1 from '../../assets/about/person1.png'
+import head2 from '../../assets/about/person2.png'
+import head3 from '../../assets/about/person3.png'
+import team from '../../assets/about/team.png'
 
 const Teams = () => {
   return (
@@ -24,19 +28,19 @@ const Teams = () => {
         <div className="team_right">
           <div className="team_right_one">
             <div className="team_block_one">
-              <img src="assets/about/person1.png" alt="team" />
+              <img src={head1} alt="team" />
               <h4 className="sub-heading">Syed Zahid Ali</h4>
               <p>Chairman</p>
             </div>
           </div>
           <div className="team_right_two">
             <div className="team_block_one">
-              <img src="assets/about/person2.png" alt="team " />
+              <img src={head2} alt="team " />
               <h4 className="sub-heading">Syeeda Fathima Amreen</h4>
               <p>Managing Director</p>
             </div>
             <div className="team_block_one">
-              <img src="assets/about/person3.png" alt="team " />
+              <img src={head3} alt="team " />
               <h4 className="sub-heading">Vajid Shaikh</h4>
               <p>Vice President</p>
             </div>
@@ -54,37 +58,37 @@ const Teams = () => {
           </p>
         </div>
         <div className="team_section_two_body">
-          <Team img="team" name="Nandini Hulsurkar" desig="Project Manager" />
-          <Team img="team" name="Pallavi S Rao " desig="Human Resource " />
-          <Team img="team" name="Velashri " desig="Accounts Executive " />
-          <Team img="team" name="Shivakumar B S " desig="Software Developer " />
-          <Team img="team" name="Thamaraiselvan " desig="Software Developer " />
+          <Team img={team} name="Nandini Hulsurkar" desig="Project Manager" />
+          <Team img={team} name="Pallavi S Rao " desig="Human Resource " />
+          <Team img={team} name="Velashri " desig="Accounts Executive " />
+          <Team img={team} name="Shivakumar B S " desig="Software Developer " />
+          <Team img={team} name="Thamaraiselvan " desig="Software Developer " />
           <Team
-            img="team"
+            img={team}
             name="Shankar P Manchal "
             desig="Software Developer "
           />
           <Team
-            img="team"
+            img={team}
             name="Afras Ahmed Khan "
             desig=" Software Developer"
           />
-          <Team img="team" name="Vinu Subhash" desig=" App Developer" />
-          <Team img="team" name="Akhtar Hassan" desig="UI Developer " />
-          <Team img="team" name="Prasanthi R" desig="Front End Developer" />
-          <Team img="team" name="Sunil Kumar S" desig="Web Developer" />
-          <Team img="team" name="Anjum Taj" desig="Software Test Engineer" />
-          <Team img="team" name="Avinas" desig="UX Designer" />
-          <Team img="team" name="Monish Surisetty" desig="UX Designer" />
-          <Team img="team" name="Anil Panghal" desig="Digital Marketing Lead" />
-          <Team img="team" name="Soumi Mandal" desig="SEO Analyst " />
+          <Team img={team} name="Vinu Subhash" desig=" App Developer" />
+          <Team img={team} name="Akhtar Hassan" desig="UI Developer " />
+          <Team img={team} name="Prasanthi R" desig="Front End Developer" />
+          <Team img={team} name="Sunil Kumar S" desig="Web Developer" />
+          <Team img={team} name="Anjum Taj" desig="Software Test Engineer" />
+          <Team img={team} name="Avinas" desig="UX Designer" />
+          <Team img={team} name="Monish Surisetty" desig="UX Designer" />
+          <Team img={team} name="Anil Panghal" desig="Digital Marketing Lead" />
+          <Team img={team} name="Soumi Mandal" desig="SEO Analyst " />
           <Team
-            img="team"
+            img={team}
             name="Shreya Shukla"
             desig="Business Development Executive"
           />
           <Team
-            img="team"
+            img={team}
             name="Mohammed Yousuff"
             desig=" Business Development Intern"
           />

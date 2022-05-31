@@ -146,7 +146,9 @@
 .banner_img img.bannerImg {
   width: 100%;
 }
-
+img.bannerImg.banner-content-center {
+  width: 100%;
+}
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -170,13 +172,13 @@
 
 @media only screen and (max-width: 768px) {
   .banner_content h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .banner_content {
-    bottom: 10%;
-  }
-
+    bottom: auto;
+    top: 17%;
+}
   h3.common_head {
     margin-bottom: 65px;
   }

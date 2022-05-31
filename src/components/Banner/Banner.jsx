@@ -26,10 +26,13 @@ const Banner = ({
   const checkBannerStyle = STYLES.includes(bannerStyle)
     ? bannerStyle
     : STYLES[0];
-
+ 
+    const checkBannerImg = STYLES.includes(bannerStyle)
+    ? bannerStyle
+    : STYLES[0];
   return (
     <div className="banner_cover">
-      <img src={img} alt="banner" className="bannerImg" /> 
+      <img src={img} alt="banner" className={`bannerImg ${checkBannerImg}` }/> 
       <div className={`banner_content ${checkBannerStyle}`}>
         <h5>{smallhead}</h5>
         <div className="sub_head_bg red_font">{subHeadwithBg}</div>

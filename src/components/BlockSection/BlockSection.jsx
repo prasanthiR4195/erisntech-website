@@ -2,6 +2,16 @@ import React from "react";
 import CommonHeading from "../commonHeading/CommonHeading";
 import Block from "./Block";
 import "./BlockSection.css";
+import blockImg1 from '../../assets/about/what_do.png'
+import blockImg2 from '../../assets/about/partners.png'
+import blockImg3 from '../../assets/about/need_hand.png'
+
+import blockIcon1 from '../../assets/about/client_focused.png'
+import blockIcon2 from '../../assets/about/excellence.png'
+import blockIcon3 from '../../assets/about/aspirations.png'
+import blockIcon4 from '../../assets/about/results.png'
+import blockIcon5 from '../../assets/about/commitment.png' 
+ 
 
 const BlockSection = () => {
   return (
@@ -9,7 +19,7 @@ const BlockSection = () => {
       <div className="block_section_one_wrap">
         <div className="block_section_one">
           <div className="block_img">
-            <img src="assets/about/what_do.png" alt="What we can do" />
+            <img src={blockImg1} alt="What we can do" />
           </div>
           <div className="block_text">
             <h4>
@@ -24,7 +34,7 @@ const BlockSection = () => {
         </div>
         <div className="block_section_one">
           <div className="block_img">
-            <img src="assets/about/partners.png" alt="What we can do" />
+            <img src={blockImg2} alt="What we can do" />
           </div>
           <div className="block_text">
             <h4>
@@ -38,7 +48,7 @@ const BlockSection = () => {
         </div>
         <div className="block_section_one">
           <div className="block_img">
-            <img src="assets/about/need_hand.png" alt="What we can do" />
+            <img src={blockImg3} alt="What we can do" />
           </div>
           <div className="block_text">
             <h4>
@@ -60,28 +70,28 @@ const BlockSection = () => {
         />
         <div className="block_section_two">
           <Block
-            img="assets/about/client_focused.png"
+            img={blockIcon1}
             title="Client Focused"
             desc="Our main success derives from a deep understanding of our clients, to whom all our Erisn's team is committed to delivering exceptional service and value."
           />
 
           <Block
-            img="assets/about/excellence.png"
+            img={blockIcon2}
             title="Excellence"
             desc="Our main success derives from a deep understanding of our clients, to whom all our Erisn's team is committed to delivering exceptional service and value."
           />
           <Block
-            img="assets/about/aspirations.png"
+            img={blockIcon3}
             title="Aspirations"
             desc="Our main success derives from a deep understanding of our clients, to whom all our Erisn's team is committed to delivering exceptional service and value."
           />
           <Block
-            img="assets/about/results.png"
+            img={blockIcon4}
             title="Results"
             desc="Our main success derives from a deep understanding of our clients, to whom all our Erisn's team is committed to delivering exceptional service and value."
           />
           <Block
-            img="assets/about/commitment.png"
+            img={blockIcon5}
             title="Commitment"
             desc="Our main success derives from a deep understanding of our clients, to whom all our Erisn's team is committed to delivering exceptional service and value."
           />
