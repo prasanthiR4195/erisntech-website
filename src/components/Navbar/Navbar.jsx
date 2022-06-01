@@ -29,28 +29,19 @@ const Menu = () => {
                 <Link to="/webdev" onClick={submenuClose}>
                   <li>
                     <h6>Web Application Development</h6>
-                    <p>
-                      We build digital platforms that drive the value chain for
-                      global
-                    </p>
+                    <p> We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
                 <Link to="/mobiledev" onClick={submenuClose}>
                   <li>
                     <h6>Mobile Application Development</h6>
-                    <p>
-                      We build digital platforms that drive the value chain for
-                      global
-                    </p>
+                    <p> We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
                 <Link to="/uxdesign" onClick={submenuClose}>
                   <li>
                     <h6>Branding & Designing</h6>
-                    <p>
-                      We build digital platforms that drive the value chain for
-                      global
-                    </p>
+                    <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
               </ul>
@@ -58,19 +49,13 @@ const Menu = () => {
                 <Link to="/softwaredev" onClick={submenuClose}>
                   <li>
                     <h6>Custom Software Development</h6>
-                    <p>
-                      We build digital platforms that drive the value chain for
-                      global
-                    </p>
+                    <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
                 <Link to="/digitalmarketing" onClick={submenuClose}>
                   <li>
                     <h6>Digital marketing</h6>
-                    <p>
-                      We build digital platforms that drive the value chain for
-                      global
-                    </p>
+                    <p> We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
               </ul>
@@ -102,10 +87,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   useEffect(() => {
-    if (loc.pathname == "/erisntech-website") {
+    if (loc.pathname === "/erisntech-website") {
       console.log("homepage", loc.pathname);
       setNav(true);
-    }else if(loc.pathname == "/about"){
+    }else if(loc.pathname === "/about"){
       console.log("about", loc.pathname);
       setNav(true);
     } 

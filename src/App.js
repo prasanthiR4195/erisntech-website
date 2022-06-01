@@ -12,6 +12,7 @@ import SoftwareDev from "./containers/SoftwareDev/SoftwareDev";
 import MobileDev from "./containers/MobileDev/MobileDev";
 import UXDesign from "./containers/Branding/UXDesign";
 import DigitalMarketing from "./containers/DigitalMarketing/DigitalMarketing";
+import Android from "./containers/AndroidDev/Android";
 
  
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/uxdesign' element={<UXDesign/>}/>
         <Route path='/softwaredev' element={<SoftwareDev/>}/>
         <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
+        <Route path='/androiddev' element={<Android/>}/>
         <Route path='/contactus' element={<ContactUs />}/>
         <Route path="/term" element={<TermOfPayment/>} />
         <Route path="/privacy" element={<PrivacyPolicy/>} />
