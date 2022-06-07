@@ -5,6 +5,7 @@ import WorkBlock from "../WorkIcons/WorkBlock";
 import android from  '../../assets/mobiledev/android.png'
 import apple from '../../assets/mobiledev/apple.png'
 import hybrid from '../../assets/mobiledev/hybrid.png'
+import { Link, useLocation } from "react-router-dom";
 
 const MobileDevBlk1 = () => {
   return (
@@ -18,12 +19,14 @@ const MobileDevBlk1 = () => {
         nonumy eirmod temporod
       </p>
       <div className="mobile_dev_blk1_inner">
+        <Link to="/androiddev">
         <WorkBlock
           img={android}
           head="Android App Development Services"
           para="We offer end-to-end mobile app development services to your businesses"
           num="1"
         />
+        </Link>
         <WorkBlock
           img={apple}
           head="IOS App Development Services"
