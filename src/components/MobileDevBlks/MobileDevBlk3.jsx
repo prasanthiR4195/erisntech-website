@@ -1,5 +1,7 @@
 import React from "react";
-import solution1 from "../../assets/webdev/icon1.png";
+import solution1 from "../../assets/androiddev/blockicon1.png";
+import solution2 from "../../assets/androiddev/blockicon2.png";
+import solution3 from "../../assets/androiddev/blockicon3.png";
 import CommonHeading from "../commonHeading/CommonHeading";
 import WorkBlock from "../WorkIcons/WorkBlock";
 import "./MobileDevBlk3.css";
@@ -27,14 +29,14 @@ const MobileDevBlk3 = () => {
           para="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         />
         <WorkBlock
-          img={solution1}
+          img={solution2}
           head="Team of Experts"
           num="2"
           color={color2}
           para="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         />
         <WorkBlock
-          img={solution1}
+          img={solution3}
           head="Quality Assurance"
           num="3"
           color={color3}

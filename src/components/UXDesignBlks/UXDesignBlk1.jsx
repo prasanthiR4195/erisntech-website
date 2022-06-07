@@ -1,26 +1,29 @@
-import React from 'react'
-import UXDesignBlocks from './UXDesignBlocks'
-import './UXDesignBlk1.css'
-import UXImg from "../../assets/uiux/UXImg1.png"; 
+import React from "react";
+import UXDesignBlocks from "./UXDesignBlocks";
+import "./UXDesignBlk1.css";
 
-
-const UXDesignBlk1 = () => {
+const UXDesignBlk1 = ({ block1 }) => {
   return (
-    <div className='UXdesignBlk1_cover'>
-        <div className='UXDesignBlk1_left'>
-            <img src={UXImg} />
-        </div>
-        <div className='UXDesignBlk1_right'>
-            <h3>Explore Our Design Services</h3>
-            <div className='UXDesign_blocks_cover'>
-                 <UXDesignBlocks num="1" head="Website/App UI/UX Designing" para="corporate websites, e-commerce stores and more"/>
-                 <UXDesignBlocks num="2" head="Brouchers Designing" para="Customized business brochure, product catalogues, presentation folders more"/>
-                 <UXDesignBlocks num="3" head="Logo Designing" para="We help with our logo design process to explore and find your brand message."/>
-                 <UXDesignBlocks num="4" head="Corporate Designs" para="professionally designed letterhead, Business cards, Envelopes and more"/>
+    <div>
+      {block1.map((index) => {
+      return(  <div className="UXdesignBlk1_cover">
+          <div className="UXDesignBlk1_left">
+            <img src={index.leftImg} />
+          </div>
+          <div className="UXDesignBlk1_right">
+            <h3>{index.heading}</h3>
+            <div className="UXDesign_blocks_cover">
+              <UXDesignBlocks num="1" head={index.head1} para={index.para1} />
+              <UXDesignBlocks num="2" head={index.head2} para={index.para2} />
+              <UXDesignBlocks num="3" head={index.head3} para={index.para3} />
+              <UXDesignBlocks num="4" head={index.head4} para={index.para4} />
             </div>
+          </div>
         </div>
+      )
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default UXDesignBlk1
+export default UXDesignBlk1;

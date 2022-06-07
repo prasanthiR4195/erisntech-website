@@ -1,7 +1,6 @@
 .UXdesignBlk1_cover {
     display: flex;
-    flex-wrap: wrap;
-    background: #FAFAFA;
+    flex-wrap: wrap; 
     padding: 70px 50px;
 }
 .UXDesignBlk1_left {

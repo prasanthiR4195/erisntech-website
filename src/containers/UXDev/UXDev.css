@@ -1,0 +1,10 @@
+.UXDevBlk1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UXDevBlk2_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 

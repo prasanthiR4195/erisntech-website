@@ -95,7 +95,7 @@ const Navbar = () => {
       setNav(true);
     } 
      else {
-      console.log("other pages", loc.pathname);
+      console.log("other pages", loc.pathname); 
       setNav(false);
     }
     return () => {};

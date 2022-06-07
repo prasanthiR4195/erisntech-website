@@ -12,8 +12,24 @@ import CommonSlider from "../../components/Slider/CommonSlider";
 import UXdesignBlk6 from "../../components/UXDesignBlks/UXdesignBlk6";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
+import leftImg from '../../assets/uiux/UXImg1.png'
+ 
 
 const UXDesign = () => {
+  const block1 = [
+    {
+      leftImg:leftImg,
+      heading:"Explore Our Design Services",
+      head1:"Website/App UI/UX Designing",
+      para1:"corporate websites, e-commerce stores and more ",
+      head2:"Brouchers Designing ",
+      para2:"Customized business brochure, product catalogues, presentation folders more ",
+      head3:"Logo Designing ",
+      para3:"We help with our logo design process to explore and find your brand message. ",
+      head4:"Corporate Designs ",
+      para4:"professionally designed letterhead, Business cards, Envelopes and more "
+    }
+]
   return (
     <div className="uiux_cover">
       <MainBanner
@@ -26,7 +42,9 @@ const UXDesign = () => {
         bannerBG={bannerBG}
         uxclass="uxclass"
       />
-      <UXDesignBlk1 />
+      <div style={{background:"#FAFAFA"}}>
+        <UXDesignBlk1 block1={block1}/>
+      </div>
       <UXDesignBlk2 />
       <UXDesignBlk3 />
       <UXDesignBlk4 />

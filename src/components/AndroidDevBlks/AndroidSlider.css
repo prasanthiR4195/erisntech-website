@@ -148,3 +148,19 @@
   background: #F8F8F8;
   padding-top: 15px;
 }
+.androidSlider .owl-carousel .owl-item img {
+    display: block;
+    width: 85%;
+}
+.androidSlider {
+    margin-top: 40px;
+}
+.androidSlider_wrap:before { 
+    height: 60%;
+}
+.slider_wrap .androidSlider .owl-item.active img {
+    transform: scale(.9);
+}
+.slider_wrap  .androidSlider .owl-item.active.center img {
+    transform: scale(1.2);
+}

@@ -33,9 +33,9 @@ const MobileDev = () => {
       subhead="Information"
           headB1="What application development is ?" 
           subhead2="What is application development?"
-          para="In simple terms, application development is a process of developing software applica-tions. In today’s digital world, it has become essential for businesses to invest in this technology. The entire process involves multiple step like planning, ideating, creating,testing, and launching the application. At Erisn, we follow a structured approach to ensure that the entire development process yields the best results."
+          para="In simple terms, application development is a process of developing software applications. In today’s digital world, it has become essential for businesses to invest in this technology. The entire process involves multiple step like planning, ideating, creating,testing, and launching the application. At Erisn, we follow a structured approach to ensure that the entire development process yields the best results."
           subhead3="Why is application development required?"
-          para2="In simple terms, application development is a process of developing software applica-tions."
+          para2="In simple terms, application development is a process of developing software applications."
           img={mobile_explained}
         />
         <Faq/>
