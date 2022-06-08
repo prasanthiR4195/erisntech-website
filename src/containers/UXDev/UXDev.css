@@ -3,8 +3,194 @@
     align-items: center;
     justify-content: center;
 }
+
 .UXDevBlk2_inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-} 
+}
+
+/**************************ux theme color change****************************/
+.themeChange_top {
+    background: transparent linear-gradient(90deg, #f8660969 0%, #ec463c82 47%, #eb3542a1 100%) 0% 0% no-repeat padding-box;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0px auto;
+    color: #8B2A0D;
+    display: flex;
+    overflow: hidden;
+}
+
+.theme_change_top_left {
+    padding: 60px 60px 60px 60px;
+    flex: 40%;
+}
+
+.theme_change_top_right {
+    width: 500px;
+    position: relative;
+    margin-right: 18px;
+}
+
+img.themeChange_mob_screen {
+    width: 290px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img.themeChange_bg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    opacity: .8;
+}
+
+.theme_change_top_head h5 {
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.theme_change_top_head h5:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #8b2a0d70;
+    left: 0;
+    bottom: -2px;
+}
+
+.theme_change_top_head h2 {
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.theme_change_top_left p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.change_theme_middle {
+    padding: 40px 240px;
+    position: relative;
+}
+
+.change_theme_middle:after {
+    content: "";
+    height: 100%;
+    width: 2px;
+    background: #ccc5c5;
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.change_theme_middle h2 {
+    width: 42%;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.themechange_cover {
+    background: #F6F6F6;
+    padding: 100px 0;
+    margin: 40px 0;
+}
+
+.change_theme_middle p {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.change_theme_bottom {
+    display: flex;
+    margin: 20px 0;
+    padding: 0 160px;
+    justify-content: space-between;
+}
+
+.change_theme_bottom_blk {
+    background: transparent linear-gradient(90deg, #f866097d 0%, #ec463c8a 64%, #eb354294 100%) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 25px;
+    width: 280px;
+}
+
+.change_theme_bottom_blk img {
+    width: 100%;
+}
+
+.change_theme_bottom_blk h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.change_theme_bottom_blk p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.change_theme_bottom_blk:last-child img {
+    width: 58%;
+}
+
+/*********toggle***********/
+.themechange_button {
+    padding: 20px 140px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.themechange_button p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.themechange_toggle label.MuiFormControlLabel-root {
+    margin: 0;
+}
+
+.themechange_toggle .MuiSwitch-switchBase {
+    color: #000000;
+}
+
+/*******************DARK THEME********************/
+.dark_theme {
+    background: #000000;
+}
+
+.dark_theme .themeChange_top {
+    background: #5e5e5e;
+    color: #fff;
+}
+
+.dark_theme img.themeChange_bg {
+    filter: sepia(1);
+    opacity: 1;
+}
+
+.dark_theme .change_theme_middle {
+    color: #fff;
+}
+
+.dark_theme .change_theme_bottom_blk {
+    background: #7d7d7d;
+    color: #fff;
+}
+.dark_theme  .themechange_button p{
+    color:#fff;
+}
+.dark_theme .theme_change_top_head h5:after { 
+    background: #fafafa70;
+}
+/*******************DARK THEME********************/
