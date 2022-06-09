@@ -1,15 +1,111 @@
-.UXDevBlk1 {
+/*********************BANNER*********************/
+ .uxCenter {
+    width: 350px;
+    position: absolute;
+    right: 120px;
+    bottom: 0;
+    animation: float 18s ease-in-out infinite;
+}
+.uxLeft {
+    position: absolute;
+    left: 200px;
+    width: 100px;
+    opacity: .8;
+    top: 150px;
+    animation: float 14s ease-in-out infinite;
+}
+.uxTop {
+    position: absolute;
+    left: 178px;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    opacity: .8;
+    top: 64px;
+    animation: float 16s ease-in-out infinite;
+}
+
+.uxUi {
+    position: absolute;
+    left: 350px;
+    width: 43px;
+    top: 74px;
+    opacity: .8;
+    animation: float 15s ease-in-out infinite;
+}
+.uxUx {
+    position: absolute;
+    right: 185px;
+    width: 66px;
+    bottom: 35px;
+    opacity: .8;
+    animation: float 14s ease-in-out infinite;
+}
+
+.uxRight {
+    position: absolute;
+    right: 62px;
+    width: 80px;
+    opacity: .8;
+    top: 100px;
+    animation: float 16s ease-in-out infinite;
+}
+
+.uxBottom {
+    position: absolute;
+    right: 0;
+    width: 170px;
+    bottom: 59px;
+    left: 5px;
+    margin: auto;
+    opacity: .8;
+    animation: float 17s ease-in-out infinite;
+}
+
+.banner_img_cover {
+    width: 500px;
+    height: 500px;
+}
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-20px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  /*********************BANNER***********************/
+.bannerBG {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.UXDevBlk1_cover {
+    margin-top: 100px;
+}
+
+.UXDevBlk2_cover {
+    margin-top: 50px;
+}
+.UXDevBlk1{
+    display: flex;
+    justify-content: center;
+}
 .UXDevBlk2_inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.uxdev_cover .bannerBG {
+    width: 55%;
+}
 /**************************ux theme color change****************************/
 .themeChange_top {
     background: transparent linear-gradient(90deg, #f8660969 0%, #ec463c82 47%, #eb3542a1 100%) 0% 0% no-repeat padding-box;
@@ -187,10 +283,13 @@ img.themeChange_bg {
     background: #7d7d7d;
     color: #fff;
 }
-.dark_theme  .themechange_button p{
-    color:#fff;
+
+.dark_theme .themechange_button p {
+    color: #fff;
 }
-.dark_theme .theme_change_top_head h5:after { 
+
+.dark_theme .theme_change_top_head h5:after {
     background: #fafafa70;
 }
+
 /*******************DARK THEME********************/

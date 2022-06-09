@@ -5,7 +5,7 @@ import business0 from "../../assets/UXDev/debrief.png";
 import business1 from "../../assets/UXDev/define.png";
 import business2 from "../../assets/UXDev/design.png";
 import business3 from "../../assets/UXDev/develop.png";
-import '../../containers/UXDev/UXDev.css'
+import "../../containers/UXDev/UXDev.css";
 const UXDevBlk1 = () => {
   return (
     <div className="UXDevBlk1_cover">
@@ -20,19 +20,19 @@ const UXDevBlk1 = () => {
           desc="Lorem Ipsum is simply dummy text of he printing and all of it"
           bg="#E3163D"
         />
-         <BusinessBlk
+        <BusinessBlk
           img={business1}
           title="Define"
           desc="Lorem Ipsum is simply dummy text of he printing and all of it"
           bg="#4E81EE"
         />
-         <BusinessBlk
+        <BusinessBlk
           img={business2}
           title="Design"
           desc="Lorem Ipsum is simply dummy text of he printing and all of it"
           bg="#63BC6F"
         />
-         <BusinessBlk
+        <BusinessBlk
           img={business3}
           title="Develop"
           desc="Lorem Ipsum is simply dummy text of he printing and all of it"
