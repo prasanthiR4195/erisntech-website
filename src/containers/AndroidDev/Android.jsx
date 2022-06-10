@@ -44,7 +44,7 @@ const Android = () => {
         bannerImg={<AndroidBanner />}
         bannerBG={bannerBG}
       />
-      <div className="">
+      <div className="android_cover_one">
         <CommonHeading
           subHead="OUR SERVICES"
           mainB1="Our Services In Android App Development"

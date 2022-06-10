@@ -14,7 +14,7 @@ import AOS from 'aos'
 const HomeBlock = () => {
   AOS.init()
   return (
-    <div className="home_block_outer">
+    <div className="home_block_outer"> 
       <CommonHeading
         subHead="OUR SERVICES"
         mainB1="What Services We Offering"   

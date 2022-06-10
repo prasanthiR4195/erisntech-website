@@ -1,21 +1,193 @@
 img.mobiledev {
+  width: 400px;
+  position: absolute;
+  right: 120px;
+  bottom: 0;
+  animation: float 10s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .andorid .bannerBG {
+    width: 54% !important;
+
+  }
+
+  .andorid .android_cover_one {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .andorid .android_cover_one {
+    margin-top: 150px;
+  }
+
+  .andorid .bannerBG {
+    top: -30px;
+  }
+
+  .andorid .UXdesignBlk1_cover {
+    padding: 40px 50px;
+  }
+
+  .andorid .androidDevBlk1_inner {
+    padding: 20px 55px;
+  }
+
+  .andorid .web_dev_explained {
+    padding: 50px 80px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .andorid .banner_content h1 {
+    font-size: 42px;
+  }
+
+  .andorid .UXDesign_block_cover {
+    width: 228px;
+  }
+
+  .andorid .UXdesignBlk1_cover {
+    padding: 10px 50px;
+  }
+  .andorid .androidDevBlk1_inner {
+    padding: 20px 25px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .andorid .banner_content h1 {
+    font-size: 38px;
+}
+.andorid .android_cover_one {
+  margin-top: 60px;
+}
+.andorid .UXdesignBlk1_cover {
+  padding: 10px 20px;
+}
+.andorid .sawBlkWrap {
+  width: 287px;
+  margin: 13px; 
+}
+.andorid .MobileDevBlk3_inner { 
+  margin: 50px 60px; 
+}
+.andorid .web_dev_explained {
+  padding: 50px 30px;
+}
+.andorid .web_dev_explained .web_dev_right img {
+  width: 417px;
+}
+.andorid .web_dev_left {
+  flex: 51% 1; 
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .andorid img.mobiledev {
     width: 400px;
     position: absolute;
-    right: 120px;
+    right: 91px;
     bottom: 0;
     animation: float 10s ease-in-out infinite;
 }
-@keyframes float {
-    0% {
-      transform: translatey(0px);
-    }
-  
-    50% {
-      transform: translatey(-20px);
-    }
-  
-    100% {
-      transform: translatey(0px);
-    }
-  }
-  
+.andorid .UXDesign_block_cover {
+  width: 228px;
+  margin: 16px;
+}
+.andorid  .UXDesignBlk1_right .UXDesign_block_cover h3 {
+  font-weight: 700;
+  font-size: 15px;
+  width: 75%;
+  margin-left: 0;
+}
+}
+
+@media screen and (max-width: 992px) {
+  .andorid  .banner-content-left { 
+    left: 4%; 
+}
+.andorid .banner_content h1 {
+  font-size: 32px;
+}
+.andorid img.mobiledev {
+  width: 348px; 
+  right: 80px;
+  bottom: 26px; 
+}
+.andorid .android_cover_one {
+  margin-top: 20px;
+}
+.andorid  .UXDesignBlk1_left {
+  flex: 38% 1; 
+}
+.andorid  .UXDesignBlk1_right {
+  flex: 60% 1;
+}
+.andorid .UXDesign_block_cover {
+  width: 212px;
+  margin: 9px;
+}
+.andorid .MobileDevBlk3_inner {
+  margin: 50px 10px;
+}
+.andorid .web_dev_explained .web_dev_right img {
+  width: 253px;
+}
+.andorid .web_dev_explained .web_dev_right {
+  flex: 25% 1; 
+} 
+.andorid .web_dev_left {
+  flex: 61% 1;
+}
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .andorid .banner_content h1 {
+    font-size: 30px;
+}
+.andorid img.mobiledev {
+  width: 337px;
+  right: 59px;
+  bottom: 26px;
+}
+.andorid p.digitalWork_para {
+  width: 61%; 
+}
+.andorid .UXDesign_block_cover h1 {
+  font-size:35px; 
+}
+.andorid .UXDesign_block_cover {
+  width: 200px;
+  margin: 9px;
+  padding: 10px;
+}
+.andorid .slider_head h2 { 
+  font-size: 26px;
+}
+.andorid .softwareSolution_para {
+  width: 65%; 
+}
+.andorid .contact_wrap {
+  padding: 50px 10px 0 !important;
+}
+}
+
+@media screen and (max-width: 768px) {}

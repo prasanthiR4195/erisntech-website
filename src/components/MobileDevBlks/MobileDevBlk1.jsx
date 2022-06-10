@@ -1,11 +1,11 @@
 import React from "react";
 import CommonHeading from "../commonHeading/CommonHeading";
-import "./MobileDevBlk1.css";
-import WorkBlock from "../WorkIcons/WorkBlock";
+import "./MobileDevBlk1.css"; 
 import android from  '../../assets/mobiledev/android.png'
 import apple from '../../assets/mobiledev/apple.png'
 import hybrid from '../../assets/mobiledev/hybrid.png'
 import { Link, useLocation } from "react-router-dom";
+import NormalBlks from "../BlockSection/NormalBlks";
 
 const MobileDevBlk1 = () => {
   return (
@@ -20,24 +20,21 @@ const MobileDevBlk1 = () => {
       </p>
       <div className="mobile_dev_blk1_inner">
         <Link to="/androiddev">
-        <WorkBlock
+        <NormalBlks
           img={android}
           head="Android App Development Services"
-          para="We offer end-to-end mobile app development services to your businesses"
-          num="1"
+          para="We offer end-to-end mobile app development services to your businesses" 
         />
         </Link>
-        <WorkBlock
+        <NormalBlks
           img={apple}
           head="IOS App Development Services"
-          para="We offer end-to-end mobile app development services to your businesses"
-          num="2"
+          para="We offer end-to-end mobile app development services to your businesses" 
         />
-        <WorkBlock
+        <NormalBlks
           img={hybrid}
           head="Hybrid App Development Services"
-          para="We offer end-to-end mobile app development services to your businesses"
-          num="3"
+          para="We offer end-to-end mobile app development services to your businesses" 
         />
       </div>
     </div>

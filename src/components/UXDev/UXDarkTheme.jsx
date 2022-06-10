@@ -14,7 +14,7 @@ const UXDarkTheme = () => {
 const IOSSwitch = withStyles((theme) => ({
     root: {
       width: 42,
-      height: 26,
+      height: 26, 
       padding: 0,
       margin: theme.spacing(1),
     },
@@ -64,29 +64,27 @@ const IOSSwitch = withStyles((theme) => ({
     );
   });
   
-  const [toggle, setToggle] =useState(true);
+  const [theme, setTheme] =useState(true);
 
-  const handleChange = (event) => { 
-    setToggle(!event.target.value);
-     
-    console.log(toggle,"clicked")
-   
+  const toggleTheme = (event) => { 
+    setTheme (event.target.checked);
+    
   };
 useEffect((event) => {
-  console.log(toggle,"clicked")
+  console.log(theme,"clicked")
   return () => {
     
   }
-}, [setToggle ,toggle])
+}, [setTheme ,theme])
 
   return (
 
-    <div className={`themechange_cover ${toggle ? "normal_theme" : "dark_theme"}`}>
+    <div className={`themechange_cover ${theme ? "normal_theme" : "dark_theme"}`}>
         <div className='themechange_button'>
             <p>Try Dark mode</p>
             <div className='themechange_toggle'>
             <FormControlLabel
-                control={<IOSSwitch checked={toggle} value={toggle} onChange={handleChange} name="checked" />}       
+                control={<IOSSwitch checked={theme} value={theme} onChange={toggleTheme} name="checked" />}       
             />
             </div>
         </div>
@@ -99,8 +97,8 @@ useEffect((event) => {
                 <p>Designed to go beyond the traditional norms of academics, the Erisn Classroom intuitively helps the learners and the teachers find common ground. The online learning management software has been preset with tools that aid across several verticals from college faculty to enterprise leaders. It is one suite – ready for creating content, delivering training and measuring progress.</p>
             </div>
             <div className='theme_change_top_right'>
-                <img src={app1} className="themeChange_mob_screen"/>
-                <img src={appbg} className="themeChange_bg"/>
+                <img src={app1} className="themeChange_mob_screen" alt=""/>
+                <img src={appbg} className="themeChange_bg" alt=""/>
             </div>
         </div>
         <div className='change_theme_middle'>
@@ -110,17 +108,17 @@ useEffect((event) => {
         </div>
         <div className='change_theme_bottom'>
             <div className='change_theme_bottom_blk'>
-                <img src={product1} className=""/>
+                <img src={product1} className="" alt=""/>
                 <h4>The One Furniture</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
             </div>
             <div className='change_theme_bottom_blk'>
-                <img src={product2} className=""/>
+                <img src={product2} className="" alt=""/>
                 <h4>Venta</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
             </div>
             <div className='change_theme_bottom_blk'>
-                <img src={product3} className=""/>
+                <img src={product3} className="" alt=""/>
                 <h4>Krishak Bazaar</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
             </div>

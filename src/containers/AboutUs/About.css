@@ -1,0 +1,18 @@
+.about_webdev_cover .web_dev_explained .web_dev_right img {
+    width: 330px;
+}
+
+.about_webdev_cover .web_dev_explained .web_dev_right {
+    justify-content: center;
+}
+.about_webdev_cover {
+    padding: 80px 20px 20px;
+}
+.team_left_head:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #ff3f18;
+    left: -12px;
+}

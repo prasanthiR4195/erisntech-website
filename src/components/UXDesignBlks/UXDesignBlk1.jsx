@@ -16,7 +16,7 @@ const UXDesignBlk1 = ({ block1 }) => {
             <div className="UXDesign_blocks_cover">
             <Link to='/uxdev'> <UXDesignBlocks num="1" head={index.head1} para={index.para1} /></Link> 
               <UXDesignBlocks num="2" head={index.head2} para={index.para2} />
-              <UXDesignBlocks num="3" head={index.head3} para={index.para3} />
+            <Link to='/logodesign'>   <UXDesignBlocks num="3" head={index.head3} para={index.para3} /></Link>
               <UXDesignBlocks num="4" head={index.head4} para={index.para4} />
             </div>
           </div>

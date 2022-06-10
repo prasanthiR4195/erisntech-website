@@ -58,3 +58,46 @@
   transition: .5s;
   box-shadow: 0px 3px 30px #0000001A;
 }
+img.logo_center {
+  width: 575px;
+  position: absolute;
+  bottom: 44px;
+}
+
+img.logo_left {
+  position: absolute;
+  left: 40px;
+  width: 60px;
+  /* right: 0; */
+  margin: auto;
+  top: 55px;
+  opacity: .8;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+img.logo_right {
+  position: absolute;
+  right: -43px;
+  width: 100px;
+  top: 51px;
+}
+
+.normal_block_cover {
+  text-align: center;
+  width: 200px;
+}
+
+.normal_block_cover h4 {
+  font-size: 16px;
+  margin: 3px 0;
+  font-weight: 700;
+}
+
+.normal_block_cover img {
+  width: 50px;
+}
+
+.normal_block_cover p {
+  font-size: 14px;
+}

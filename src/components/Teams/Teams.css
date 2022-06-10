@@ -1,6 +1,6 @@
 .team_section_one {
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 100px 20px;
     justify-content: space-around;
     align-items: center;
 } 

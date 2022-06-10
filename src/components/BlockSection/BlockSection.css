@@ -1,5 +1,5 @@
 .block_section_one_wrap {
-    padding: 60px 56px;
+    padding: 60px 200px;
     display: flex;
     justify-content: space-between;
 } 
@@ -46,10 +46,6 @@
 .block_section_two_wrap {
     padding: 60px 40px;
 
-} 
-
-.block_section_wrap {
-    background: linear-gradient(360deg, #FFF6F3, transparent);
 } 
 /*******************MEDIA QUERIES**********************/
 @media only screen and (max-width: 1024px) {

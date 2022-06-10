@@ -68,23 +68,27 @@ const Teams = () => {
             name="Shankar P Manchal "
             desig="Software Developer "
           />
-          <Team
-            img={team}
-            name="Afras Ahmed Khan "
-            desig=" Software Developer"
-          />
+       
           <Team img={team} name="Vinu Subhash" desig=" App Developer" />
-          <Team img={team} name="Akhtar Hassan" desig="UI Developer " />
+          <Team img={team} name="Ritesh Kumar" desig="Android Developer" />
+          <Team img={team} name="Mymoon Jaleel" desig=" Flutter Developer" />
+          <Team img={team} name="Kalpesh Khandla" desig=" Flutter Developer" />
           <Team img={team} name="Prasanthi R" desig="Front End Developer" />
           <Team img={team} name="Sunil Kumar S" desig="Web Developer" />
-          <Team img={team} name="Anjum Taj" desig="Software Test Engineer" />
+          <Team img={team} name="Anjum Taj" desig="Software Tester" />
           <Team img={team} name="Avinas" desig="UX Designer" />
           <Team img={team} name="Monish Surisetty" desig="UX Designer" />
-          <Team img={team} name="Anil Panghal" desig="Digital Marketing Lead" />
-          <Team img={team} name="Soumi Mandal" desig="SEO Analyst " />
+          <Team img={team} name="Harshitha" desig="UX Designer" />
+          <Team img={team} name="Lalith Sudhakar" desig="SEO Analyst" />
+           
           <Team
             img={team}
-            name="Shreya Shukla"
+            name="Jayaprakash"
+            desig="Business Development Executive"
+          />
+           <Team
+            img={team}
+            name="Kalki Umapathy"
             desig="Business Development Executive"
           />
           <Team
