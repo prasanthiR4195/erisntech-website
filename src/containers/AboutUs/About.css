@@ -16,3 +16,55 @@
     background: #ff3f18;
     left: -12px;
 }
+/*******banner******/
+.about_banner_cover {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.about_banner_cover {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.aboutOne {
+    position: absolute;
+    left: 30px;
+    animation: float 19s ease-in-out infinite;
+    top: 50px;
+}
+.aboutTwo {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    animation: float 17s ease-in-out infinite;
+}
+.aboutThree {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    animation: float 15s ease-in-out infinite;
+}
+.aboutFour {
+    position: absolute;
+    right: 30px;
+    bottom: 3px;
+    animation: float 18s ease-in-out infinite;
+} 
+.aboutOne, .aboutTwo, .aboutThree,.aboutFour {
+    width: 200px;
+}
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-20px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }
+/*******banner******/

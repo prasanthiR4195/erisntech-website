@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
-import erisnLogo from "../../assets/homepage/erisn-logo-dark.png";
+import erisnLogo from "../../assets/homepage/erisn-logo-dark.png"; 
 
 const Menu = () => {
   const [showmenu, setShowmenu] = useState(false);
@@ -92,11 +92,12 @@ const Navbar = () => {
       setNav(true);
     }else if(loc.pathname === "/about"){
       console.log("about", loc.pathname);
-      setNav(true);
+      setNav(false);
     } 
      else {
       console.log("other pages", loc.pathname); 
       setNav(false);
+      window.scrollTo(0, 0)
     }
     return () => {};
   }, [loc.pathname]);

@@ -1,32 +1,30 @@
-import React from "react";
-import Banner from "../../components/Banner/Banner";
+import React from "react"; 
 import BlockSection from "../../components/BlockSection/BlockSection";
 import Contact from "../../components/Contact/Contact";
-import Teams from "../../components/Teams/Teams";
-import banner from "../../assets/about/banner.png";
+import Teams from "../../components/Teams/Teams"; 
 import mobile_explained from "../../assets/about/innovate_your_way.png";
 import WebdevExplainedRev from "../../components/WebDevExplained/WebdevExplainedRev";
 import CommonHeading from "../../components/commonHeading/CommonHeading";
 import './About.css'
 import WebDevClients from "../../components/WebDevClients/WebDevClients";
 import Faq from "../../components/Faq/Faq";
+import MainBanner from "../../components/Banner/MainBanner";
+import { AiOutlineArrowRight } from "react-icons/ai"; 
+import bannerBG from "../../assets/about/banner-bg.png"; 
+import AboutBanner from "./AboutBanner";
 
 const About = () => {
   return (
     <div>
-      <Banner
-        common_headB="ABOUT "
-        common_headR="ERISNTECH"
+        <MainBanner
+        smallhead="About ErisnTech"
+        mainHeadB1="We work for your incredible success."
         bannerDesc="Erisn empowers organizations to transform their businesses by accelerating digital transformation and offers a complete bunch of It and software development services to help businesses address their key technology challenges, enhance productivity & control costs."
-        btnOrang="Discuss Your Project"
-        btnGrey="Our Services"
-        img={banner}
-        subHeadB1="We work for your"
-        subHeadR="incredible "
-        subHeadB2="success."
-        bannerStyle="banner-content-center"
-        bannerImage="full_image"
-      />
+        btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
+        bannerStyle="banner-content-left"
+        bannerImg={<AboutBanner/>}
+        bannerBG={bannerBG}
+      /> 
       <BlockSection />
       <div className="about_webdev_cover">
         <CommonHeading

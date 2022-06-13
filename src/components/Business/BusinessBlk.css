@@ -60,3 +60,9 @@
     z-index: 0;
     transition: .4s;
 }
+
+/********************/
+.hybridappBlk1_inner .business_blk_wrap {
+    background: #fef5f5;
+    border-radius: 0;
+} 

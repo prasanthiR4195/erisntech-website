@@ -15,6 +15,7 @@ import DigitalMarketing from "./containers/DigitalMarketing/DigitalMarketing";
 import Android from "./containers/AndroidDev/Android";
 import UXDev from "./containers/UXDev/UXDev";
 import LogoDesigning from "./containers/LogoDesigning/LogoDesigning";
+import HybridApp from "./containers/HybridApp/HybridApp";
 
  
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/androiddev' element={<Android/>}/>
         <Route path='/uxdev' element={<UXDev/>}/>
         <Route path='/logodesign' element={<LogoDesigning/>}/>
+        <Route path='/hybridapp' element={<HybridApp/>}/>
 
         <Route path='/contactus' element={<ContactUs />}/>
         <Route path="/term" element={<TermOfPayment/>} />
