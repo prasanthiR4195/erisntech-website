@@ -1,0 +1,91 @@
+.BrochureBlk1_cover {
+    margin: 100px 0;
+}
+
+p.brochure_para {
+    text-align: center;
+    width: 43%;
+    margin: 22px auto;
+}
+
+b.brochure_bold {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    display: block;
+}
+
+.BrochureBlk1_inner {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+/*******************brochure banner*********************/
+.brochure_banner_cover {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.bannerScreen {
+    position: absolute;
+    width: 500px;
+    bottom: 100px;
+    z-index: 1;
+    animation: float 12s ease-in-out infinite;
+}
+
+.screenRight {
+    position: absolute;
+    width: 134px;
+    right: 17px;
+    top: 92px;
+    opacity: .8;
+    z-index: 0;
+    animation: float 18s ease-in-out infinite;
+}
+
+.cloudLeft {
+    position: absolute;
+    width: 150px;
+    left: -27px;
+    top: 200px;
+    z-index: 1;
+    animation: float 13s ease-in-out infinite;
+}
+
+.cloudTop {
+    position: absolute;
+    width: 150px;
+    right: 137px;
+    top: 105px;
+    animation: float 15s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-20px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  /***********************/
+  .BrochureBlk2_cover {
+    background: linear-gradient(180deg, #f8660957 0%, #ec463c47 47%, #eb354240 100%) 0% 0% no-repeat padding-box;
+    padding: 70px 0 0;
+}
+
+.BrochureBlk2_cover .web_dev_explained .web_dev_right  img {
+    width: 392px;
+}
+.BrochureBlk2_cover .block_section_two_head {
+    width: 47%;
+}

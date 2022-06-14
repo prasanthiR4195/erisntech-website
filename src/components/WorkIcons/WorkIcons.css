@@ -77,18 +77,17 @@
 }
 
 .wrk_icon {
-    width: 50px;
-  
+    width: 39px;
     margin: auto;
-    right: 69px;
-    bottom: 2px;
+    right: 76px;
+    bottom: 6px;
     z-index: 1;
     position: absolute;
 }
 
 .wrk_color {
     position: absolute;
-    width: 60px;
+    width: 50px;
     margin: auto;
     left: 0;
     right: 0;

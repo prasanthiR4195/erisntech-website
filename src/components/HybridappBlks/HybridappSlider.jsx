@@ -13,8 +13,8 @@ const HybridappSlider = () => {
   return (
     <div className='hybridapp_slider_cover'>
          <CommonHeading
-        mainB1="We build successful, lasting, "
-        mainR="profitable products"
+         subHead="OUR WORK"
+        mainB1="We build successful, lasting, profitable products" 
       />
     <div className="mobiledevSlider_inner">
       <img src={sliderleft} className="sliderleft" />

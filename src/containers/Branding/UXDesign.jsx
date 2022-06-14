@@ -22,7 +22,7 @@ const UXDesign = () => {
       heading:"Explore Our Design Services",
       head1:"Website/App UI/UX Designing",
       para1:"corporate websites, e-commerce stores and more ",
-      head2:"Brouchers Designing ",
+      head2:"Brochures Designing ",
       para2:"Customized business brochure, product catalogues, presentation folders more ",
       head3:"Logo Designing ",
       para3:"We help with our logo design process to explore and find your brand message. ",

@@ -26,7 +26,7 @@ const UXDev = () => {
         bannerBG={bannerBG}
       />
       <UXDevBlk1 />
-      <div style={{ background: "#FAFAFA" }}>
+      <div style={{ background: "#FAFAFA",padding:'50px 0' }}>
         <CommonHeading mainB1="World Class UI/UX Design Studio to Transform Businesses into Brands" />
         <WebdevExplainedRev
           para="Save money, efforts, and time to achieve perfect product development leveraging our conceptual UI/UX Design Services and Solutions. We have a long tail of happy clients because we have a habit to take our clients on a virtual tour by providing them a working prototype of their product. It helps them in understanding seen and unforeseen obstacles during project development."
