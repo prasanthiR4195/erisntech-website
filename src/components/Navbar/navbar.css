@@ -1,6 +1,6 @@
 .erisn__navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   padding: 0.3rem 4rem;
   position: fixed;
@@ -15,8 +15,11 @@
 
 .navbar_scroll .navColor a {
   color: #656565 !important;
+  text-decoration: none;
 }
-
+.navbar_scroll .navColor a:hover {
+  color: #f23a03 !important;
+}
 .erisn__navbar-links {
   flex: 1;
   display: flex;
@@ -111,8 +114,10 @@ p.submenu {
   border-radius: 10px;
   top: 60px;
   color: #696868 !important;
-  z-index: 0;
-}
+  z-index: 0; 
+  
+} 
+
 
 .submenu_inner h5 {
   background: #F5F5F5;
@@ -125,36 +130,73 @@ p.submenu {
   display: flex;
 }
 
-.submenu_block ul {
+.submenu_block .submenu_main {
   list-style-type: none;
-  padding: 15px 25px;
+  padding: 0px 10px;
 }
 
-.submenu_block ul li h6 {
+.submenu_block .submenu_main li h6 {
   font-weight: 700;
   font-size: 13px;
   margin-bottom: 3px;
 }
 
-.submenu_block ul li p {
-  font-size: 13px;
+.submenu_block .submenu_main li p {
+  font-size: 12px;
   margin: 0 0;
   font-weight: 300;
   color: #000 !important;
   line-height: 20px;
 }
 
-.submenu_block ul li {
+.submenu_block .submenu_main li {
   margin-bottom: 10px;
+  padding: 10px;
+  transition: .5s;
+  border-radius: 5px;
 }
 
-
+.submenu_sub_right {
+  position: absolute;
+  right: 6px;
+  width: 50%;
+  background: #fff;
+  list-style-type: none;
+  border-left: 1px solid #ddd;
+}
+ .submenu_block .submenu_main li:hover {
+  background: #F5F5F5;
+  transition: .5s;
+}
+ 
+.submenu_sub_right li h6 {
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 3px;
+  color:#F27D84;
+}
+.submenu_sub_right li p {
+  font-size: 12px;
+  margin: 0 0;
+  font-weight: 300;
+  color: #000 !important;
+  line-height: 20px;
+}
+ul.submenu_sub_right li {
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: .5s;
+} 
+ul.submenu_sub_right li:hover {
+  margin-bottom: 10px; 
+  background: whitesmoke;
+  transition: .5s;
+}
 
 @media screen and (max-width: 1050px) {
   .erisn__navbar-links_container {
     display: none;
-  }
-
+  } 
   .erisn__navbar-menu {
     display: flex;
   }

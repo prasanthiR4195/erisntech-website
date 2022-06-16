@@ -1,7 +1,9 @@
 .BrochureBlk1_cover {
-    margin: 100px 0;
+    margin: 50px 0 70px;
 }
-
+.brochure .bannerBG { 
+    width: 60%; 
+}
 p.brochure_para {
     text-align: center;
     width: 43%;
@@ -89,3 +91,95 @@ b.brochure_bold {
 .BrochureBlk2_cover .block_section_two_head {
     width: 47%;
 }
+.BrochureBlk2_second {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.BrochureBlk2_second .normal_block_cover {
+    background: #fbd8d8;
+    border-radius: 8px;
+    padding: 25px 15px;
+    width: 240px;
+}
+
+.BrochureBlk2_second .normal_block_cover h4 {
+    width: 70%;
+    margin: auto;
+}
+/******************* BrochureBlk3 ********************/
+.BrochureBlk3_cover {
+    margin: 70px 0;
+}
+
+.BrochureBlk3_inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 60px 20px;
+    justify-content: center;
+} 
+
+.BrochureBlk3_para {
+    margin: 40px auto 0;
+    text-align: center;
+    width: 40%;
+}
+/******************* BrochureBlk3 ********************/ 
+/************************ BrochureSlider *************************/
+.BrochureSlider_cover {
+    margin: 90px 40px;
+}
+.BrochureSlider_inner {
+    margin: 50px auto;
+    position: relative;
+    width: 80%;
+}
+.BrochureSlider_inner .sliderleft {
+    position: absolute;
+    left: -22px;
+    width: 200px;
+    bottom: 0;
+}
+.BrochureSlider_inner .sliderright {
+    position: absolute;
+    right: -22px;
+    width: 200px;
+    top: -66px;
+}
+.BrochureSlider_inner .owl-item.active.center img {
+    transform: scale(1.3);
+}
+.BrochureSlider_inner .owl-carousel img {
+    margin: 40px auto;
+    width: 80%;
+}
+.BrochureSlider_inner .owl-carousel .owl-dots.disabled {
+    display: block;
+}
+.BrochureSlider_inner .owl-theme .owl-nav{
+    display: none;
+}
+.BrochureSlider_inner button.owl-dot.active span {
+    margin-right: -5px !important;
+    position: relative;
+    background: #EB3542 !important;
+}
+.BrochureSlider_inner .owl-dots {
+    margin-top: 30px !important;
+}
+.BrochureSlider_inner .owl-dot span {
+    width: 43px !important;
+    margin: 0px !important;
+}
+.BrochureSlider_inner button.owl-dot.active span {
+    margin-right: -5px !important;
+    position: relative;
+    background: #EB3542 !important;
+}
+.BrochureSlider_cover .block_section_two_head { 
+    width: 38%; 
+}
+/************************ BrochureSlider *************************/

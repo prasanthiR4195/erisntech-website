@@ -17,6 +17,7 @@ import UXDev from "./containers/UXDev/UXDev";
 import LogoDesigning from "./containers/LogoDesigning/LogoDesigning";
 import HybridApp from "./containers/HybridApp/HybridApp";
 import BrochureDesign from "./containers/BrochureDesign/BrochureDesign";
+import CorporateDesign from "./containers/CorporateDesign/CorporateDesign";
 
  
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path='/logodesign' element={<LogoDesigning/>}/>
         <Route path='/hybridapp' element={<HybridApp/>}/>
         <Route path='/brochure' element={<BrochureDesign/>}/>
+        <Route path='/corporate' element={<CorporateDesign/>}/>
 
         <Route path='/contactus' element={<ContactUs />}/>
         <Route path="/term" element={<TermOfPayment/>} />

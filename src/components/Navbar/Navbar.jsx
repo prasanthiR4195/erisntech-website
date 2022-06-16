@@ -2,16 +2,22 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
-import erisnLogo from "../../assets/homepage/erisn-logo-dark.png"; 
+import erisnLogo from "../../assets/homepage/erisn-logo-dark.png";
 
 const Menu = () => {
   const [showmenu, setShowmenu] = useState(false);
+  const [webApp, setWebApp] = useState(false);
+  const [mobileDev, setMobileDev] = useState(false);
   const submenuHandler = () => {
     setShowmenu(!showmenu);
   };
-  const submenuClose=()=>{
-    setShowmenu(false)
-  }
+  const submenuClose = () => {
+    setShowmenu(false);
+    setWebApp(false);
+  };
+  const submenuShow = () => {
+    setWebApp(!webApp);
+  };
   return (
     <>
       <p>
@@ -25,37 +31,58 @@ const Menu = () => {
           <div className="submenu_inner">
             <h5>Services</h5>
             <div className="submenu_block">
-              <ul>
-                <Link to="/webdev" onClick={submenuClose}>
-                  <li>
+              <ul className="submenu_main">
+                <Link to="/webdev">
+                  <li className="web_app" onClick={submenuShow}>
                     <h6>Web Application Development</h6>
-                    <p> We build digital platforms that drive the value chain for global</p>
+                    <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
                 <Link to="/mobiledev" onClick={submenuClose}>
                   <li>
                     <h6>Mobile Application Development</h6>
-                    <p> We build digital platforms that drive the value chain for global</p>
+                    <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
                 <Link to="/uxdesign" onClick={submenuClose}>
                   <li>
                     <h6>Branding & Designing</h6>
-                    <p>We build digital platforms that drive the value chain for global</p>
+                    <p>We build digital platforms that drive the value chain for global </p>
                   </li>
                 </Link>
               </ul>
-              <ul>
+              {webApp ? (
+                <ul className="submenu_sub_right">
+                  <Link to="/webdev" onClick={submenuClose}>
+                    <li>
+                      <h6>Custom Website Development</h6>
+                      <p> We build digital platforms that drive the value chain for global </p>
+                    </li>
+                  </Link>
+                  <li>
+                    <h6>CMS Website Development</h6>
+                    <p>We build digital platforms that drive the value chain for global </p>
+                  </li>
+                  <li>
+                    <h6>e-Commerce Development</h6>
+                    <p>We build digital platforms that drive the value chain for global</p>
+                  </li>
+                </ul>
+              ) : (
+                ""
+              )}
+
+              <ul className="submenu_main">
                 <Link to="/softwaredev" onClick={submenuClose}>
                   <li>
                     <h6>Custom Software Development</h6>
-                    <p>We build digital platforms that drive the value chain for global</p>
+                    <p> We build digital platforms that drive the value chain for global </p>
                   </li>
                 </Link>
                 <Link to="/digitalmarketing" onClick={submenuClose}>
                   <li>
                     <h6>Digital marketing</h6>
-                    <p> We build digital platforms that drive the value chain for global</p>
+                    <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
               </ul>
@@ -90,14 +117,13 @@ const Navbar = () => {
     if (loc.pathname === "/erisntech-website/") {
       console.log("homepage", loc.pathname);
       setNav(true);
-    }else if(loc.pathname === "/about"){
+    } else if (loc.pathname === "/about") {
       console.log("about", loc.pathname);
       setNav(false);
-    } 
-     else {
-      console.log("other pages", loc.pathname); 
+    } else {
+      console.log("other pages", loc.pathname);
       setNav(false);
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
     }
     return () => {};
   }, [loc.pathname]);

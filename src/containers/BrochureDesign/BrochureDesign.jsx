@@ -9,6 +9,9 @@ import WebDevClients from "../../components/WebDevClients/WebDevClients";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
 import BrochureBlk2 from "../../components/BrochureBlks/BrochureBlk2";
+import BrochureBlk3 from "../../components/BrochureBlks/BrochureBlk3";
+import SwBandSection from "../../components/SoftwareDevBlks/SwBandSection";
+import BrochureSlider from "../../components/BrochureBlks/BrochureSlider";
 
 const BrochureDesign = () => {
   return (
@@ -24,7 +27,9 @@ const BrochureDesign = () => {
       />
       <BrochureBlk1/>
       <BrochureBlk2/>
-
+      <BrochureBlk3/>
+      <SwBandSection para="Want to learn more about our software development expertise?" />
+      <BrochureSlider/>
       <WebDevClients/>
       <Faq/>
       <Contact/>

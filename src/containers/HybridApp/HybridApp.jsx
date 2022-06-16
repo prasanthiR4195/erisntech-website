@@ -17,9 +17,9 @@ const HybridApp = () => {
   return (
     <div>
          <MainBanner
-            smallhead="UIUX Design Services"
-            mainHeadB1="Logo Design"
-            bannerDesc="We're among the Top UI UX Design Companies in India"
+            smallhead="Mobile App Development"
+            mainHeadB1="Hybrid App Development Service"
+            bannerDesc="Lorem ipsum dolor in sit amet, consetetursadip scing elitr, sed diam nonumy eirmod temporod.Lorem ipsum dolor in sit amet, consetetursadip scing elitr, sed diam nonumy eirmod temporod"
             btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
             bannerStyle="banner-content-left"
             bannerImg={<HybridAppBanner/>}

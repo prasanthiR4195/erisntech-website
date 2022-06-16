@@ -31,11 +31,13 @@ const MobileDevBlk1 = () => {
           head="IOS App Development Services"
           para="We offer end-to-end mobile app development services to your businesses" 
         />
+         <Link to="/hybridapp">
         <NormalBlks
           img={hybrid}
           head="Hybrid App Development Services"
           para="We offer end-to-end mobile app development services to your businesses" 
         />
+        </Link>
       </div>
     </div>
   );

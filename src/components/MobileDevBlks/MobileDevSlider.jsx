@@ -18,8 +18,8 @@ const MobileDevSlider = () => {
         mainR="profitable products"
       />
     <div className="mobiledevSlider_inner">
-      <img src={sliderleft} className="sliderleft" />
-      <img src={sliderright} className="sliderright" />
+      <img src={sliderleft} className="sliderleft" alt="" />
+      <img src={sliderright} className="sliderright" alt=""/>
       <OwlCarousel
         className="owl-theme"
         loop

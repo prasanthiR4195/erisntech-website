@@ -17,7 +17,7 @@ const UXDesignBlk1 = ({ block1 }) => {
             <Link to='/uxdev'> <UXDesignBlocks num="1" head={index.head1} para={index.para1} /></Link> 
             <Link to='/brochure'>   <UXDesignBlocks num="2" head={index.head2} para={index.para2} /></Link> 
             <Link to='/logodesign'>   <UXDesignBlocks num="3" head={index.head3} para={index.para3} /></Link>
-              <UXDesignBlocks num="4" head={index.head4} para={index.para4} />
+            <Link to='/corporate' ><UXDesignBlocks num="4" head={index.head4} para={index.para4} /></Link>
             </div>
           </div>
         </div>
