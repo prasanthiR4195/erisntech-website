@@ -13,3 +13,32 @@
     box-shadow: none;
     border-bottom: 1px solid rgb(183 183 183);
 }
+@media screen and (max-width:1024px) {
+    .faq_wrap .block_section_two_head {
+        width: 70%;
+    }
+    .faq_inner_wrap {
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width:992px) {
+.faq_inner_wrap {
+    padding: 30px 0;
+}
+}
+@media screen and (max-width:768px) {
+    .faq_wrap {
+        padding: 50px 25px;
+    }
+}
+@media screen and (max-width:500px) {
+    .faq_wrap .block_section_two_head {
+        width: 100%;
+    }
+    .faq_wrap {
+        padding: 50px 10px;
+    }
+    .faq_wrap .MuiAccordionSummary-content { 
+        font-size: 13px !important;
+    }
+}

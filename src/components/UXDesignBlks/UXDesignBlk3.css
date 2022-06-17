@@ -2,10 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: auto;
+    margin: 60px auto 0;
     justify-content: center;
 }
-
+.UXDesignBlk3_cover {
+    padding: 50px;
+}
 .UXDesign_inner_blocks {
     width: 160px;
     margin: 20px 37px;
@@ -58,4 +60,102 @@
     height: 1px;
     width: 164px;
     background: #bfbfbf;
+}
+@media screen and (min-width:1200px) {
+    .UXDesignBlk3_inner { 
+        width: 86%; 
+    }
+}
+@media screen and (max-width:1200px) {
+    .UXDesignBlk3_inner { 
+        width: 100%; 
+    }
+}
+@media screen and (max-width:1100px) {
+    .UXDesign_inner_blocks { 
+        margin: 20px 30px; 
+    }
+}
+@media screen and (max-width:992px) {
+    .UXDesign_inner_blocks {
+        margin: 20px 10px;
+        width: 150px;
+    }
+    .block_section_two_head {
+        width: 60%;
+    }
+    .block_section_two_head p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width:800px) {
+    .UXDesign_inner_blocks {
+        margin: 20px 10px;
+        width: 146px;
+    }
+    .UXDesign_inner_blocks p {
+        font-size: 13px; 
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .UXDesign_inner_blocks h1 {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .UXDesignBlk3_cover {
+        padding: 50px 15px;
+    }
+    .UXDesign_inner_blocks {
+        margin: 20px 10px;
+        width: 120px;
+    }
+    .UXDesignBlk1_right h3 { 
+        font-size: 23px;
+    }
+    .UXDesign_inner_blocks p {
+        font-size: 12px;
+    }
+    .UXDesign_inner_blocks h1:after { 
+        right: -134px; 
+        width: 134px; 
+    }
+}
+@media screen and (max-width:600px) {
+.UXDesign_inner_blocks { 
+    width: 95px;
+    margin: 20px 5px;
+}
+.UXDesign_inner_blocks h1:after {
+    right: -97px;
+    width: 97px;
+}
+}
+@media screen and (max-width:500px) {
+    .block_section_two_head {
+        width: 95% !important;
+    }
+    .UXDesignBlk3_inner { 
+        display: block;
+    }
+    .UXDesign_inner_blocks {
+        width: 150px;
+        margin: 20px auto 50px;
+    }
+    .UXDesign_inner_blocks h1{
+        margin: 0 auto 4px;
+    }
+    .UXDesign_inner_blocks h1:after {
+        right: 0;
+        height: 100px;
+        width: 1px;
+        left: 0;
+        margin: auto;
+        bottom: -139px;
+    }
+    .UXDesignBlk3_cover {
+        padding: 50px 15px 0;
+    }
 }

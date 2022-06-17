@@ -29,20 +29,20 @@ const MainBanner = ({
       <div className={`banner_content`}>
         <div className="banner_content_inner">
         <h5>{smallhead}</h5>
-        <div className="sub_head_bg red_font">{subHeadwithBg}</div>
-        <h3 className="common_head">
+        {/* <div className="sub_head_bg red_font">{subHeadwithBg}</div> */}
+        {/* <h3 className="common_head">
           {common_headB}
           <span className="red_font">{common_headR}</span>
-        </h3>
+        </h3> */}
         <h1>
           {mainHeadB1} <span className="red_font">{mainHeadR} </span>
           {mainHeadB2}
         </h1>
-        <h2>
+        {/* <h2>
           {subHeadB1} <span className="red_font">{subHeadR}</span>
           {subHeadB2}
-        </h2>
-        <h3>{subhead}</h3>
+        </h2> */}
+        {/* <h3>{subhead}</h3> */}
         <p>{bannerDesc}</p>
         <Button buttonStyle="btn--primary--solid">{btnOrang}</Button>
 

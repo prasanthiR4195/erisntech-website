@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 60px 0 100px;
-}
+} 
 
 .our_work_wrap {
     padding: 0 130px;
@@ -77,10 +77,9 @@
 }
 
 .wrk_icon {
-    width: 39px;
+    width: 50px;
     margin: auto;
-    right: 76px;
-    bottom: 6px;
+    bottom: -10px;
     z-index: 1;
     position: absolute;
 }
@@ -96,6 +95,8 @@
 .work_icon_block {
     position: relative;
     height: 72px;
+    width: 72px;
+    margin: auto;
 }
 
 .work_icon span {
@@ -111,3 +112,42 @@
     transition: .5s;
     transform: rotate(360deg);
 }
+@media screen and (max-width:768px) {
+    .wrk_color {  
+        width: 40px !important; 
+    }
+    .wrk_icon {
+        width: 40px !important;
+        bottom: 9px !important;
+    }
+    .work_icon p {
+        font-size: 13px;
+    }
+    .work_icon {
+        width: 156px;
+        margin: 20px 10px;
+    }
+    .work_icon h5 {
+        font-size: 16px; 
+        margin: 0px 0 5px;
+    }
+    .webdev .our_work_wrap {
+        padding: 0 60px !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .wrk_icon { 
+        right: 0 !important; 
+    }
+    .work_icon {
+        width: 160px;
+        margin: 20px 10px;
+    }
+    .work_icon {
+        width: 210px !important; 
+        margin: 10px 10px !important; 
+    
+}
+
+}
+   

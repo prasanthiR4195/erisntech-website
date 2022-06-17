@@ -15,7 +15,7 @@ import AboutBanner from "./AboutBanner";
 
 const About = () => {
   return (
-    <div>
+    <div className="aboutt_cover">
         <MainBanner
         smallhead="About ErisnTech"
         mainHeadB1="We work for your incredible success."

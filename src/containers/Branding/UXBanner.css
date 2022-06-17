@@ -1,26 +1,41 @@
+.UxBanner_cover{
+  position: relative;
+  width:500px;
+  height: 500px;
+}
 .UX1 {
     right: 0px;
     bottom: 0;
     transform: translatey(0px);
     animation: float 10s ease-in-out infinite;
-    width: 500px;
+    width: 100%;
     position: absolute;
 }
    
-.UX2 {left: 226px;
-    top: 38px;
-    transform: translatey(0px);
-    animation: float 9s ease-in-out infinite;
-    width: 160px;
-    position: absolute;opacity: .5;}
-
-.UX3 {left: 192px;
-    bottom: 0;
-    transform: translatey(0px);
-    animation: float 12s ease-in-out infinite;
-    width: 160px;
-    position: absolute;
-    } 
+.UX2 {
+  left: -12%;
+  top: 38px;
+  transform: translatey(0px);
+  animation: float 9s ease-in-out infinite;
+  width: 33%;
+  position: absolute;
+  opacity: .5;
+}
+.UX3 {
+  left: -11%;
+  bottom: 0;
+  transform: translatey(0px);
+  animation: float 12s ease-in-out infinite;
+  width: 29%;
+  position: absolute;
+}
+.uiux_cover .banner_main_cover { 
+  overflow: initial;
+}
+.uiux_cover  .banner_img { 
+  margin-top: 85px; 
+  justify-content: flex-end; 
+}
   @keyframes float {
     0% {
       transform: translatey(0px);
@@ -34,3 +49,42 @@
       transform: translatey(0px);
     }
   }
+  @media screen and (max-width:1024px) {
+   .uiux_cover .UxBanner_cover { 
+      width: 413px;
+      height: 413px;
+  } 
+  }
+  @media screen and (max-width:992px) {
+  .uiux_cover .UxBanner_cover {
+    width: 360px;
+    height: 360px;
+}
+  }
+  @media screen and (max-width:768px) {
+    .uiux_cover .UxBanner_cover {
+      width: 250px;
+      height: 250px;
+  }
+  .uiux_cover .banner_img {
+    flex: 31% 1; 
+}
+.uiux_cover .banner_content_inner {
+  width: 90%;
+  margin-left: 30px;
+}
+.uiux_cover .banner_content_inner { 
+  margin-top: 95px;
+}
+  }
+  @media screen and (max-width:500px) {
+  .uiux_cover .banner_img {
+    flex: 51% 1;
+    margin-top: 0 !important; 
+    top: 61px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+}

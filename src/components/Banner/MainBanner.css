@@ -95,24 +95,6 @@
     line-height: 42px;
   }
   
-  .bannerFloatingE {
-    position: absolute;
-    width: 200px;
-    opacity: .8;
-  }
-  
-  .bannerFloatingE1 {
-    left: 135px;
-    bottom: 22px;
-    transform: translatey(0px);
-    animation: float 5s ease-in-out infinite;
-  }
-  .bannerFloatingE2 {
-    right: 119px;
-    top: 79px;
-    transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-  }
   .banner_main_cover {
     position: relative;
     display: flex;

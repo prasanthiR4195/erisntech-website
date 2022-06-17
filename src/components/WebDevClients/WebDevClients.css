@@ -28,3 +28,50 @@
 .web_dev_clients_icon p {
     font-size: 14px;
 }
+@media screen and (max-width: 992px) {
+    .web_dev_clients_wrap {
+        padding: 50px 80px;
+    }
+    .web_dev_clients_wrap .wrk_icon {
+        width: 34px;  
+        bottom: 6px; 
+    }
+    .web_dev_clients_wrap .work_icon p { 
+        font-size: 14px;
+    }
+    .web_dev_clients_wrap .block_section_two_head {
+        width: 47%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .web_dev_clients_wrap {
+        padding: 50px 46px;
+    }
+    .web_dev_clients_wrap .work_icon {
+        width: 185px; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .web_dev_clients_wrap .block_section_two_head {
+        width: 70%;
+    }
+    .web_dev_clients { 
+        display: block; 
+    }
+    .web_dev_clients_wrap .work_icon {
+        width: 185px;
+        margin: 0 auto 10px;
+    }
+    .web_dev_clients_wrap .wrk_icon {
+        width: 34px; 
+        bottom: 10px;
+    }
+}
+@media screen and (max-width:500px) {
+    .web_dev_clients_wrap .block_section_two_head {
+        width: 100%;
+    }
+    .web_dev_clients_wrap {
+        padding: 50px 26px;
+    }
+}

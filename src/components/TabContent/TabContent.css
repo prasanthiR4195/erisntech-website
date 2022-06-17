@@ -10,9 +10,11 @@
 }
 
 .tab_content_right {
-    flex: 50%;
+    flex: 50% 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-
 .tab_content_left h4 {
     font-weight: 700;
     margin-bottom: 15px;

@@ -14,15 +14,52 @@
     position: absolute;
     width: 50px;
     margin: auto;
-    left: -29px;
+    left: -0px;
     top: -8px;
     z-index: 0;
 }
 .MobileDevBlk3_inner .wrk_icon {
     width: 46px;
     margin: auto;
-    left: 63px;
-    bottom: 13px;
+    right: 5px;
+    bottom: 17px;
     z-index: 1;
     position: absolute;
+}
+@media screen and (max-width:992px) {
+    .softwareSolution_para {
+        width: 59%;
+        margin: 35px auto 10px; 
+        font-size: 14px;
+    }
+    .MobileDevBlk3_inner { 
+        margin: 40px 30px; 
+    }
+    .MobileDevBlk3_inner .wrk_icon {
+        width: 34px; 
+    }
+    .MobileDevBlk3_inner .wrk_color { 
+        width: 45px; 
+    }
+}
+@media screen and (max-width:768px) {
+    .MobileDevBlk3_inner {
+        margin: 40px 10px;
+    }
+    .MobileDevBlk3_inner .work_icon {
+        width: 172px; 
+        margin: 15px 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .MobileDevBlk3_inner { 
+        display: block;
+    }
+    .MobileDevBlk3_inner .work_icon {
+        width: 238px;
+        margin: 15px auto 24px;
+    }
+    .softwareSolution_para {
+        width: 72%; 
+    }
 }

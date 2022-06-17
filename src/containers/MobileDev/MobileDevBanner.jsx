@@ -4,9 +4,9 @@ import './MobileDev.css'
 
 const MobileDevBanner = () => {
   return (
-    <div style={{width:"500px",height:"500px"}}>
+    <div className='mobiledev_banner_cover'>
       <img src={sw1} className="mobiledev" />
-  </div>
+  </div> 
   )
 }
 

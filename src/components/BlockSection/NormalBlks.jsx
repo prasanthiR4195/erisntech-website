@@ -11,4 +11,4 @@ const NormalBlks = ({img,head,para }) => {
   )
 }
 
-export default NormalBlks
+export default NormalBlks 

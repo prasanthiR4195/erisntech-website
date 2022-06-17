@@ -4,7 +4,7 @@ import sw1 from "../../assets/softwaredev/sw.png";
 
 const WebDevBanner = () => {
   return (
-    <div style={{width:"500px",height:"500px"}}>
+    <div className='webdev_banner'>
         <img src={sw1} className="sw1" />
     </div>
   )

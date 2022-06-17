@@ -1,0 +1,138 @@
+.swDevBanner_cover {
+  height: 500px;
+  width: 500px;
+  position: relative; 
+}
+
+.swDevBanner_cover .bannerFloatingE {
+    position: absolute;
+    width: 200px;
+    opacity: .6;
+  }
+  
+  .swDevBanner_cover .bannerFloatingE1 {
+    left: 10%;
+    bottom: 10%;
+    transform: translatey(0px);
+    animation: float 10s ease-in-out infinite;
+    width: 20%;
+}
+.swDevBanner_cover .bannerFloatingE2 {
+  right: 25%;
+  bottom: 19% !important;
+  animation: float 10s ease-in-out infinite;
+  width: 20%;
+}
+.swDevBanner_cover .banner_main_cover {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .swDevBanner_cover .bannerimg {
+    position: absolute;
+    width: 75%;
+    bottom: 0;
+    left: 0;
+    animation: floatxy 8s ease-in-out infinite;
+}
+.swDevBanner_cover  .banner_img img.bannerImg {
+    width: 100%;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(-20px);
+    }
+  
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  @keyframes floatr {
+    0% {
+      transform: translatex(0px);
+    }
+  
+    50% {
+      transform: translatex(-20px);
+    }
+  
+    100% {
+      transform: translatex(0px);
+    }
+  }
+  @keyframes floatxy {
+    0% {
+      transform: translatey(2px); 
+    }
+  
+    50% {
+      transform: translatey(-22px); 
+    }
+  
+    100% {
+      transform: translatey(2px); 
+    }
+  }
+  .cloud1 {
+    animation: floatr 15s ease-in-out infinite;
+    width: 17%;
+    position: absolute;
+    left: 17%;
+    bottom: 47%;
+}
+.cloud2 {
+  position: absolute;
+  width: 16%;
+  right: 46%;
+  top: 29%;
+  animation: floatr 15s ease-in-out infinite;
+}
+  .cloud3 {
+    position: absolute;
+    width: 27%;
+    right: 22%;
+    top: 35%;
+    animation: floatr 15s ease-in-out infinite;
+}
+
+@media screen and (max-width:768px) {
+.swDevBanner_cover {
+  height: 260px;
+  width: 100%; 
+}
+.swDevBanner_cover {
+  height: 260px;
+  width: 100%;
+  position: absolute;
+  right: -38px;
+}
+.software_dev_wrap .banner_content_inner {
+  margin-left: 25px;
+  margin-top: 90px;
+}
+.software_dev_wrap .banner_content {
+  flex: 46% 1;
+}
+.swDevBanner_cover {
+  height: 304px;
+  width: 304px;
+  position: absolute;
+  right: -38px;
+}
+}
+@media screen and (max-width:500px) {
+  .swDevBanner_cover {
+    height: 304px;
+    width: 276px;
+    position: absolute;
+    right: 0;
+}
+.software_dev_wrap .banner_main_cover { 
+  overflow: initial;
+}
+}

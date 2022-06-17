@@ -34,3 +34,23 @@
 .common_slider_wrap .owl-dots {
     margin-top: 30px !important;
 }
+@media screen and (max-width:992px) {
+    .common_slider_wrap .owl-stage-outer {
+        width: 100%; 
+    }
+    .block_section_two_head {
+        width: 60% !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .uiux_cover .common_slider_wrap {
+        margin: 50px 0;
+    }
+    .uiux_cover .common_slider_wrap .item img {
+        width: 35px;
+        height: 35px;
+    }
+    .common_slider_wrap {
+        margin: 50px 0;
+    }
+}

@@ -114,11 +114,11 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   useEffect(() => {
-    if (loc.pathname === "/erisntech-website/") {
+    if (loc.pathname === "/erisntech-website") {
       console.log("homepage", loc.pathname);
       setNav(true);
     } else if (loc.pathname === "/about") {
-      console.log("about", loc.pathname);
+      console.log("about", loc.pathname); 
       setNav(false);
     } else {
       console.log("other pages", loc.pathname);

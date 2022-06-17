@@ -38,3 +38,69 @@
 .UXD4_Blk h4 {font-size: 15px;font-weight: 800;margin: 7px 0;}
 
 .UXD4_Blk {width: 190px;}
+
+@media screen and (max-width:1100px) {
+    .UXDesignBlk4_cover h3:before { 
+        left: -42px; 
+    }
+    .UXDesignBlk4_cover h3:after { 
+        right:  -42px; 
+    }
+    .UXDesignBlk4_cover{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:992px) {
+    .UXDesignBlk4_cover h3:before {
+        left: -46px
+    }
+    .UXDesignBlk4_cover h3:after{
+        right:-46px
+    }
+    .UXDesignBlk4_cover h3 { 
+        font-size: 23px;
+    }
+    .UXD4_Blk {
+        width: 135px;
+    }
+    .UXD4_Blk h4 {
+        font-size: 13px; 
+    }
+    .UXDesignBlk4_inner { 
+        margin: 30px 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .UXDesignBlk4_cover h3:before {
+        left: -70px;
+    }
+    .UXDesignBlk4_cover h3:after    {
+        right:-70px;
+    }
+    .UXD4_Blk img {
+        width: 34px;
+    }
+    .UXD4_Blk h4 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:600px) {
+    .UXDesignBlk4_cover h3 {
+        font-size: 20px;
+    }
+    .UXDesignBlk4_cover h3:before,.UXDesignBlk4_cover h3:after{
+        display: none;
+    }
+    .UXDesignBlk4_inner {  
+        display: block;
+    }
+    .UXD4_Blk {
+        width: 152px;
+        margin: 0 auto 20px;
+    }
+    .UXDesignBlk4_cover { 
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width:500px) {
+}

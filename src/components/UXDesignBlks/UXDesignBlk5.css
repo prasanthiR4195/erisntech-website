@@ -15,8 +15,7 @@
 }
 .UXDesignBlk5_inner .wrk_icon {
     width: 50px;
-    margin: auto;
-    right: 69px;
+    margin: auto; 
     bottom: -10px;
     z-index: 1;
     position: absolute;
@@ -28,4 +27,35 @@
     left: 0;
     right: 0;
     z-index: 0;
+}
+@media screen and (max-width:1100px) {
+    .UXDesignBlk5_inner { 
+        width: 70%; 
+    }
+    .block_section_two_head {
+        width: 52% !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .UXDesignBlk5_inner {
+        width: 78%;
+    }
+    .block_section_two_head {
+        width: 80% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .UXDesignBlk5_inner {
+        width: 98%;
+    }
+}
+@media screen and (max-width:500px) {
+.block_section_two_head {
+    width: 96% !important;
+}
+.UXDesignBlk5_inner { 
+    justify-content: center; 
+    margin: 50px auto 10px;
+}
+
 }

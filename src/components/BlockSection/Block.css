@@ -14,7 +14,7 @@
   cursor: pointer;
   transition: .5s;
 } 
-.block_inner {
+.block_inner { 
   padding: 10px;
 }
 .block_wrap img {
@@ -100,4 +100,10 @@ img.logo_right {
 
 .normal_block_cover p {
   font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .normal_block_cover { 
+    width: 245px;
+}
 }

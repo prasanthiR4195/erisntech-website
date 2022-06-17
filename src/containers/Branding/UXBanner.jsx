@@ -6,7 +6,7 @@ import UX3 from "../../assets/uiux/UXBanner3.png";
 
 const UXBanner = () => {
   return (
-    <div style={{ width: "100%", height: "500px" }}>
+    <div className="UxBanner_cover">
       <img src={UX1} className="UX1" alt=""/>
       <img src={UX2} className="UX2" alt=""/>
       <img src={UX3} className="UX3" alt=""/>

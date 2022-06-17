@@ -12,3 +12,41 @@
 .mobile_dev_blk1_cover {
     margin-top: 100px;
 }
+@media screen and (min-width: 1300px) {
+
+}
+@media screen and (max-width: 1024px) {
+    .mobiledev_cover .block_section_two_head {
+        width: 55%;
+    } 
+}
+@media screen and (max-width: 992px) {
+    .mobiledev_cover .mob_dev_para {
+        width: 53%;
+        margin: 29px auto 40px; 
+        font-size: 14px;
+    }
+    .mobiledev_cover .mobile_dev_blk1_inner { 
+        width: 90%; 
+    }
+}
+@media screen and (max-width:768px) {
+    .mobiledev_cover .block_section_two_head {
+        width: 65%;
+    }
+    .normal_block_cover img {
+        width: 40px;
+    }
+    .mobiledev_cover .mobile_dev_blk1_inner { 
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mobiledev_cover .block_section_two_head {
+        width: 90%;
+    }
+    .mobiledev_cover .mob_dev_para {
+        width: 90%; 
+    }
+    
+}

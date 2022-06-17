@@ -9,4 +9,35 @@
     display: flex;
     flex-wrap: wrap;
     margin: 50px 100px;
+    justify-content: center;
+} 
+@media screen and (max-width:1250px) {
+    .mobileDevBlk2_inner {
+        margin: 50px 20px;
+        
+    }
 }
+@media screen and (max-width:992px) {
+    .mobileDev_para { 
+        width: 48%; 
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .mobileDev_para {
+        width: 63%;
+        margin-top: 30px;
+    }
+    .mobileDevBlk2_inner {
+        margin: 30px 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .mobileDevBlk2_inner {
+        margin: 30px 10px;
+    }
+}
+@media screen and (max-width:500px) {
+.mobileDev_para {
+    width: 92%; 
+}}

@@ -11,7 +11,7 @@ import './home.css'
 
 const HomeBanner = () => {
   return (
-    <div className='swDevBanner_cover'>
+    <div className='home_banner_cover'>
         <img src={banner1} className='bannerImg' />
         <img src={BannerE1} alt="banner" className="bannerFloatingE bannerFloatingE1" />
         <img src={BannerE2} alt="banner" className="bannerFloatingE bannerFloatingE2" />

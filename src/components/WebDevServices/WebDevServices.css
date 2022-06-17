@@ -14,7 +14,7 @@
 .web_dev_services_top p {
     text-align: center;
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .web_dev_head .subheadwithbg {
@@ -42,4 +42,47 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
+}
+@media screen and (min-width:1200px) {
+    .web_dev_services_wrap {
+        padding: 50px 90px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .web_dev_services_wrap {
+        padding: 50px 40px;
+    }
+}
+@media screen and (max-width:992px) {
+.web_dev_head { 
+    width: 60%; 
+}
+.web_dev_services_top p { 
+    font-size: 14px;
+}
+}
+@media screen and (max-width:768px) {
+    .web_dev_services_wrap {
+        padding: 50px 20px;
+    }
+    .web_dev_head h3 {
+        font-size: 20px;
+    }
+    .web_dev_head { 
+        margin: 0 auto 20px;
+    }
+    .web_dev_services_top p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:500px) {
+.web_dev_head {
+    width: 100%;
+}
+.web_dev_services_top p { 
+    width: 96%; 
+}
+.web_dev_services_top {
+    margin: 20px 0 30px;
+}
 }

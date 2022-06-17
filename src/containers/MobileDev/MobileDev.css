@@ -1,11 +1,10 @@
 img.mobiledev {
   width: 400px;
   position: absolute;
-  right: 120px;
+  left: 28px;
   bottom: 0;
   animation: float 10s ease-in-out infinite;
 }
-
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -19,18 +18,40 @@ img.mobiledev {
     transform: translatey(0px);
   }
 }
+.mobiledev_banner_cover{
+  position: relative;
+  width:500px;
+  height:500px;
+}
+
+
+
 
 @media screen and (min-width: 1300px) {
   .andorid .bannerBG {
-    width: 54% !important;
-
-  }
-
+    width: 54% !important; 
+  } 
   .andorid .android_cover_one {
     margin-top: 150px;
   }
+  .mobiledev_cover .banner_main_cover{
+    overflow: initial;
 }
-
+.mobiledev_cover  .bannerBG {
+  width: 63%;
+  top: -85px;
+}
+}
+@media screen and (min-width: 1200px) {
+ 
+  .mobiledev_cover .banner_main_cover{
+    overflow: initial;
+}
+.mobiledev_cover  .bannerBG {
+  width: 63%;
+  top: -85px;
+}
+}
 @media screen and (max-width: 1300px) {
   .andorid .android_cover_one {
     margin-top: 150px;
@@ -96,7 +117,19 @@ img.mobiledev {
 .andorid .web_dev_left {
   flex: 51% 1; 
 }
+.mobiledev_cover .bannerBG {
+  width: 63%;
+  top: -36px;
 }
+img.mobiledev {
+  width: 345px; 
+  left: 53px;
+  bottom: 26px; 
+}
+.mobiledev_cover .banner_img {
+  flex: 45% 1; 
+}
+} 
 
 @media screen and (max-width: 1024px) {
   .andorid img.mobiledev {
@@ -115,6 +148,11 @@ img.mobiledev {
   font-size: 15px;
   width: 75%;
   margin-left: 0;
+}
+.mobiledev_cover img.mobiledev {
+  width: 322px;
+  left: 70px;
+  bottom: 53px;
 }
 }
 
@@ -155,8 +193,17 @@ img.mobiledev {
 .andorid .web_dev_left {
   flex: 61% 1;
 }
-
-
+.mobiledev_cover .mobiledev_banner_cover { 
+  width: 410px;
+  height: 410px;
+}
+.mobiledev_cover img.mobiledev {
+  width: 250px; 
+}
+.mobiledev_cover .banner_content_inner {
+  width: 95%;
+  margin-left: 38px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -190,4 +237,24 @@ img.mobiledev {
 }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .mobiledev_cover .mobiledev_banner_cover {
+    width: 250px;
+    height: 250px;
+}
+.mobiledev_cover img.mobiledev {
+  width: 199px;
+  left: auto;
+  right: 19px;
+  bottom: 2px;
+}
+.mobiledev_cover .banner_content_inner {
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.banner_content p {
+  font-size: 13px !important;
+  margin-bottom: 12px !important;
+}
+}

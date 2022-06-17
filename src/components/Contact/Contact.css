@@ -28,7 +28,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 0;
+    z-index: 0; 
 }
 .contact_sec .MuiFormControlLabel-root { 
     margin-bottom: 0;
@@ -62,4 +62,13 @@
 .contact_sec .MuiBox-root {
     font-size: 13px;
     font-weight: 600;
+}
+@media screen and (max-width: 500px){
+    .contact_left:before { 
+        width: 86%;
+    }
+    .contact_left_content {
+        top: 50px;
+        left: 45px;
+    }
 }

@@ -32,3 +32,35 @@
 .web_dev_explained .web_dev_right img {
   width: 460px;
 }
+@media screen and (min-width:1200px) {
+  .web_dev_explained .web_dev_right img {
+    width: 445px;
+}
+}
+@media screen and (max-width:1100px) {
+.web_dev_explained .web_dev_right img {
+  width: 400px;
+}
+.web_dev_explained {
+  padding: 50px 80px; 
+}
+}
+@media screen and (max-width:1024px) {
+  .web_dev_explained .web_dev_right {
+    flex: 35% 1; 
+}
+.web_dev_left {
+  flex: 52% 1; 
+}
+}
+@media screen and (max-width:500px) {
+.about_webdev_cover .web_dev_explained .web_dev_right img {
+  width: 288px !important;
+}
+.web_dev_explained {
+  padding: 30px 0px 0 !important; 
+}
+.web_dev_left { 
+  padding: 20px 20px;
+}
+}

@@ -75,7 +75,7 @@
 @media only screen and (max-width:768px) {
     .block_section_one_wrap {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     } 
     .block_section_one {
         width: 300px;
@@ -93,8 +93,8 @@
         padding: 40px 30px;
     } 
     .block_section_two_head {
-        width: 100%;
-    } 
+        width: 90%;
+    }
     .block_wrap {
         width: 320px;
     }

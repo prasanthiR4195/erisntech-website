@@ -8,7 +8,7 @@ const SwBlocks = ({num,head,para,img,color}) => {
   AOS.init()
     const checkNum = STYLES.includes(num)
     ? num
-    : STYLES[num];  
+    : STYLES[num];   
 
   return (
     <div className='sawBlkWrap'>

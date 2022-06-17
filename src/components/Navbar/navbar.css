@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between; 
   align-items: center;
-  padding: 0.3rem 4rem;
+  padding: 0.3rem 2rem;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -204,7 +204,7 @@ ul.submenu_sub_right li:hover {
 
 @media screen and (max-width: 700px) {
   .erisn__navbar {
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
   }
 
   .erisn__navbar-menu_container {
@@ -217,7 +217,7 @@ ul.submenu_sub_right li:hover {
 
 @media screen and (max-width: 550px) {
   .erisn__navbar {
-    padding: 2rem;
+    padding: 2rem !important;
   }
 
   .erisn__navbar-menu_container {

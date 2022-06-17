@@ -1,7 +1,7 @@
 .web_dev_block_section {
     display: flex;
     justify-content: center;
-    margin: 50px 0;
+    margin: 50px 0; 
 } 
 .web_dev_explained {
     padding: 50px 120px;
@@ -43,4 +43,117 @@
 .web_dev_left p {
     font-size: 15px;
     line-height: 29px;
+}
+.webdev_banner{
+    position: relative;
+    height: 500px; 
+    width:500px;
+}
+@media screen and (min-width:1200px) {
+    .bannerBG { 
+        width: 60%; 
+    }
+}
+@media screen and (min-width:1051px) {
+    .webdev .bannerBG {
+        width: 66% !important;
+    }
+       
+   }
+@media screen and (max-width:1200px) {
+   
+}
+@media screen and (max-width:1150px) {
+ 
+}
+@media screen and (max-width:1050px) {
+ 
+    
+}
+@media screen and (max-width:1024px) {
+    .web_dev_explained {
+      padding: 50px 54px; 
+  }
+  .web_dev_explained .web_dev_right img {
+    width: 350px;
+}
+  } 
+@media screen and (max-width:992px) {
+    .webdev .banner_content_inner {
+        width: 95%;
+        margin-left: 40px;
+    }
+    .webdev .webdev_banner { 
+        height: 470px;
+        width: 400px;
+    }
+    .webdev .sw1 { 
+        width: 372px; 
+        right: 13px;
+        bottom: 30%;
+    } 
+    .web_dev_heading h4 {
+        font-size: 23px; 
+    }
+    .web_dev_left p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .web_dev_explained .web_dev_right img {
+        width: 315px;
+    }
+}
+@media screen and (max-width:768px) {
+    .web_dev_explained {
+        padding: 30px 30px;
+        display: block;
+    }
+    .webdev .sw1 {
+        width: 300px; 
+    }
+    .webdev .webdev_banner {
+        height: 470px;
+        width: 316px;
+    }
+    .webdev .banner_content_inner { 
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:600px) {
+    .webdev .webdev_banner {
+        height: 200px;
+        width: 200px;
+    }
+    .webdev .sw1 {
+        width: 200px;
+        right: 13px;
+        bottom: 0;
+    }
+    .banner_img {
+        flex: 40% 1; 
+    }
+}
+@media screen and (max-width:500px) {
+    .web_dev_heading h4 {
+        font-size: 20px;
+    }
+    .web_dev_left p {
+        font-size: 13px; 
+    }
+    .web_dev_explained .web_dev_right img {
+        width: 228px;
+        margin-top: 10px;
+    }
+    .webdev .banner_content { 
+        margin-top: 108px;
+    }
+    .webdev .webdev_banner {
+        height: 255px;
+        width: 299px;
+    }
+    .webdev .sw1 {
+        width: 372px;
+        right: 13px;
+        bottom: 0;
+    }
 }

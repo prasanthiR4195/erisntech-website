@@ -13,8 +13,9 @@ const CommonHeading = ({subHeadwithBg,mainB1,mainR,mainB2,subHead,headWithOrngBg
           {mainB1}
             <span className='red_font'> {mainR}</span> {mainB2}
           </h2>
-          <span className='heading_underline'></span>
           <p>{para}</p>
+          <span className='heading_underline'></span>
+         
           
         </div>
   )

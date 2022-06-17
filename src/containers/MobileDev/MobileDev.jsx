@@ -12,6 +12,7 @@ import WebDevExplained from "../../components/WebDevExplained/WebDevExplained";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
 import mobile_explained from '../../assets/mobiledev/mobile_explained.png'
+import './MobileDev.css'
 
 const MobileDev = () => {
   return (

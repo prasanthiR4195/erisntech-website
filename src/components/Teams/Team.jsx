@@ -2,12 +2,12 @@ import React from 'react'
 
 const Team = ({img,name,desig}) => {
   return (
-    <div style={{textAlign:"center",padding:"20px",flex:"20%"}}>
-        <img src={img} alt="team img" style={{marginBottom:"10px",width:"100px"}}  />
-        <h3 style={{fontSize:" 18px",fontWeight: '700',marginBottom:'3px'}}>{name}</h3>
-        <p style={{marginBottom: "0",fontSize: '13px',color: '#979797'}}>{desig}</p>
+    <div className="team_members" >
+        <img src={img} alt="team img"   />
+        <h3 >{name}</h3>
+        <p >{desig}</p>
     </div>
   )
 }
 
-export default Team
+export default Team 

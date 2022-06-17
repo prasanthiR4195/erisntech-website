@@ -1,14 +1,9 @@
 import React from "react"; 
-import MainBanner from "../../components/Banner/MainBanner";  
+import MainBanner from "../../components/Banner/MainBanner";   
 
-import BlackSection from "../../components/BlckSection/BlackSection";
-import Business from "../../components/Business/Business";
 import Contact from "../../components/Contact/Contact";
-import HomeBlock from "../../components/HomeBlock/HomeBlock";
-import { ITSolution } from "../../components/ITSolution/ITSolution";
-import Services from "../../components/Services/Services";
-import Tabsection from "../../components/Tab/Tab";
-import Tabsection2 from "../../components/Tab/Tab2";
+import HomeBlock from "../../components/HomeBlock/HomeBlock"; 
+import Services from "../../components/Services/Services"; 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Testimonial from "../../components/Testimonial/Testimonial"; 
 import HomeTechnologies from "../../components/Hometechnologies/HomeTechnologies";
@@ -16,7 +11,8 @@ import Homeproducts from "../../components/Homeproducts/Homeproducts";
 import CommonSlider from "../../components/Slider/CommonSlider";
 import Slider from "../../components/Slider/Slider";
 import HomeBanner from "./HomeBanner";
-import HomeEnquiry from "../../components/HomeEnquiry/HomeEnquiry";
+import HomeEnquiry from "../../components/HomeEnquiry/HomeEnquiry"; 
+import './home.css'
 
 const Home = () => {
   return (
@@ -27,7 +23,7 @@ const Home = () => {
         mainHeadB2="  for your Business"
         bannerDesc="Elevate your business with erisntech, a theme design for all types of modern degital agencies, whatever their expertise might be!"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left"
+        bannerStyle="banner-content-left" 
         bannerImg={<HomeBanner/>}
       />
       <HomeBlock />

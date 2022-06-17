@@ -33,6 +33,7 @@ function App() {
         <Route path='/mobiledev' element={<MobileDev/>} />
         <Route path='/uxdesign' element={<UXDesign/>}/>
         <Route path='/softwaredev' element={<SoftwareDev/>}/>
+        
         <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
         <Route path='/androiddev' element={<Android/>}/>
         <Route path='/uxdev' element={<UXDev/>}/>

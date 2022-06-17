@@ -5,7 +5,10 @@ import './UXDesignBlk3.css'
 const UXDesignBlk3 = () => {
   return (
     <div className='UXDesignBlk3_cover'>
- 
+  <CommonHeading 
+        mainB1="How we work"
+        para="ErisnTech is the easiest way to buy affordable branding & design services online."
+      />
         <div className='UXDesignBlk3_inner'>
             <div className='UXDesign_inner_blocks'>
                 <h1>1</h1>

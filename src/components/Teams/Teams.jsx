@@ -10,7 +10,7 @@ import team from '../../assets/about/team.png'
 const Teams = () => {
   return (
     <div className="team_section_wrap">
-      <div className="team_section_one">
+      <div className="team_section_one"> 
         <div className="team_left">
           <LeftHeading
             subHead="Company Family"

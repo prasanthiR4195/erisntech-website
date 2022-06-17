@@ -13,11 +13,27 @@
     width: 80%;
     margin: 50px auto;
 }
-.UXDesignBlk6_inner  .wrk_icon {
-    width: 50px;
-    margin: auto;
-    right: 69px;
-    bottom: 2px;
-    z-index: 1;
-    position: absolute;
+ 
+@media screen and (max-width: 1100px){
+    .UXDesignBlk6_inner { 
+        width: 90%; 
+    }
+}
+@media screen and (max-width: 992px){
+.work_icon {
+    width: 210px; 
+    margin: 20px 10px;
+}
+.wrk_icon {
+    width: 40px; 
+    bottom: -7px; 
+}
+.UXDesignBlk6_inner { 
+    margin: 50px auto 10px;
+}
+}
+@media screen and (max-width: 500px){
+.UXDesignBlk6_inner { 
+    justify-content: center;
+}
 }

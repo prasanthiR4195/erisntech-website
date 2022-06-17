@@ -12,14 +12,31 @@
     padding: 20px;
     transition: .5s;
     position: relative;
+    width: 290px;
 }
-
 .business_blk_wrap:hover::before {
     background: transparent linear-gradient(180deg, #F86609 0%, #EC463C 47%, #EB3542 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
     transition: 1s; 
 }
-
+.business_blk_wrap h5 {
+    text-align: center;
+    font-weight: 700;
+    width: 68%;
+    font-size: 20px;
+    margin: 10px auto;
+}
+.business_blk_wrap p {
+    text-align: center;
+    font-size: 14px;
+}
+.business_blk_wrap:hover h5 {
+    color: #fff !important;
+    position: relative;
+}
+.business_blk_wrap:hover p {
+    position: relative;
+}
 .business_blk_wrap::before {
     content: "";
     width: 100%;

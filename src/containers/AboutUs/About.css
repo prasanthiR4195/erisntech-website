@@ -68,3 +68,103 @@
     }
   }
 /*******banner******/
+@media screen and (min-width:1200px) {
+    .aboutt_cover .bannerBG {
+        width: 55%;
+    }
+    .aboutt_cover .about_webdev_cover {
+        padding: 50px 20px 20px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .aboutt_cover .banner_content_inner {
+        width: 83%;
+    margin-left: 30px;
+}
+.aboutt_cover .bannerBG { 
+    width: 58%; 
+} 
+}
+@media screen and (max-width:1024px) {
+    .aboutt_cover .bannerBG {
+        width: 55%;
+    }
+}
+@media screen and (max-width:992px) {
+.about_banner_cover {
+    width: 440px;
+    height: 440px; 
+}
+.aboutOne, .aboutTwo, .aboutThree, .aboutFour {
+    width: 140px;
+}
+.aboutOne {
+    left: 52px;
+    top: 56px;
+}
+.aboutTwo {
+    right: 70px;
+    top: 44px;
+}
+.aboutThree {
+    left: 58px;
+    bottom: 78px;
+}
+.aboutFour {
+    right: 66px;
+    bottom: 63px;
+}
+.aboutt_cover .banner_content p { 
+    font-size: 14px;
+}
+
+}
+@media screen and (max-width:768px) {
+    .banner_content h1 {
+        font-size: 30px;
+    }
+    .about_banner_cover {
+        width: 230px;
+        height: 230px;
+    } 
+    .aboutOne, .aboutTwo, .aboutThree, .aboutFour {
+        width: 90px;
+    }
+    .aboutt_cover .banner_content_inner {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .aboutt_cover .bannerBG {
+        width: 50%;
+        height: 100%;
+    }
+    .aboutt_cover .banner_content_inner { 
+        margin-top: 70px;
+    }
+    .aboutt_cover .banner_content p {
+        font-size: 13px;
+    }
+    .aboutOne {
+        left: 15px;
+        top: 0;
+    }
+    .aboutTwo {
+        right: 0;
+        top: 0;
+    }
+    .aboutThree {
+        left: 14px;
+        bottom: 16px;
+    }
+    .aboutFour {
+        right: 8px;
+        bottom: 0;
+    }
+}
+@media screen and (max-width:500px) {
+    .aboutt_cover .bannerBG {
+        width: 100%;
+        height: 100%;
+        opacity: .1;
+    }
+}

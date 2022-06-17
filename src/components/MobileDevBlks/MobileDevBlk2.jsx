@@ -1,7 +1,6 @@
 import React from "react";
 import CommonHeading from "../commonHeading/CommonHeading";
-import SwBlocks from "../SoftwareDevBlks/SwBlocks";
-import solution1 from "../../assets/webdev/education.png";
+import SwBlocks from "../SoftwareDevBlks/SwBlocks"; 
 import "./MobileDevBlk2.css";
 import icon1 from '../../assets/mobiledev/icon1.png'
 import icon2 from '../../assets/mobiledev/icon2.png'
@@ -18,7 +17,7 @@ import color1 from '../../assets/webdev/color1.png'
 import color2 from '../../assets/webdev/color2.png'
 import color3 from '../../assets/webdev/color3.png'
 import color4 from '../../assets/webdev/color4.png'
-import color5 from '../../assets/webdev/color5.png'
+import color5 from '../../assets/webdev/color5.png' 
 
 
 const MobileDevBlk2 = () => {

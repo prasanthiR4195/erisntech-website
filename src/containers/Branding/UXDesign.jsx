@@ -45,7 +45,7 @@ const UXDesign = () => {
       <div style={{background:"#FAFAFA"}}>
         <UXDesignBlk1 block1={block1}/>
       </div>
-      <UXDesignBlk2 />
+      
       <UXDesignBlk3 />
       <UXDesignBlk4 />
       <UXDesignBlk5/>
