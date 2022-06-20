@@ -9,9 +9,19 @@ import swift from '../../assets/homepage/swift.png'
 import flutter from '../../assets/homepage/flutter.png'
 import kotlin from '../../assets/homepage/kotlin.png'
 import codeigniter from '../../assets/homepage/codeigniter.png'
-import php from '../../assets/homepage/php.png' 
-
+import php from '../../assets/homepage/php.png'  
 const Techslider = () => {
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:5
+  }
+  }
   return (
     <div className="tech_slider_wrap">
       <OwlCarousel
@@ -22,6 +32,7 @@ const Techslider = () => {
         items="6" 
         autoplay="true"
         autoplayTimeout="5000"
+        responsive ={responsive}
       >
         <div className="item">
           <img src={react} alt="product" />

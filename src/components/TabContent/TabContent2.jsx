@@ -12,7 +12,7 @@ const TabContent2 = ({img,desc,title,main}) => {
             <img src={img} alt="tab-content" />
        </div>
        <div className='tab_content_left'  data-aos="fade-left" data-aos-delay="200">
-           <h1 style={{color:"#16b0b626"}}>{main}</h1>
+           <span className='bigLetters' style={{color:"#16b0b626"}}>{main}</span>
             <h4>{title}</h4>
             <p>{desc}</p>
             <Button buttonStyle="btn--primary--orange">Learn More  <AiOutlineArrowRight className='arrow'/></Button>

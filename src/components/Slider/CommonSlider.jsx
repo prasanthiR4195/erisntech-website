@@ -12,11 +12,22 @@ import krishakbazaar from '../../assets/homepage/krishakbazaar.png'
 import tajbakery from '../../assets/homepage/tajbakery.png' 
 
 const CommonSlider = ({ subHead, mainB1 }) => {
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:5
+  }
+  }
   return (
     <div className="common_slider_wrap">
       <CommonHeading subHead={subHead} mainB1={mainB1} />
       <div className="common_slider_inner">
-        <OwlCarousel className="owl-theme" loop margin={10} items="5">
+        <OwlCarousel className="owl-theme" loop margin={10} items="5" responsive={responsive}>
           <div className="item">
             <img src={onefurniture} alt="product" />
           </div>

@@ -9,9 +9,20 @@ import product1 from '../../assets/homepage/product-1.png'
 import product2 from '../../assets/homepage/product-2.png'
 import product3 from '../../assets/homepage/product-3.png' 
 
-
+ 
 
 const Slider = () => {
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:3
+  }
+  }
   return (
     <div className="slider_wrap">
       <div className="slider_head">
@@ -25,10 +36,20 @@ const Slider = () => {
         items="3"
         center="true" 
         nav 
+        responsive={responsive}
       >
         <div className="item">
           <img src={product1} alt="product" />
         </div>
+        <div className="item">
+          <img src={product2} alt="product" />
+        </div>
+        <div className="item">
+          <img src={product3} alt="product" />
+        </div>
+        <div className="item">
+          <img src={product3} alt="product" />
+        </div> 
         <div className="item">
           <img src={product2} alt="product" />
         </div>

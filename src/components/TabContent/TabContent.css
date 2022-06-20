@@ -30,7 +30,7 @@
     width: 500px;
 }
 
-.tab_content_left h1 {
+.tab_content_left .bigLetters {
     font-size: 82px;
     font-family: fantasy;
     letter-spacing: 6px;

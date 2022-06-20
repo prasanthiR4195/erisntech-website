@@ -1,9 +1,9 @@
 .circleBlock {
   position: absolute;
-  top: 94px;
-  left: 140px;
-  width: 100px;
-  height: 100px;
+  top: 17%;
+  left: 12%;
+  width: 15%;
+  height: 21%;
   transform: translatey(0px);
   animation: float 18s ease-in-out infinite;
 }
@@ -51,20 +51,20 @@
 
 .bannerFloatingE {
   position: absolute;
-  width: 180px;
+  width: 24%;
   opacity: .8;
 }
 
 .bannerFloatingE1 {
-  left: 135px;
-  bottom: 22px;
+  left: 16%;
+  bottom: 10%;
   transform: translatey(0px);
   animation: float 5s ease-in-out infinite;
 }
 
 .bannerFloatingE2 {
-  right: 119px;
-  top: 79px;
+  right: 18%;
+  top: 14%;
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
 }
@@ -108,25 +108,7 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .erisn__home .bannerFloatingE {
-    width: 166px;
-  }
-
-  .erisn__home .bannerFloatingE2 {
-    right: 82px;
-    top: 79px;
-  }
-
-  .erisn__home .bannerFloatingE1 {
-    left: 110px;
-    bottom: 11px;
-  }
-
-  .erisn__home .pinkC {
-    right: 89px;
-    top: 65px;
-    z-index: 0;
-  }
+ 
 
   .erisn__home .banner_content_inner {
     width: 85%;
@@ -160,10 +142,7 @@
     padding: 0 70px;
   }
 
-  .tab_content_wrap {
-    padding:
-  }
-
+   
   .team_left_head h2 {
     font-size: 29px;
   }
@@ -214,14 +193,7 @@
     padding: 50px 56px 0;
   }
 
-  .erisn__home .bannerFloatingE {
-    width: 154px;
-  }
-
-  .erisn__home .bannerFloatingE2 {
-    right: 63px;
-    top: 116px;
-  }
+ 
 }
 
 @media screen and (max-width: 992px) {
@@ -241,48 +213,17 @@
   .erisn__home .banner_content p {
     font-size: 14px;
   }
-
-  .erisn__home .bannerFloatingE {
-    width: 122px;
-  }
+ 
 
   .erisn__home .banner_content_inner {
     margin-top: 60px;
   }
-
-  .circleBlock {
-    top: 49px;
-    left: 46px;
-    width: 100px;
-    height: 100px;
-  }
-
-  .circleR {
-    width: 44px;
-  }
-
-  .CircleB {
-    width: 28px;
-    bottom: 49px;
-    right: 22px;
-  }
-
-  .CircleY {
-    width: 28px;
-    bottom: 27px;
-    left: 12px;
-  }
-
+  
   .erisn__home .pinkC {
     right: 40px;
     top: 85px;
   }
-
-  .erisn__home .bannerFloatingE1 {
-    left: 65px;
-    bottom: 11px;
-  }
-
+ 
   .block_section_two_head h2 {
     font-size: 23px;
   }
@@ -362,9 +303,10 @@
   }
 
   .testimonial_box {
-    margin: 40px;
+    margin: 40px 40px 40px 0px;
     padding: 20px;
-  }
+    width: 325px;
+}
 
   .testimonial_main .owl-carousel {
     width: 90%;
@@ -418,14 +360,15 @@
 .tab_content_right img {
   width: 260px;
 }
+.banner_content h1 {
+  font-size: 27px !important;
+}
 }
 @media screen and (max-width: 600px) {
   .erisn__home .testimonial_inner { 
     display: block;
 }
-.erisn__home .bannerFloatingE {
-  width: 74px;
-}
+ 
 .banner_content h1 {
   font-size: 20px !important;
 }
@@ -439,31 +382,7 @@
 .home_banner_cover {
   height: 250px;
 }
-.erisn__home .bannerFloatingE {
-  width: 63px;
-}
-.erisn__home .bannerFloatingE2 {
-  right: 50px; 
-}
-.erisn__home .bannerFloatingE1 {
-  left: 50px; 
-}
-.circleR {
-  width: 33px;
-}
-.CircleB {
-  width: 22px;
-  bottom: 64px;
-  right: 39px;
-}
-.CircleY {
-  width: 21px;
-  bottom: 51px;
-  left: 11px;
-}
-.pinkC { 
-  width: 40px; 
-}
+  
 .erisn__home .banner_content_inner {
   margin-top: 91px;
 }
@@ -572,10 +491,7 @@
   margin-top: -228px; 
   opacity: .2;
 } 
-.erisn__home .tech_slider_wrap .item img {
-  width: 30px !important;
-  height: 30px; 
-}
+ 
 .erisn__home .tech_slider_wrap .item h5 {
   font-size: 9px;
 }
@@ -613,8 +529,9 @@
 .erisn__home .testimonial_inner {
   padding: 10px 20px;
 }
-.testimonial_box { 
-  margin: 20px;
+.testimonial_box {
+  margin: 20px 12px 50px 0px;
+  padding-top: 0;
 }
 .testimonial_main {
   width: 100%;

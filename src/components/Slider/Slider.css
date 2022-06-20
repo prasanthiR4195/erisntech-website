@@ -126,8 +126,7 @@
 }
 
 .tech_slider_wrap .item img {
-  width: 50px !important;
-  height: 45px;
+  width: 60px !important; 
   margin: 0 auto 10px;
 }
 
@@ -146,5 +145,12 @@
 
 .home_technologies_Wrap {
   background: #F8F8F8;
-  padding-top: 15px;
+  padding-top: 35px !important;
+}
+.tech_slider_wrap .owl-nav {
+  display: none;
+}
+
+.tech_slider_wrap .owl-dots {
+  display: none;
 }

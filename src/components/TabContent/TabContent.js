@@ -10,7 +10,7 @@ const TabContent = ({img,desc,title,main}) => {
   return ( 
     <div className='tab_content_wrap'>
        <div className='tab_content_left' data-aos="fade-right" data-aos-delay="200">
-            <h1>{main}</h1>
+            <span className='bigLetters'>{main}</span>
             <h4>{title}</h4>
             <p>{desc}</p>
             <Button buttonStyle="btn--primary--orange">Learn More  <AiOutlineArrowRight className='arrow'/></Button>

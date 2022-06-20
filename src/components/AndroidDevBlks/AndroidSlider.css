@@ -126,8 +126,7 @@
 }
 
 .tech_slider_wrap .item img {
-  width: 50px !important;
-  height: 45px;
+  width: 50px;
   margin: 0 auto 10px;
 }
 
@@ -163,4 +162,14 @@
 }
 .slider_wrap  .androidSlider .owl-item.active.center img {
     transform: scale(1.2);
+}
+
+@media screen and (max-width:500px) {
+.slider_wrap .owl-item.active.center img {
+  transform: scale(1);
+  padding: 20px;
+}
+.slider_wrap .owl-carousel .owl-stage-outer {
+  padding: 12px 0 !important;
+}
 }
