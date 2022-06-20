@@ -12,7 +12,7 @@ import './home.css'
 const HomeBanner = () => {
   return (
     <div className='home_banner_cover'>
-        <img src={banner1} className='bannerImg' />
+        <img src={banner1} className='bannerImg' width="240px" height="auto"/>
         <img src={BannerE1} alt="banner" className="bannerFloatingE bannerFloatingE1" />
         <img src={BannerE2} alt="banner" className="bannerFloatingE bannerFloatingE2" />
         <div className='circleBlock  '>
