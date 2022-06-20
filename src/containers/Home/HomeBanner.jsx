@@ -12,15 +12,15 @@ import './home.css'
 const HomeBanner = () => {
   return (
     <div className='home_banner_cover'>
-        <img src={banner1} className='bannerImg' width="240px" height="auto"/>
-        <img src={BannerE1} alt="banner" className="bannerFloatingE bannerFloatingE1" />
-        <img src={BannerE2} alt="banner" className="bannerFloatingE bannerFloatingE2" />
+        <img src={banner1} className='bannerImg'  alt="banner main"/>
+        <img src={BannerE1}  className="bannerFloatingE bannerFloatingE1" alt="banner-floating blocks"/>
+        <img src={BannerE2}  className="bannerFloatingE bannerFloatingE2"  alt="banner-floating blocks" />
         <div className='circleBlock  '>
-          <img src={CircleR} alt="banner" className=" circleR" />
-          <img src={CircleB} alt="banner" className=" CircleB" />
-          <img src={CircleY} alt="banner" className=" CircleY" />
+          <img src={CircleR} alt="banner circles" className=" circleR" />
+          <img src={CircleB} alt="banner circles" className=" CircleB" />
+          <img src={CircleY} alt="banner circles" className=" CircleY" />
         </div>
-        <img src={pinkC} alt="banner" className="pinkC  " />
+        <img src={pinkC} alt="banner pink circle" className="pinkC  " />
     </div>
   )
 }
