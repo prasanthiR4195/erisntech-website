@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/erisntech-website/static/css/main.790e691a.css",
-    "main.js": "/erisntech-website/static/js/main.b857f32b.js",
+    "main.css": "/erisntech-website/static/css/main.a0d377a6.css",
+    "main.js": "/erisntech-website/static/js/main.2dae9295.js",
     "static/media/header-banner.png": "/erisntech-website/static/media/header-banner.6dc3d6e14365a7066542.png",
     "static/media/black_section_bottom_img.png": "/erisntech-website/static/media/black_section_bottom_img.ea986bf88ac8677638cc.png",
     "static/media/img2.png": "/erisntech-website/static/media/img2.b947ea5f147391f321a2.png",
@@ -86,11 +86,11 @@
     "static/media/kpl_logo.png": "/erisntech-website/static/media/kpl_logo.549742c9b51f3f280990.png",
     "static/media/cloud_left.png": "/erisntech-website/static/media/cloud_left.c1f381e30f32e61af03c.png",
     "index.html": "/erisntech-website/index.html",
-    "main.790e691a.css.map": "/erisntech-website/static/css/main.790e691a.css.map",
-    "main.b857f32b.js.map": "/erisntech-website/static/js/main.b857f32b.js.map"
+    "main.a0d377a6.css.map": "/erisntech-website/static/css/main.a0d377a6.css.map",
+    "main.2dae9295.js.map": "/erisntech-website/static/js/main.2dae9295.js.map"
   },
   "entrypoints": [
-    "static/css/main.790e691a.css",
-    "static/js/main.b857f32b.js"
+    "static/css/main.a0d377a6.css",
+    "static/js/main.2dae9295.js"
   ]
 }

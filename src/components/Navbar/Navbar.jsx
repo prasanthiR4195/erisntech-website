@@ -21,7 +21,7 @@ const Menu = () => {
   return (
     <>
       <p>
-        <Link to="/erisntech-website">Home</Link>
+        <Link to="/erisntech-website/">Home</Link>
       </p>
       <p>
         <a className="submenu" onClick={submenuHandler}>
