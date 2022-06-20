@@ -120,6 +120,7 @@ const Navbar = () => {
     } else if (loc.pathname === "/about") {
       console.log("about", loc.pathname); 
       setNav(false);
+      window.scrollTo(0, 0);
     } else {
       console.log("other pages", loc.pathname);
       setNav(false);
