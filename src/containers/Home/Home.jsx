@@ -34,22 +34,7 @@ const Home = () => {
       <Slider/>
       <Testimonial />
       <Services />
- 
-      {/* <Tabsection />
-      <BlackSection />
-      <ITSolution />
-      <Tabsection2 />
-      <Banner
-        subHeadwithBg="CONNECT WITH US"
-        mainHeadB1="Interested in Custom "
-        mainHeadR=" Website Development? "
-        subhead="Schedule a Call With Experts Now"
-        btnOrang={["Contact Us", <AiOutlineArrowRight className="arrow" />]}
-        img={banner2}
-        bannerStyle="banner-content-left"
-        btnGrey=""
-      />
-      <Business /> */}
+  
       <Contact />
     </div>
   );

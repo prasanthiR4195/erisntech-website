@@ -8,16 +8,32 @@ const Menu = () => {
   const [showmenu, setShowmenu] = useState(false);
   const [webApp, setWebApp] = useState(false);
   const [mobileDev, setMobileDev] = useState(false);
+  const [branding,setBranding] = useState(false);
   const submenuHandler = () => {
     setShowmenu(!showmenu);
   };
   const submenuClose = () => {
     setShowmenu(false);
     setWebApp(false);
+    setMobileDev(false)
+    setBranding(false)
   };
-  const submenuShow = () => {
+  const submenuwebShow = () => {
     setWebApp(!webApp);
+    setMobileDev(false)
+    setBranding(false)
   };
+  const submenuMobShow =() =>{
+    setMobileDev(!mobileDev);
+    setWebApp(false)
+    setBranding(false)
+  }
+  const submenuBrandingShow = () =>{
+    setBranding(!branding);
+    setWebApp(false)
+    setMobileDev(false)
+    
+  }
   return (
     <>
       <p>
@@ -33,18 +49,18 @@ const Menu = () => {
             <div className="submenu_block">
               <ul className="submenu_main">
                 <Link to="/webdev">
-                  <li className="web_app" onClick={submenuShow}>
+                  <li className="web_app" onClick={submenuwebShow}>
                     <h6>Web Application Development</h6>
                     <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
-                <Link to="/mobiledev" onClick={submenuClose}>
+                <Link to="/mobiledev" onClick={submenuMobShow}>
                   <li>
                     <h6>Mobile Application Development</h6>
                     <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
-                <Link to="/uxdesign" onClick={submenuClose}>
+                <Link to="/uxdesign" onClick={submenuBrandingShow}>
                   <li>
                     <h6>Branding & Designing</h6>
                     <p>We build digital platforms that drive the value chain for global </p>
@@ -71,6 +87,52 @@ const Menu = () => {
               ) : (
                 ""
               )}
+              {mobileDev? <ul className="submenu_sub_right">
+                  <Link to="/androiddev" onClick={submenuClose}>
+                    <li>
+                      <h6>Android App Development</h6>
+                      <p> We build digital platforms that drive the value chain for global </p>
+                    </li>
+                  </Link>
+                  <li>
+                    <h6>IOS App Development</h6>
+                    <p>We build digital platforms that drive the value chain for global </p>
+                  </li>
+                  <Link to="/hybridapp" onClick={submenuClose}>
+                  <li>
+                    <h6>Hybrid App Development</h6>
+                    <p>We build digital platforms that drive the value chain for global</p>
+                  </li>
+                  </Link>
+                </ul> : "" }
+
+
+              {branding ? <ul className="submenu_sub_right">
+                  <Link to="/uxdev" onClick={submenuClose}>
+                    <li>
+                      <h6>Website/App UI/UX Designing </h6>
+                      <p> We build digital platforms that drive the value chain for global </p>
+                    </li>
+                  </Link>
+                  <Link to="/brochure" onClick={submenuClose}> 
+                  <li>
+                    <h6>Brochures Designing </h6>
+                    <p>We build digital platforms that drive the value chain for global </p>
+                  </li>
+                  </Link>
+                  <Link to="/logodesign" onClick={submenuClose}>
+                  <li>
+                    <h6>Logo Designing</h6>
+                    <p>We build digital platforms that drive the value chain for global</p>
+                  </li>
+                  </Link>
+                  <Link to="/corporate" onClick={submenuClose}> 
+                  <li>
+                    <h6>Corporate Designs</h6>
+                    <p>We build digital platforms that drive the value chain for global</p>
+                  </li>
+                  </Link>
+                </ul> : ""}
 
               <ul className="submenu_main">
                 <Link to="/softwaredev" onClick={submenuClose}>
@@ -117,6 +179,7 @@ const Navbar = () => {
     if (loc.pathname === "/erisntech-website/") {
       console.log("homepage", loc.pathname);
       setNav(true);
+      window.scrollTo(0, 0);
     } else if (loc.pathname === "/about") {
       console.log("about", loc.pathname); 
       setNav(false);

@@ -12,9 +12,9 @@ import './home.css'
 const HomeBanner = () => {
   return (
     <div className='home_banner_cover'>
-        <img src={banner1} className='bannerImg'  alt="banner main"/>
-        <img src={BannerE1}  className="bannerFloatingE bannerFloatingE1" alt="banner-floating blocks"/>
-        <img src={BannerE2}  className="bannerFloatingE bannerFloatingE2"  alt="banner-floating blocks" />
+        <img src={banner1} className='bannerImg'  alt="banner main" />
+        <img src={BannerE1}  className="bannerFloatingE bannerFloatingE1" alt="banner-floating blocks" />
+        <img src={BannerE2}  className="bannerFloatingE bannerFloatingE2"  alt="banner-floating blocks"   />
         <div className='circleBlock  '>
           <img src={CircleR} alt="banner circles" className=" circleR" />
           <img src={CircleB} alt="banner circles" className=" CircleB" />

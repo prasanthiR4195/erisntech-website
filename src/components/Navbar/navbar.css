@@ -184,7 +184,7 @@ p.submenu {
 }
 ul.submenu_sub_right li {
   margin-bottom: 10px;
-  padding: 10px;
+  padding:0  10px;
   transition: .5s;
 } 
 ul.submenu_sub_right li:hover {

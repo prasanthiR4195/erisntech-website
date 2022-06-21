@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const UXDesignBlk1 = ({ block1 }) => {
   return (
-    <div>
+    <div> 
       {block1.map((index) => {
       return(  <div className="UXdesignBlk1_cover">
           <div className="UXDesignBlk1_left">

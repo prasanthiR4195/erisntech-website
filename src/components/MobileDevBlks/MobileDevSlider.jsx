@@ -11,6 +11,17 @@ import sliderleft from "../../assets/mobiledev/leftcorner.png";
 import sliderright from "../../assets/mobiledev/rightcorner.png";
 
 const MobileDevSlider = () => {
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:3
+  }
+  }
   return (
     <div className="mobileSlider_cover">
       <CommonHeading
@@ -27,6 +38,7 @@ const MobileDevSlider = () => {
         items="3"
         center
         nav="true"
+        responsive={responsive}
       >
         {/* <div className="item">
           <img src={product1} alt="product" />

@@ -75,12 +75,16 @@
 }
 .mobiledev_cover img.sliderright, .mobiledev_cover img.sliderleft {
     width: 65px;
+    bottom: 58px;
 }
 .mobiledev_cover .block_section_two_head {
     width: 93%;
 }
+.mobiledev_cover .owl-theme .owl-nav { 
+    display: none;
+}
 .mobileSlider_cover .owl-item.active.center img {
-    transform: scale(1.8);
+    transform: scale(1.2);
 }
 .mobiledev_cover  .mobileSlider_cover  .owl-carousel {
     width: 100%; 

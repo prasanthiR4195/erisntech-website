@@ -57,7 +57,7 @@
     }
     .MobileDevBlk3_inner .work_icon {
         width: 238px;
-        margin: 15px auto 24px;
+        margin: 15px auto 24px !important;
     }
     .softwareSolution_para {
         width: 72%; 
