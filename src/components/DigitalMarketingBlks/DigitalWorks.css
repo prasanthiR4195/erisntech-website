@@ -3,16 +3,15 @@
      margin: 21px auto;
      text-align: center;
  }
-
  .digitalWorks_inner {
-     display: flex;
-     width: 81%;
-     margin: auto;
-     flex-wrap: wrap;
-     justify-content: center;
- }
-
-
- .digitalWorks_inner .left_block_wrap {
-     /* border: 0; */
- }
+    display: flex;
+    width: 94%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width:992px) {
+p.digitalWork_para {
+    width: 53%; 
+}
+}

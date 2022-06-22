@@ -109,8 +109,7 @@ const DigitalMarketing = () => {
         mainHeadB1="Digital Marketing" 
         bannerDesc="Elevate your business with Erisntech, a theme design for all types of modern degital agencies, whatever their expertise might be!"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        img={banner1}
-       
+        img={banner1} 
         bannerStyle="banner-content-left"
         bannerBG={bannerBG}
         // bannerImg={<DigitalMarketingBanner/>

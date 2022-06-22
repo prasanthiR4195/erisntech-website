@@ -8,47 +8,44 @@
 
 .digitalmarketingCover {
     position: relative;
-    width: 500px;
+    width: 500px; 
     height: 500px;
 }
-
-img.digital1 { 
+img.digital1 {
     position: absolute;
-    width: 400px;
-    right: -19px;
+    width: 80%;
+    right: -7%;
     bottom: 0;
     animation: float 10s ease-in-out infinite;
 }
-
 img.digital2 {
     position: absolute;
-    left: 0;
-    width: 157px;
-    bottom: 38px;
+    left: 0%;
+    width: 33%;
+    bottom: 10%;
     animation: float 15s ease-in-out infinite;
 }
 
 img.digital3 {
     position: absolute;
-    right: -27px;
-    top: 110px;
-    width: 85px;
+    right: -8%;
+    bottom: 62%;
+    width: 15%;
     animation: float 16s ease-in-out infinite;
 }
 
 img.digital4 {
     position: absolute;
-    top: 87px;
-    left: 66px;
-    width: 64px;
+    bottom: 70%;
+    left: 13%;
+    width: 14%;
     animation: float 17s ease-in-out infinite;
 }
-
 img.digital5 {
     position: absolute;
-    right: -14px;
-    bottom: 148px;
-    width: 60px;
+    right: -7%;
+    bottom: 28%;
+    width: 12%;
     animation: float 18s ease-in-out infinite;
 }
 @keyframes float {
@@ -64,3 +61,49 @@ img.digital5 {
       transform: translatey(0px);
     }
   }
+  
+@media screen and (max-width: 1100px) {
+    .digitalmarketingCover {
+        margin-right: 30px;
+        width: 450px;
+        height: 464px;
+    }
+}
+@media screen and (max-width:992px) {
+.digitalmarketingCover { 
+    width: 355px;
+    height: 385px;
+}
+.digital .banner_content_inner {
+    width: 90%;
+    margin-left: 30px;
+}
+}
+@media screen and (max-width:768px) {
+    .digitalmarketingCover {
+        width: 299px;
+        height: 325px;
+    }
+    .digital .banner_content_inner {
+        width: 90%;
+        margin-left: 25px;
+        margin-top: 19px;
+    }
+}
+@media screen and (max-width:600px) {
+    .digitalmarketingCover {
+        width: 230px;
+        height: 256px;
+    }
+    .digital .banner_content_inner { 
+        margin-top: 84px;
+    } 
+}
+@media screen and (max-width:500px) {
+.digital .bannerBG { 
+    display: none;
+}
+.digital .software_dev_blk_1_wrap {
+    margin: 40px 0 0;
+}
+}

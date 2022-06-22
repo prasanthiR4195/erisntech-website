@@ -1,6 +1,6 @@
 .circleBlock {
   position: absolute;
-  top: 17%;
+  bottom: 58%;
   left: 12%;
   width: 15%;
   height: 21%;
@@ -37,16 +37,15 @@
 .pinkC {
   position: absolute;
   right: 10%;
-  top: 10%;
+  bottom: 79%;
   width: 9%;
   transform: translatey(0px);
   animation: float 18s ease-in-out infinite;
 }
-
 .home_banner_cover {
   position: relative;
-  width: 100%;
-  height: 500px;
+  width: 500px;
+  height: 420px;
 }
 
 .bannerFloatingE {
@@ -64,7 +63,7 @@
 
 .bannerFloatingE2 {
   right: 18%;
-  top: 14%;
+  bottom: 44%;
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
 }
@@ -207,22 +206,21 @@
   }
 
   .home_banner_cover {
-    height: 390px;
-  }
+    height: 330px;
+    width: 400px;
+}
 
   .erisn__home .banner_content p {
     font-size: 14px;
   }
  
-
   .erisn__home .banner_content_inner {
-    margin-top: 60px;
-  }
-  
+    margin-top: 92px;
+}
   .erisn__home .pinkC {
     right: 40px;
-    top: 85px;
-  }
+    bottom: 70%;
+}
  
   .block_section_two_head h2 {
     font-size: 23px;
@@ -363,6 +361,10 @@
 .banner_content h1 {
   font-size: 27px !important;
 }
+.home_banner_cover {
+  height: 260px;
+  width: 310px;
+}
 }
 @media screen and (max-width: 600px) {
   .erisn__home .testimonial_inner { 
@@ -380,7 +382,8 @@
   line-height: 23px;
 }
 .home_banner_cover {
-  height: 250px;
+  height: 220px;
+  width: 275px;
 }
   
 .erisn__home .banner_content_inner {
@@ -480,6 +483,7 @@
   font-size: 13px;
 }
 }
+
 @media screen and (max-width: 500px) {
   .testimonial_main {
     width: 100%;

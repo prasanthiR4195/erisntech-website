@@ -9,7 +9,7 @@ import "../../containers/UXDev/UXDev.css";
 const UXDevBlk1 = () => {
   return (
     <div className="UXDevBlk1_cover">
-      <CommonHeading
+      <CommonHeading 
         subHead="OUR SERVICES"
         mainB1="What Services We Offering"
       />

@@ -120,13 +120,16 @@ a {
 }
 
  
+@media screen and (min-width: 1350px) {
+ 
+  .erisn__navbar { 
+    position: initial !important;
+  }
+  }
 
 @media screen and (min-width: 1300px) {
 .App {
   width: 1300px;
   margin: auto;
-}
-.erisn__navbar { 
-  position: initial !important;
-}
+} 
 }

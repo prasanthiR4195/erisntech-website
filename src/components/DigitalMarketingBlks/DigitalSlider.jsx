@@ -11,6 +11,17 @@ import sliderleft from "../../assets/digitalmarketing/leftcorner.png";
 import sliderright from "../../assets/digitalmarketing/rightcorner.png";
 
 const DigitalSlider = () => {
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:3
+  }
+  }
   return (
     <div className="mobileSlider_cover">
         <CommonHeading
@@ -28,6 +39,7 @@ const DigitalSlider = () => {
           items="3"
           center
           nav="true"
+          responsive={responsive}
         >
           {/* <div className="item">
        <img src={product1} alt="product" />

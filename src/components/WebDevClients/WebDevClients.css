@@ -60,7 +60,7 @@
     }
     .web_dev_clients_wrap .work_icon {
         width: 185px;
-        margin: 0 auto 10px;
+        margin: 0 auto 10px !important;
     }
     .web_dev_clients_wrap .wrk_icon {
         width: 34px; 

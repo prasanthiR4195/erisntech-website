@@ -67,6 +67,9 @@
     .software_dev_wrap .banner_content_inner { 
         margin-top: 50px;
     }
+    .software_dev_wrap span.heading_underline:after ,.software_dev_wrap span.heading_underline:before{
+        bottom: -6px;
+    }
 }
 @media screen and (max-width:768px) {
     

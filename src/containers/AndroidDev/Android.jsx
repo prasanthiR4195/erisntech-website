@@ -16,7 +16,7 @@ import webdevExp from "../../assets/androiddev/img2.png";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
 
-const Android = () => {
+const Android = () => { 
   const block1 = [
     {
       leftImg: leftImg,
@@ -36,8 +36,8 @@ const Android = () => {
   return (
     <div className="andorid">
       <MainBanner
-        smallhead="Our Sevices"
-        mainHeadB1="Mobile Development Services"
+        smallhead="Mobile App Development"
+        mainHeadB1="Android application Development Service"
         bannerDesc="  Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Turn to ErisnTech's UI and UX services."
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
         bannerStyle="banner-content-left"

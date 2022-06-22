@@ -20,10 +20,10 @@ import BrochureDesign from "./containers/BrochureDesign/BrochureDesign";
 import CorporateDesign from "./containers/CorporateDesign/CorporateDesign";
 
  
-function App() {
+function App() { 
 
   return (
-    <div className="App"> 
+    <div className="App">  
       <Navbar/>
       <Routes> 
         <Route path="/*" element={<Home />} />
@@ -32,11 +32,11 @@ function App() {
         <Route path='/webdev' element={<WebDev/>} />
         <Route path='/mobiledev' element={<MobileDev/>} />
         <Route path='/uxdesign' element={<UXDesign/>}/>
-        <Route path='/softwaredev' element={<SoftwareDev/>}/>
-        
+        <Route path='/softwaredev' element={<SoftwareDev/>}/> 
         <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
         <Route path='/androiddev' element={<Android/>}/>
         <Route path='/uxdev' element={<UXDev/>}/>
+
         <Route path='/logodesign' element={<LogoDesigning/>}/>
         <Route path='/hybridapp' element={<HybridApp/>}/>
         <Route path='/brochure' element={<BrochureDesign/>}/>

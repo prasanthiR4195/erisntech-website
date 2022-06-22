@@ -32,7 +32,7 @@ const UXDev = () => {
           para="Save money, efforts, and time to achieve perfect product development leveraging our conceptual UI/UX Design Services and Solutions. We have a long tail of happy clients because we have a habit to take our clients on a virtual tour by providing them a working prototype of their product. It helps them in understanding seen and unforeseen obstacles during project development."
           para2="The best part of our UI & UX Design and Development is without writing a single line of code, our clients are able to refine UI/UX issues, suggest changes, corrections and get them rectified to meet their needs prior to starting actual design and development work."
           img={webdevExp}
-        />
+        /> 
       </div>
       <UXDevBlk2 />
       <UXDarkTheme />

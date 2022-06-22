@@ -8,6 +8,17 @@ import product3 from "../../assets/androiddev/mob3.png";
 import './AndroidSlider.css'
 
 const AndroidSlider = () => {
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:3
+  }
+  }
   return (
     <div className="slider_wrap androidSlider_wrap">
       <div className="slider_head">
@@ -22,6 +33,7 @@ const AndroidSlider = () => {
           items="3"
           center="true"
           nav
+          responsive={responsive}
         >
           <div className="item">
             <img src={product1} alt="product" />

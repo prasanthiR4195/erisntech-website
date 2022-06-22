@@ -12,7 +12,7 @@
     padding: 20px;
     transition: .5s;
     position: relative;
-    width: 290px;
+    width: 250px;
 }
 .business_blk_wrap:hover::before {
     background: transparent linear-gradient(180deg, #F86609 0%, #EC463C 47%, #EB3542 100%) 0% 0% no-repeat padding-box;
@@ -22,7 +22,7 @@
 .business_blk_wrap h5 {
     text-align: center;
     font-weight: 700;
-    width: 68%;
+    width: 80%;
     font-size: 20px;
     margin: 10px auto;
 }

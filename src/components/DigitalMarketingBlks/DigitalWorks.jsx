@@ -16,7 +16,7 @@ import icon7 from "../../assets/digitalmarketing/icon7.png";
 import icon8 from "../../assets/digitalmarketing/icon8.png";
 import icon9 from "../../assets/digitalmarketing/icon9.png";
 
-import './DigitalWorks.css'
+import './DigitalWorks.css' 
 
 const DigitalWorks = () => {
   return (

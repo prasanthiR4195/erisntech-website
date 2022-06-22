@@ -6,6 +6,7 @@ import man from "../../assets/digitalmarketing/man.png";
 import love from "../../assets/digitalmarketing/love.png";
 import like from "../../assets/digitalmarketing/like.png";
 import likeR from "../../assets/digitalmarketing/likeR.png";
+import './DigitalMarketingBanner.css'
 
 
 const DigitalMarketingBanner = () => {

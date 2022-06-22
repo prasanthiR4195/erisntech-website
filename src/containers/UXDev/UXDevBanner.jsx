@@ -10,7 +10,7 @@ import './UXDev.css'
 
 const UXDevBanner = () => {
   return (
-    <div className='banner_img_cover'>
+    <div className='uxbanner_img_cover'>
         <img src={left} className="uxLeft" alt="" />
         <img src={top} className="uxTop" alt="" />
         <img src={ui} className="uxUi" alt="" />

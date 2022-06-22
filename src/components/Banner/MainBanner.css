@@ -118,6 +118,7 @@
 .banner_content_inner {
     width: 80%;
     margin-left: 60px;
+    position: relative;
 }
   .banner_img img.bannerImg {
     width: 100%;

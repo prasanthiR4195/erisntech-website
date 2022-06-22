@@ -1,0 +1,153 @@
+.androidDev_banner {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.android_hand {
+    position: absolute;
+    bottom: -3%;
+    width: 85%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.android_mobile {
+    animation: float 10s ease-in-out infinite;
+    width: 31%;
+    position: absolute;
+    right: 0;
+    left: -29%;
+    bottom: 18%;
+    margin: auto;
+}
+
+.android__left {
+    position: absolute;
+    left: -15%;
+    width: 27%;
+    bottom: 31%;
+    animation: float 15s ease-in-out infinite;
+}
+
+.android__top {
+    position: absolute;
+    width: 28%;
+    left: 7%;
+    animation: float 17s ease-in-out infinite;
+    bottom: 55%;
+}
+
+.android__right {
+    position: absolute;
+    right: 12%;
+    bottom: 3%;
+    width: 30%;
+    animation: float 14s ease-in-out infinite;
+}
+
+.android__block {
+    position: absolute;
+    bottom: 56%;
+    right: 31%;
+    width: 36%;
+    animation: float 10s ease-in-out infinite;
+}
+
+.android__bottom {
+    position: absolute;
+    bottom: 24%;
+    left: 5%;
+    width: 36%;
+    animation: float 11s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+/***************banner end***************/
+.andorid .banner_main_cover {
+    overflow: initial;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .andorid .bannerBG {
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .andorid .bannerBG {
+        width: 58%;
+    }
+    .banner_img {
+        flex: 40% 1; 
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .andorid .bannerBG {
+        width: 60%;
+    }
+    .andorid .banner_content_inner { 
+        margin-left: 43px; 
+    }
+}
+@media screen and (max-width: 1050px) {
+    .androidDev_banner {
+        width: 460px;
+        height: 460px; 
+    }
+    .andorid .bannerBG {
+        width: 56%;
+    }
+}
+@media screen and (max-width: 992px) {
+.androidDev_banner {
+    width: 320px;
+    height: 320px;
+}
+.andorid .banner_content_inner {
+    margin-left: 25px;
+    margin-top: 87px;
+}
+}
+@media screen and (max-width: 768px) {
+    .androidDev_banner {
+        width: 210px;
+        height: 210px;
+    }
+    .andorid .banner_content_inner {
+        margin-left: 25px;
+        margin-top: 87px;
+        width: 87%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .andorid .slider_head h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .androidDev_banner {
+        width: 247px;
+        height: 247px;
+    }
+    .andorid .slider_head h2 {
+        font-size: 20px;
+    }
+}

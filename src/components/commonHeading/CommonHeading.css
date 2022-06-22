@@ -57,11 +57,11 @@ span.heading_underline:after {
 .red_font{
     color: #f23801;
 }
-
+/* 
 .headWithOrngBg {
     display: inline-block;
     background: transparent linear-gradient(180deg, #F86609 0%, #EC463C 47%, #EB3542 100%) 0% 0% no-repeat padding-box;
     border-radius: 7px;
     color: #fff;
     padding: 6px 10px;
-}
+} */
