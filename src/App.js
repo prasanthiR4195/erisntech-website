@@ -35,11 +35,11 @@ function App() {
         <Route path='/softwaredev' element={<SoftwareDev/>}/> 
         <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
         <Route path='/androiddev' element={<Android/>}/>
-        <Route path='/uxdev' element={<UXDev/>}/>
-
-        <Route path='/logodesign' element={<LogoDesigning/>}/>
-        <Route path='/hybridapp' element={<HybridApp/>}/>
+        <Route path='/uxdev' element={<UXDev/>}/> 
+        <Route path='/logodesign' element={<LogoDesigning/>}/> 
+        <Route path='/hybridapp' element={<HybridApp/>}/> 
         <Route path='/brochure' element={<BrochureDesign/>}/>
+        
         <Route path='/corporate' element={<CorporateDesign/>}/>
 
         <Route path='/contactus' element={<ContactUs />}/>

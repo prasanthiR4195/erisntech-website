@@ -12,9 +12,12 @@ import BrochureBlk2 from "../../components/BrochureBlks/BrochureBlk2";
 import BrochureBlk3 from "../../components/BrochureBlks/BrochureBlk3";
 import SwBandSection from "../../components/SoftwareDevBlks/SwBandSection";
 import BrochureSlider from "../../components/BrochureBlks/BrochureSlider";
+import brochure1 from "../../assets/brochure/brochure1.png";
+import brochure2 from "../../assets/brochure/brochure2.png";
+import brochure3 from "../../assets/brochure/brochure3.png";
 
 const BrochureDesign = () => {
-  return (
+  return ( 
     <div className="brochure">
       <MainBanner
         smallhead="UIUX & Branding Design"
@@ -29,7 +32,7 @@ const BrochureDesign = () => {
       <BrochureBlk2/>
       <BrochureBlk3/>
       <SwBandSection para="Want to learn more about our software development expertise?" />
-      <BrochureSlider/>
+      <BrochureSlider item1={brochure1} item2={brochure2} item3={brochure3}/>
       <WebDevClients/>
       <Faq/>
       <Contact/>

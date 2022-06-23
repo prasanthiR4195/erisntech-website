@@ -15,7 +15,7 @@ const LogoDesignBlk1 = () => {
       />
       <div className="logoDesignBlk1_inner">
         <NormalBlks
-          img={business0}
+          img={business0} 
           head="Logo Design Style"
           para="Lorem Ipsum is simply dummy text of he printing and all of it" 
         />

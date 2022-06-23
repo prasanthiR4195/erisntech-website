@@ -3,32 +3,32 @@
     height:500px;
     position: relative;
 }
-.logo_center {
-    width: 575px;
+.logo_banner_cover .logo_center {
+    width: 100%; 
     position: absolute;
-    bottom: 44px;
+    bottom: 10%;
     animation: float 17s ease-in-out infinite;
 }
 
-.logo_left {
+.logo_banner_cover img.logo_left {
     position: absolute;
-    left: 40px;
-    width: 60px;
-    /* right: 0; */
+    left: 5%;
+    width: 14%;
     margin: auto;
-    top: 55px;
+    bottom: 70%;
     opacity: .8;
     border: 1px solid #fff;
     border-radius: 50%;
-    animation: float 14s ease-in-out infinite;
+    animation: float 11s ease-in-out infinite;
 }
 
-.logo_right {
+.logo_banner_cover .logo_right {
     position: absolute;
-    right: -43px;
-    width: 100px;
-    top: 51px;
-    animation: float 15s ease-in-out infinite;
+    right: 2%;
+    width: 21%;
+    bottom: 75%;
+    animation: float 11s ease-in-out infinite;
+    top: auto;
 }
 
 @keyframes float {
@@ -399,16 +399,15 @@ p.logo_ourwork_para {
     .logo_design .LogoDesignBlk2_left_inner {
         margin-left: 127px; 
     }
+    .banner_content_inner {
+        width: 62%;
+        margin-left: 60px;
+        position: relative;
+    }
 
 }
 @media screen and (max-width: 1200px) {
-    .logo_design img.logo_center {
-        width: 540px; 
-    }
-    .logo_design img.logo_center {
-        width: 500px;
-        bottom: 70px;
-    }
+ 
     .logo_design .logo_right_cover {
         width: 248px;
         margin-right: 10px;
@@ -421,11 +420,7 @@ p.logo_ourwork_para {
     .logo_design .banner-content-left { 
         width: 31%; 
     }
-    .logo_design img.logo_center {
-        width: 476px;
-        bottom: 70px;
-        right: -7px;
-    }
+ 
     .logo_design .LogoDesignBlk2_left_inner h2 {
         font-size: 22px; 
     }
@@ -441,19 +436,19 @@ p.logo_ourwork_para {
     .logo_design .logo_blackSection_inner {
         width: 65%; 
     }
+    .logo_banner_cover {
+        width: 440px;
+        height: 440px;
+        position: relative;
+    }
+}
+@media screen and (min-width: 1050px) {
+.logo_design .bannerBG {
+    width: 70%;
+}
 }
 @media screen and (max-width: 1024px) {
-    .logo_design img.logo_center {
-        width: 458px;
-        bottom: 70px;
-        right: 15px;
-    }
-    .logo_design img.logo_right {
-        position: absolute;
-        right: 0;
-        width: 100px;
-        top: 67px;
-    }
+ 
     .logo_design .logo_blackSection_inner {
         width: 60%;
     }
@@ -468,15 +463,8 @@ p.logo_ourwork_para {
     .logo_design .LogoDesignBlk3_image {
         width: 620px; 
     }
-    .logo_design img.logo_center {
-        width: 408px;
-        bottom: 154px;
-        right: 15px;
-    }
-    .logo_design img.logo_left { 
-        left: 111px;  
-        top: 41px; 
-    }
+    
+   
     .logo_design .normal_block_cover { 
         width: 250px;
     }
@@ -544,16 +532,16 @@ p.logo_ourwork_para {
     .logo_design .wrk_color { 
         width: 48px; 
     }
+    .logo_banner_cover {
+        width: 350px;
+        height: 315px;
+    }
 }
 @media screen and (max-width: 800px) {
     .logo_design .banner_content h1 { 
         font-size: 30px; 
     }
-    .logo_design .logo_design img.logo_center {
-        width: 393px;
-        bottom: 163px;
-        right: 15px;
-    }
+   
     .logo_design .banner-content-left { 
         bottom: 35%;
     }
@@ -580,15 +568,116 @@ p.logo_ourwork_para {
     .logo_design .logo_blackSection_inner {
         width: 90%; 
     }
-    .logo_design img.logo_right {
-        position: absolute;
-        right: 16px;
-        width: 88px;
-        top: 67px;
+    .logo_design .LogoDesignBlk2_right {
+        padding: 50px 15px;
+    }
+    .logo_design .logo_right_cover {
+        width: 255px;
+    }
+    .logo_design .LogoDesignBlk2_left_inner {
+        margin-left: 0px;
+        width: 40%;
+    }
+    .logo_design p.logo_ourwork_para {
+        width: 85%; 
     }
 }
 @media screen and (max-width: 768px) {
     .logo_design .logo_black_head {
         width: 70%;
+    }
+    .logo_banner_cover {
+        width: 263px;
+        height: 257px;
+    }
+    .banner_content_inner {
+        margin-left: 30px;
+        margin-top: 45px;
+        width: 80%;
+    }
+    .banner_content_inner h5 {
+        margin-bottom: 0px;
+    }
+    .banner_content p { 
+        line-height: 23px;
+    }
+    .logo_design .LogoDesignBlk2_left_inner {
+        margin-left: 0px;
+        width: 50%;
+    }
+    .logo_design .LogoDesignBlk3_image {
+        width: 440px;
+    }
+    .dots.dot_2 { 
+        left: 38px;
+        bottom: 14px;
+        width: 130px;
+    }
+    .logo_design .dots p { 
+        font-size: 10px;
+    }
+    .dots:after { 
+        bottom: 13px;
+    }
+    .dots.dot_4 { 
+        right: 31px;
+        bottom: 8px; 
+    }
+    .logo_design .LogoDesignBlk3_cover p {
+        width: 80%; 
+    }
+    .logo_design .logo_black_head {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo_banner_cover {
+        width: 210px;
+        height: 210px;
+    }
+    .logo_design .LogoDesignBlk2_left_inner {
+        margin-left: 0px;
+        width: 65%;
+    }
+    .logo_design .LogoDesignBlk3_image {
+        width: 310px;
+    }
+    .dots.dot_2 { 
+        width: 86px;
+    }
+    .dots.dot_4 { 
+        width: 77px;
+    }
+    .dots.dot_3 { 
+        width: 90px;
+    }
+    .dots:after { 
+        height: 34%;
+    }
+    .LogoDesignBlk3_cover {
+        padding: 50px 0 80px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .logo_design .bannerBG {
+        width: 63%;
+        display: none;
+    }
+    .logo_banner_cover {
+        width: 210px;
+        height: 286px;
+    }
+    .banner_content_inner { 
+        margin-top: 102px; 
+    }
+    .logo_design .LogoDesignBlk2_left_inner {
+        margin-left: 13px;
+        width: 90%;
+    }
+    .logo_design .LogoDesignBlk3_image {
+        width: 84%;
+    }
+    .LogoDesignBlk3_inner { 
+        overflow: hidden;
     }
 }

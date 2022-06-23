@@ -10,15 +10,26 @@ import sliderleft from "../../assets/mobiledev/leftcorner.png";
 import sliderright from "../../assets/mobiledev/rightcorner.png";
 
 const HybridappSlider = () => {
-  return (
+  const responsive ={
+    0:{
+      items:1
+  },
+  600:{
+      items:3
+  },
+  1000:{
+      items:3
+  }
+  }
+  return ( 
     <div className='hybridapp_slider_cover'>
          <CommonHeading
          subHead="OUR WORK"
         mainB1="We build successful, lasting, profitable products" 
       />
     <div className="mobiledevSlider_inner">
-      <img src={sliderleft} className="sliderleft" />
-      <img src={sliderright} className="sliderright" />
+      <img src={sliderleft} className="sliderleft" alt="hybrid app slider"/>
+      <img src={sliderright} className="sliderright" alt="hybrid app slider"/>
       <OwlCarousel
         className="owl-theme"
         loop
@@ -26,25 +37,17 @@ const HybridappSlider = () => {
         items="3"
         center
         nav="true"
-      >
-        {/* <div className="item">
-          <img src={product1} alt="product" />
-        </div> */}
+        responsive={responsive}
+      > 
         <div className="item">
-          <img src={product1} alt="product" />
+          <img src={product1}  alt="hybrid app slider"/>
         </div>
         <div className="item">
-          <img src={product2} alt="product" />
+          <img src={product2} alt="hybrid app slider"/>
         </div>
         <div className="item">
-          <img src={product3} alt="product" />
-        </div>
-        {/* <div className="item">
-          <img src={product3} alt="product" />
+          <img src={product3} alt="hybrid app slider"/>
         </div> 
-        <div className="item">
-          <img src={product3} alt="product" />
-        </div>  */}
       </OwlCarousel>
       </div>
     </div>

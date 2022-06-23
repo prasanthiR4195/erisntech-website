@@ -32,17 +32,17 @@ b.brochure_bold {
 
 .bannerScreen {
     position: absolute;
-    width: 500px;
-    bottom: 100px;
+    width: 100%;
+    bottom: 16%;
     z-index: 1;
     animation: float 12s ease-in-out infinite;
 }
 
 .screenRight {
     position: absolute;
-    width: 134px;
-    right: 17px;
-    top: 92px;
+    width: 25%;
+    right: 3%;
+    bottom: 64%;
     opacity: .8;
     z-index: 0;
     animation: float 18s ease-in-out infinite;
@@ -50,18 +50,18 @@ b.brochure_bold {
 
 .cloudLeft {
     position: absolute;
-    width: 150px;
-    left: -27px;
-    top: 200px;
+    width: 38%;
+    left: 0%;
+    bottom: 48%;
     z-index: 1;
     animation: float 13s ease-in-out infinite;
 }
 
 .cloudTop {
     position: absolute;
-    width: 150px;
-    right: 137px;
-    top: 105px;
+    width: 38%;
+    right: 20%;
+    bottom: 70%;
     animation: float 15s ease-in-out infinite;
     z-index: 1;
 }
@@ -183,3 +183,155 @@ b.brochure_bold {
     width: 38%; 
 }
 /************************ BrochureSlider *************************/
+
+@media screen and (max-width: 1300px) {
+.banner_content_inner {
+    width: 70%; 
+}
+}
+@media screen and (max-width: 1100px) {
+.banner_content_inner {
+    width: 75%;
+}
+.brochure .bannerBG {
+    width: 68%;
+}
+.web_dev_explained {
+    padding: 50px 90px; 
+}
+.BrochureBlk2_second { 
+    width: 85%; 
+}
+.BrochureSlider_inner { 
+    width: 100%;
+}
+.BrochureSlider_inner .owl-carousel img { 
+    width: 88%;
+}
+.BrochureSlider_inner .sliderright {
+    position: absolute;
+    right: 0px;
+    width: 167px;
+    top: -45px;
+}
+.BrochureSlider_inner .sliderleft {
+    position: absolute;
+    left: 0px;
+    width: 167px;
+    bottom: 11px;
+}
+}
+@media screen and (max-width: 1024px) {
+    .brochure_banner_cover {
+        width: 450px;
+        height: 450px; 
+    }
+    .banner_content_inner {
+        width: 80%;
+    }
+    .brochure .bannerBG {
+        width: 60%;
+    }
+ 
+}
+@media screen and (max-width: 992px) {
+    .brochure_banner_cover {
+        width: 365px;
+        height: 365px;
+    }
+    .banner_content_inner {
+        width: 82%;
+        margin-left: 30px;
+        margin-top: 89px;
+    }
+    .BrochureBlk1_inner { 
+        width: 90%;
+    }
+    .BrochureBlk1_inner .normal_block_cover { 
+        width: 162px;
+    }
+    .BrochureBlk2_cover .web_dev_explained .web_dev_right img {
+        width: 250px;
+    }
+    .BrochureBlk2_inner .web_dev_explained {
+        padding: 50px 55px;
+    }
+    .BrochureBlk2_second {
+        width: 96%;
+    }
+    .BrochureSlider_inner .sliderright {
+        position: absolute;
+        right: -28px;
+        width: 120px;
+        top: -14px;
+    }
+    .BrochureSlider_inner .sliderleft {
+        position: absolute;
+        left: -30px;
+        width: 120px;
+        bottom: 32px;
+    }
+    .BrochureSlider_inner .owl-carousel {
+        width: 94%; 
+    }
+   
+}
+@media screen and (max-width: 768px) {
+.brochure_banner_cover {
+    width: 310px;
+    height: 310px;
+}
+.BrochureBlk1_inner { 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.BrochureBlk1_inner .normal_block_cover {
+    width: 200px;
+    margin: 0 15px 20px;
+}
+.BrochureBlk2_second .normal_block_cover { 
+    padding: 20px 10px;
+    width: 180px;
+}
+.BrochureBlk2_second .normal_block_cover h4 {
+    width: 90%;
+    margin: 0 auto 6px;
+}
+}
+@media screen and (max-width: 600px) {
+    .brochure_banner_cover {
+        width: 235px;
+        height: 235px;
+    }
+    .BrochureBlk2_second { 
+        display: block;
+    }
+    .BrochureBlk2_second .normal_block_cover { 
+        width: 250px;
+        margin: 0 auto 20px;
+    }
+    .BrochureSlider_inner .owl-item.active.center img {
+        transform: scale(1);
+    }
+}
+@media screen and (max-width: 500px) {
+    .brochure .bannerBG { 
+        display: none;
+    }
+    .banner_content_inner {
+        width: 100%; 
+    }
+    .BrochureSlider_inner .owl-carousel {
+        width: 100%;
+    }
+    .BrochureSlider_inner .owl-carousel img {
+        width: 100%;
+    }
+    .BrochureBlk3_para { 
+        width: 90%;
+        font-size: 13px;
+    }
+    .BrochureSlider_cover {
+        margin: 90px 40px 30px;
+    }
+}

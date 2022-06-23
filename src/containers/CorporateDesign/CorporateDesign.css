@@ -3,3 +3,143 @@
     width:500px;
     height:500px;
 }
+.corporate_screen {
+    animation: float 18s ease-in-out infinite;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+img.corporate_top {
+    position: absolute;
+    width: 64%;
+    bottom: 63%;
+    right: 0;
+    animation: float 12s ease-in-out infinite;
+}
+img.corporate_left {
+    width: 20%;
+    position: absolute;
+    left: -9%;
+    bottom: 61%;
+    animation: float 18s ease-in-out infinite;
+}
+img.corporate_like {
+    width: 15%;
+    bottom: 80%;
+    position: absolute;
+    left: 8%;
+    animation: float 13s ease-in-out infinite;
+}
+img.corporate_dialog {
+    position: absolute;
+    bottom: 10%;
+    left: -7%;
+    width: 17%;
+    animation: float 11s ease-in-out infinite;
+}
+img.corporate_circle {
+    right: 0%;
+    width: 18%;
+    position: absolute;
+    bottom: 53%;
+    animation: float 8s ease-in-out infinite;
+}
+.CorporateBlk1_inner {
+    display: flex;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+.CorporateBlk1_inner .business_blk_wrap {
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    margin: 12px;
+}
+.CorporateBlk2_cover {
+    background: linear-gradient(180deg, #f8660970 0%, #ec463c57 47%, #eb354263 100%) 0% 0% no-repeat padding-box;
+    margin: 50px 0;
+    padding: 70px  0;
+}
+ 
+.CorporateBlk2_inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 86%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.corporate_icon_bg {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconBlock {
+    width: 153px;
+    text-align: center;
+    background: #ffddd5;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.corporate_icon_bg img {
+    width: 60%;
+} 
+.iconBlock h5 {
+    font-size: 15px;
+    font-weight: 700;
+    width: 75%;
+    margin: 10px auto;
+}
+@media screen and (max-width: 1200px) {
+    .CorporateBanner_cover { 
+        width: 450px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .CorporateBanner_cover {
+        width: 370px;
+        height: 370px;
+    }
+    .CorporateDesign .banner_content_inner { 
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:992px) {
+    .CorporateBanner_cover {
+        width: 320px;
+        height: 320px;
+    }
+}
+@media screen and (max-width:768px) {
+    .CorporateBanner_cover {
+        width: 260px;
+        height: 260px;
+    }
+    .CorporateDesign .banner_content_inner {
+        margin-top: 98px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .CorporateBanner_cover {
+        width: 210px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+}

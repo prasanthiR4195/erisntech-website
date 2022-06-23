@@ -5,8 +5,7 @@ import {
   Checkbox,
   FormControlLabel,
   makeStyles,Box
-} from "@material-ui/core";
-import Button from "../CommonButton/Button";
+} from "@material-ui/core"; 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import contact from '../../assets/contact/contact.png'
 
@@ -25,11 +24,13 @@ const ContactUs = () => {
     name: name,
     number: number,
   };
-  const submitHandler = () => {
+  const submitHandler = (event) => {
+    event.preventDefault();
     console.log(data, "data");
     setEmail("");
     setName("");
     setNumber("");
+    alert('email :',email,'name :',name,'number :', number)
   };
 
   const classes = useStyle();
@@ -210,7 +211,7 @@ const ContactUs = () => {
               </li>
             </ul> 
           </div>
-          <button className="contactUs_button">
+          <button className="contactUs_button" onClick={submitHandler}>
             Submit <AiOutlineArrowRight className="arrow" />
           </button>
         </form>

@@ -15,7 +15,7 @@ import HybridappBlk3 from '../../components/HybridappBlks/HybridappBlk3';
 
 const HybridApp = () => {
   return (
-    <div>
+    <div className='hybrid_dev'>
          <MainBanner
             smallhead="Mobile App Development"
             mainHeadB1="Hybrid App Development Service"

@@ -44,8 +44,8 @@
 }
 .home_banner_cover {
   position: relative;
-  width: 500px;
-  height: 420px;
+  width: 600px;
+  height: 520px;
 }
 
 .bannerFloatingE {
@@ -359,7 +359,7 @@
   width: 260px;
 }
 .banner_content h1 {
-  font-size: 27px !important;
+ 
 }
 .home_banner_cover {
   height: 260px;

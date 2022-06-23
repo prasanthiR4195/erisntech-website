@@ -98,8 +98,8 @@
   .banner_main_cover {
     position: relative;
     display: flex;
-    justify-content: flex-end;
-    overflow: hidden;
+    justify-content: flex-end; 
+    margin-bottom: 150px;
 }
   .banner_img {
     flex: 50%;
@@ -139,4 +139,13 @@
       transform: translatey(0px);
     }
   }
-   
+  @media screen and (max-width: 768px) {
+    .banner_content_inner h5 { 
+      font-size: 15px;
+  }
+  .banner_content h1 {
+    font-size: 22px !important;
+    margin-bottom: 5px;
+}
+
+  }
