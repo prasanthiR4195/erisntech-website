@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/erisntech-website/static/css/main.c1ddeb27.css",
-    "main.js": "/erisntech-website/static/js/main.b4ab37a5.js",
+    "main.css": "/erisntech-website/static/css/main.d11db609.css",
+    "main.js": "/erisntech-website/static/js/main.32d927bc.js",
+    "static/media/corporate2.png": "/erisntech-website/static/media/corporate2.b1d14f238fb128c88125.png",
     "static/media/header-banner.png": "/erisntech-website/static/media/header-banner.1efefdb764abd3381798.png",
+    "static/media/corporate1.png": "/erisntech-website/static/media/corporate1.5855fccbdc08062a0c8c.png",
     "static/media/hand.png": "/erisntech-website/static/media/hand.905f96c6c3d36329446d.png",
     "static/media/black_section_bottom_img.png": "/erisntech-website/static/media/black_section_bottom_img.f5701519260b569c1ed8.png",
+    "static/media/center.png": "/erisntech-website/static/media/center.923f87ae75e2af34ea37.png",
+    "static/media/corporate3.png": "/erisntech-website/static/media/corporate3.21aaaaff568323ec414c.png",
     "static/media/img2.png": "/erisntech-website/static/media/img2.f47144ac90325c6ff4e8.png",
     "static/media/product-4.png": "/erisntech-website/static/media/product-4.59e09ba6188d5370e763.png",
+    "static/media/corporate_img.png": "/erisntech-website/static/media/corporate_img.4ffdaceccb03a20a0c7c.png",
     "static/media/mobiledev.png": "/erisntech-website/static/media/mobiledev.c49d839d34074e2128bb.png",
     "static/media/mobile_explained.png": "/erisntech-website/static/media/mobile_explained.385d91c9969deaeb35fe.png",
     "static/media/app2.png": "/erisntech-website/static/media/app2.92ccd738b90b379a9291.png",
@@ -16,6 +21,7 @@
     "static/media/digital.png": "/erisntech-website/static/media/digital.eb04c647cd6d4cadf7e9.png",
     "static/media/digital_explained.png": "/erisntech-website/static/media/digital_explained.93675a30f20fed88bf57.png",
     "static/media/w-shop.png": "/erisntech-website/static/media/w-shop.92cc166ce43571dee3f0.png",
+    "static/media/banner_hand.png": "/erisntech-website/static/media/banner_hand.a211c91ccfcece69c2a2.png",
     "static/media/app1.png": "/erisntech-website/static/media/app1.366a2d1008bcf9dabf07.png",
     "static/media/mob1.png": "/erisntech-website/static/media/mob1.366a2d1008bcf9dabf07.png",
     "static/media/UXBanner1.png": "/erisntech-website/static/media/UXBanner1.c187013fa09c7b6354cf.png",
@@ -35,9 +41,10 @@
     "static/media/banner-bg.png": "/erisntech-website/static/media/banner-bg.af4ca1b67b9e71a6b02f.png",
     "static/media/digital5.png": "/erisntech-website/static/media/digital5.fb41e715041559bea1c8.png",
     "static/media/sw.png": "/erisntech-website/static/media/sw.f02801c769b53cc3fa1d.png",
+    "static/media/banner_mobile.png": "/erisntech-website/static/media/banner_mobile.8dd923526862fce0ff8c.png",
     "static/media/LMS.png": "/erisntech-website/static/media/LMS.f60333cec34fab0f1deb.png",
     "static/media/digital4.png": "/erisntech-website/static/media/digital4.ee93b6d0cb112b2b67ab.png",
-    "static/media/center.png": "/erisntech-website/static/media/center.923f87ae75e2af34ea37.png",
+    "static/media/top.png": "/erisntech-website/static/media/top.ac8f0171566f3ad92a49.png",
     "static/media/table.png": "/erisntech-website/static/media/table.f9d871a026730b3ca0f7.png",
     "static/media/tab3.png": "/erisntech-website/static/media/tab3.f80b64e8c8c53bc394a1.png",
     "static/media/UXImg1.png": "/erisntech-website/static/media/UXImg1.f33fff89437b8b9007ae.png",
@@ -64,11 +71,11 @@
     "static/media/man.png": "/erisntech-website/static/media/man.94cc7ab5fa1cbfc6400d.png",
     "static/media/person2.png": "/erisntech-website/static/media/person2.2ca6613ec11ff01e3786.png",
     "index.html": "/erisntech-website/index.html",
-    "main.c1ddeb27.css.map": "/erisntech-website/static/css/main.c1ddeb27.css.map",
-    "main.b4ab37a5.js.map": "/erisntech-website/static/js/main.b4ab37a5.js.map"
+    "main.d11db609.css.map": "/erisntech-website/static/css/main.d11db609.css.map",
+    "main.32d927bc.js.map": "/erisntech-website/static/js/main.32d927bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1ddeb27.css",
-    "static/js/main.b4ab37a5.js"
+    "static/css/main.d11db609.css",
+    "static/js/main.32d927bc.js"
   ]
 }
