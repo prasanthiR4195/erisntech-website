@@ -69,7 +69,7 @@ const Menu = () => {
               </ul>
               {webApp ? (
                 <ul className="submenu_sub_right">
-                  <Link to="/webdev" onClick={submenuClose}>
+                  <Link to="/webdev/" onClick={submenuClose}>
                     <li>
                       <h6>Custom Website Development</h6>
                       <p> We build digital platforms that drive the value chain for global </p>
