@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erisntech-website/static/css/main.bebbe9ad.css",
-    "main.js": "/erisntech-website/static/js/main.2b84eb13.js",
+    "main.js": "/erisntech-website/static/js/main.b36dbaf4.js",
     "static/media/corporate2.png": "/erisntech-website/static/media/corporate2.b1d14f238fb128c88125.png",
     "static/media/header-banner.png": "/erisntech-website/static/media/header-banner.1efefdb764abd3381798.png",
     "static/media/corporate1.png": "/erisntech-website/static/media/corporate1.5855fccbdc08062a0c8c.png",
@@ -72,10 +72,10 @@
     "static/media/person2.png": "/erisntech-website/static/media/person2.2ca6613ec11ff01e3786.png",
     "index.html": "/erisntech-website/index.html",
     "main.bebbe9ad.css.map": "/erisntech-website/static/css/main.bebbe9ad.css.map",
-    "main.2b84eb13.js.map": "/erisntech-website/static/js/main.2b84eb13.js.map"
+    "main.b36dbaf4.js.map": "/erisntech-website/static/js/main.b36dbaf4.js.map"
   },
   "entrypoints": [
     "static/css/main.bebbe9ad.css",
-    "static/js/main.2b84eb13.js"
+    "static/js/main.b36dbaf4.js"
   ]
 }
