@@ -38,8 +38,7 @@ function App() {
         <Route path='/uxdev' element={<UXDev/>}/> 
         <Route path='/logodesign' element={<LogoDesigning/>}/> 
         <Route path='/hybridapp' element={<HybridApp/>}/> 
-        <Route path='/brochure' element={<BrochureDesign/>}/>
-        
+        <Route path='/brochure' element={<BrochureDesign/>}/> 
         <Route path='/corporate' element={<CorporateDesign/>}/>
 
         <Route path='/contactus' element={<ContactUs />}/>

@@ -48,7 +48,7 @@ const Menu = () => {
             <h5>Services</h5>
             <div className="submenu_block">
               <ul className="submenu_main">
-                <Link to="/webdev">
+                <Link to="/webdev/">
                   <li className="web_app" onClick={submenuwebShow}>
                     <h6>Web Application Development</h6>
                     <p>We build digital platforms that drive the value chain for global</p>

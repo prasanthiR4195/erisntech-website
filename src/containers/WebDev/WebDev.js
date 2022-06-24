@@ -12,8 +12,7 @@ import WebDevClients from "../../components/WebDevClients/WebDevClients";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
 
-import MainBanner from "../../components/Banner/MainBanner";
-import bannerBG from "../../assets/webdev/banner-bg.png";
+import MainBanner from "../../components/Banner/MainBanner"; 
 import WebDevBanner from "./WebDevBanner";
 import MovingBlk from "../../components/SoftwareDevBlks/MovingBlk";
 import HomeTechnologies from "../../components/Hometechnologies/HomeTechnologies";
@@ -38,8 +37,7 @@ const WebDev = () => {
         mainHeadB1="Web Development"
         bannerDesc=" Want to build your product? Turn to ErisnTech's UI and UX services. Our design team is a small design studio within a large software company that will help you build an engaging product easily and quickly"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerImg={<WebDevBanner />}
-        
+        bannerImg={<WebDevBanner />} 
       /> 
       <div className="web_dev_gradient">
         <CommonHeading mainB1="How ErisnTech works" />

@@ -5,7 +5,8 @@ import './Technologies.css'
 const Technologies = () => {
   return (
     <div className='technologies_wrap'>
-            <CommonHeading
+        lorem ipsummmmmmmmmmmmmmmmmmmmmmmmmmmmm
+            {/* <CommonHeading
            
              mainR="ErisnTech"
              mainB2=" A Technology-Driven Web Development Company"
@@ -36,7 +37,7 @@ const Technologies = () => {
                      <img src='assets/webdev/nodejs.png' alt="" />
                      <h6>Node JS</h6>
                  </div>
-             </div>
+             </div> */}
     </div>
   )
 } 
