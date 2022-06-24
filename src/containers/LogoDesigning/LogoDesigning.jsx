@@ -2,7 +2,7 @@ import React from 'react'
 import './LogoDesigning.css'
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import bannerBG from "../../assets/logodesign/banner-bg.png";
+
 import LogoDesignBlk1 from '../../components/LogoDesign/LogoDesignBlk1';
 import LogoBanner from './LogoBanner';
 import LogoDesignBlk2 from '../../components/LogoDesign/LogoDesignBlk2';
@@ -21,10 +21,7 @@ const LogoDesigning = () => {
             mainHeadB1="Logo Design"
             bannerDesc="We're among the Top UI UX Design Companies in India"
             btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-            bannerStyle="banner-content-left"
             bannerImg={<LogoBanner/>}
-            bannerBG={bannerBG}
-            uxclass="uxclass"
         />
         <LogoDesignBlk1/>
         <LogoDesignBlk2/>

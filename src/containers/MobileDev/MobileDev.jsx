@@ -2,7 +2,7 @@ import React from "react";
 import "./MobileDev.css";
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai"; 
-import bannerBG from "../../assets/mobiledev/banner-bg.png";
+
 import MobileDevBlk1 from "../../components/MobileDevBlks/MobileDevBlk1"; 
 import MobileDevSlider from "../../components/MobileDevBlks/MobileDevSlider";
 import MobileDevBanner from "./MobileDevBanner";
@@ -16,15 +16,14 @@ import './MobileDev.css'
 
 const MobileDev = () => {
   return (
-    <div className="mobiledev_cover">
+    <div className="mobiledev_cover  content-center">
       <MainBanner
         smallhead="Our Sevices"
         mainHeadB1="Mobile Development Services"
         bannerDesc="  Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Turn to ErisnTech's UI and UX services."
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left"
         bannerImg={<MobileDevBanner/>}
-        bannerBG={bannerBG}
+       
       /> 
       <MobileDevBlk1 /> 
       <MobileDevSlider/>

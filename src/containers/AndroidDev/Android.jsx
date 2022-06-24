@@ -3,7 +3,7 @@ import "./Android.css";
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import AndroidBanner from "./AndroidBanner";
-import bannerBG from "../../assets/androiddev/banner-bg.png";
+
 import UXDesignBlk1 from "../../components/UXDesignBlks/UXDesignBlk1";
 import CommonHeading from "../../components/commonHeading/CommonHeading";
 
@@ -34,15 +34,14 @@ const Android = () => {
     },
   ];
   return (
-    <div className="andorid">
+    <div className="andorid content-center">
       <MainBanner
         smallhead="Mobile App Development"
         mainHeadB1="Android application Development Service"
         bannerDesc="  Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Turn to ErisnTech's UI and UX services."
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left"
         bannerImg={<AndroidBanner />}
-        bannerBG={bannerBG}
+    
       />
       <div className="android_cover_one">
         <CommonHeading

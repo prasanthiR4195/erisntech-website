@@ -32,10 +32,7 @@
 .uiux_cover .banner_main_cover { 
   overflow: initial;
 }
-.uiux_cover  .banner_img { 
-  margin-top: 85px; 
-  justify-content: flex-end; 
-}
+ 
   @keyframes float {
     0% {
       transform: translatey(0px);
@@ -66,9 +63,7 @@
       width: 250px;
       height: 250px;
   }
-  .uiux_cover .banner_img {
-    flex: 31% 1; 
-}
+ 
 .uiux_cover .banner_content_inner {
   width: 90%;
   margin-left: 30px;
@@ -78,13 +73,5 @@
 }
   }
   @media screen and (max-width:500px) {
-  .uiux_cover .banner_img {
-    flex: 51% 1;
-    margin-top: 0 !important; 
-    top: 61px;
-    left: 0;
-    right: 0;
-    position: absolute;
-    margin: auto;
-}
+ 
 }

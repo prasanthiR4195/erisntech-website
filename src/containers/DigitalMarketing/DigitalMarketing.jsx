@@ -3,7 +3,7 @@ import MainBanner from '../../components/Banner/MainBanner'
 import DigitalMarketingBanner from './DigitalMarketingBanner'
 import './DigitalMarketingBanner.css'
 import banner1 from "../../assets/homepage/header-banner.png"; 
-import bannerBG from "../../assets/digitalmarketing/banner-bg.png";
+
 import { AiOutlineArrowRight } from "react-icons/ai";
 import SoftwareDeBlk1 from '../../components/SoftwareDevBlks/SoftwareDeBlk1';
 import digital1 from "../../assets/digitalmarketing/digital1.png";
@@ -103,16 +103,12 @@ const DigitalMarketing = () => {
     }
   ]  
   return (
-    <div className='digital'>
+    <div className='digital content-center'>
          <MainBanner
         smallhead="Our Sevices"
         mainHeadB1="Digital Marketing" 
         bannerDesc="Elevate your business with Erisntech, a theme design for all types of modern degital agencies, whatever their expertise might be!"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        img={banner1} 
-        bannerStyle="banner-content-left"
-        bannerBG={bannerBG}
-        // bannerImg={<DigitalMarketingBanner/>
         bannerImg={<DigitalMarketingBanner/>} 
       />
       <SoftwareDeBlk1 

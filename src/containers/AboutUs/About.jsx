@@ -21,7 +21,6 @@ const About = () => {
         mainHeadB1="We work for your incredible success."
         bannerDesc="Erisn empowers organizations to transform their businesses by accelerating digital transformation and offers a complete bunch of It and software development services to help businesses address their key technology challenges, enhance productivity & control costs."
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left"
         bannerImg={<AboutBanner/>}
         bannerBG={bannerBG}
       /> 

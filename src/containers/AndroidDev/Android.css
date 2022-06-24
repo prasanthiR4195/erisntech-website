@@ -94,9 +94,7 @@
     .andorid .bannerBG {
         width: 58%;
     }
-    .banner_img {
-        flex: 40% 1; 
-    }
+   
 }
 
 @media screen and (max-width: 1100px) {

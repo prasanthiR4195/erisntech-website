@@ -5,27 +5,26 @@ img.mobiledev {
   bottom: 0;
   animation: float 10s ease-in-out infinite;
 }
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-
-  50% {
-    transform: translatey(-20px);
-  }
-
-  100% {
-    transform: translatey(0px);
-  }
+.mobiledev_banner_cover img.banner_background {
+  position: absolute;
+  width: 85%;
+  right: 0;
 }
-.mobiledev_banner_cover{
+.mobiledev_banner_cover div {
+  margin-top: 86px;
+}
+.mobiledev_banner {
   position: relative;
-  width:500px;
-  height:500px;
+  width: 500px;
+  height: 500px;
+}
+.mobiledev_banner_cover {
+  justify-content: flex-end;
 }
 
-
-
+.mobiledev_banner {
+  margin-top: 86px;
+}
 
 @media screen and (min-width: 1300px) {
   .andorid .bannerBG {
@@ -34,9 +33,7 @@ img.mobiledev {
   .andorid .android_cover_one {
     margin-top: 150px;
   }
-  .mobiledev_cover .banner_main_cover{
-    overflow: initial;
-}
+ 
 .mobiledev_cover  .bannerBG {
   width: 63%;
   top: -85px;
@@ -44,9 +41,7 @@ img.mobiledev {
 }
 @media screen and (min-width: 1200px) {
  
-  .mobiledev_cover .banner_main_cover{
-    overflow: initial;
-}
+ 
 .mobiledev_cover  .bannerBG {
   width: 63%;
   top: -85px;

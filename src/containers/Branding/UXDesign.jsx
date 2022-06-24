@@ -1,7 +1,7 @@
 import React from "react"; 
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import bannerBG from "../../assets/uiux/banner-bg.png";
+
 import UXDesignBlk1 from "../../components/UXDesignBlks/UXDesignBlk1";
 import UXDesignBlk2 from "../../components/UXDesignBlks/UXDesignBlk2";
 import UXDesignBlk3 from "../../components/UXDesignBlks/UXDesignBlk3";
@@ -31,16 +31,13 @@ const UXDesign = () => {
     }
 ]
   return (
-    <div className="uiux_cover">
+    <div className="uiux_cover  content-center">
       <MainBanner
         smallhead="UIUX & Branding Design"
         mainHeadB1="Branding & Design Services"
         bannerDesc="Elevate your brand identity design and attract new customers. Meet with our branding experts to discuss your brand identity & design requirements."
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left"
         bannerImg={<UXBanner/>}
-        bannerBG={bannerBG}
-        uxclass="uxclass"
       />
       <div style={{background:"#FAFAFA"}}>
         <UXDesignBlk1 block1={block1}/>

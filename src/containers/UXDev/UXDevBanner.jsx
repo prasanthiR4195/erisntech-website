@@ -7,9 +7,12 @@ import ux from "../../assets/UXDev/UX.png";
 import right from "../../assets/UXDev/right.png";
 import bottom from "../../assets/UXDev/bottom.png";
 import './UXDev.css'
+import bannerBG from "../../assets/UXDev/banner-bg.png";
 
 const UXDevBanner = () => {
   return (
+    <div className="webdev_banner_cover">
+    <img src={bannerBG} className="banner_background" />
     <div className='uxbanner_img_cover'>
         <img src={left} className="uxLeft" alt="" />
         <img src={top} className="uxTop" alt="" />
@@ -18,6 +21,7 @@ const UXDevBanner = () => {
         <img src={ux} className="uxUx"  alt="" />
         <img src={right} className="uxRight" alt="" />
         <img src={bottom} className="uxBottom" alt="" />
+    </div>
     </div>
   )
 }

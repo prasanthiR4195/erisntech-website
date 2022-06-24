@@ -1,9 +1,20 @@
-.sw1{
-    animation: float 5s ease-in-out infinite;
-    width:400px;
-    position:absolute;
-    right: 20%;
-    bottom:20%;
+.sw1 {
+  animation: float 5s ease-in-out infinite;
+  width: 93%;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.webdev_banner_cover {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+img.banner_background {
+  position: absolute;
+  width: 100%;
 }
 @keyframes float {
     0% {

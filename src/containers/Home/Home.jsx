@@ -23,7 +23,6 @@ const Home = () => {
         mainHeadB2="  for your Business"
         bannerDesc="Elevate your business with erisntech, a theme design for all types of modern degital agencies, whatever their expertise might be!"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left" 
         bannerImg={<HomeBanner/>}
       />
       <HomeBlock />

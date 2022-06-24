@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
 import sw1 from "../../assets/mobiledev/mobiledev.png";
-import './MobileDev.css'
+import "./MobileDev.css";
+import bannerBG from "../../assets/mobiledev/banner-bg.png";
 
 const MobileDevBanner = () => {
   return (
-    <div className='mobiledev_banner_cover'>
-      <img src={sw1} className="mobiledev" />
-  </div> 
-  )
-}
+    <div className="webdev_banner_cover mobiledev_banner_cover">
+      <img src={bannerBG} className="banner_background" />
+      <div className="mobiledev_banner">
+        <img src={sw1} className="mobiledev" />
+      </div>
+    </div>
+  );
+};
 
-export default MobileDevBanner
+export default MobileDevBanner;

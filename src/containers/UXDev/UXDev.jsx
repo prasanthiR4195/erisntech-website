@@ -1,7 +1,7 @@
 import React from "react";
 import MainBanner from "../../components/Banner/MainBanner"; 
 import { AiOutlineArrowRight } from "react-icons/ai";
-import bannerBG from "../../assets/UXDev/banner-bg.png";
+
 import WebdevExplainedRev from "../../components/WebDevExplained/WebdevExplainedRev";
 import UXDevBlk1 from "../../components/UXDev/UXDevBlk1";
 import webdevExp from "../../assets/UXDev/ux_left_img.png";
@@ -21,9 +21,8 @@ const UXDev = () => {
         mainHeadB1="UI UX Design"
         bannerDesc="We're among the Top UI UX Design Companies in India"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        bannerStyle="banner-content-left"
         bannerImg={<UXDevBanner/>}
-        bannerBG={bannerBG}
+    
       />
       <UXDevBlk1 />
       <div style={{ background: "#FAFAFA",padding:'50px 0' }}>

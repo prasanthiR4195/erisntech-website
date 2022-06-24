@@ -399,11 +399,7 @@ p.logo_ourwork_para {
     .logo_design .LogoDesignBlk2_left_inner {
         margin-left: 127px; 
     }
-    .banner_content_inner {
-        width: 62%;
-        margin-left: 60px;
-        position: relative;
-    }
+ 
 
 }
 @media screen and (max-width: 1200px) {
@@ -590,14 +586,8 @@ p.logo_ourwork_para {
         width: 263px;
         height: 257px;
     }
-    .banner_content_inner {
-        margin-left: 30px;
-        margin-top: 45px;
-        width: 80%;
-    }
-    .banner_content_inner h5 {
-        margin-bottom: 0px;
-    }
+ 
+ 
     .banner_content p { 
         line-height: 23px;
     }
@@ -667,9 +657,7 @@ p.logo_ourwork_para {
         width: 210px;
         height: 286px;
     }
-    .banner_content_inner { 
-        margin-top: 102px; 
-    }
+ 
     .logo_design .LogoDesignBlk2_left_inner {
         margin-left: 13px;
         width: 90%;

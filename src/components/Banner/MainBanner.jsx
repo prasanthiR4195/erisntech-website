@@ -25,8 +25,8 @@ const MainBanner = ({
 }) => {
   return (
     <div className="banner_main_cover">
-      <img src={bannerBG} className={`bannerBG ${uxclass}`} />
-      <div className={`banner_content`}>
+      {/* <img src={bannerBG} className={`bannerBG ${uxclass}`} /> */}
+      <div className={`banner_content` }>
         <div className="banner_content_inner">
         <h5>{smallhead}</h5>
         {/* <div className="sub_head_bg red_font">{subHeadwithBg}</div> */}

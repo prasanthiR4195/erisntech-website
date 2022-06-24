@@ -1,8 +1,7 @@
 import React from "react";
 import "./SoftwareDev.css";
 import MainBanner from "../../components/Banner/MainBanner";
-import banner1 from "../../assets/homepage/header-banner.png"; 
-import bannerBG from "../../assets/softwaredev/banner-bg.png";
+import banner1 from "../../assets/homepage/header-banner.png";  
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import SoftwareDeBlk1 from "../../components/SoftwareDevBlks/SoftwareDeBlk1";
@@ -69,10 +68,6 @@ const SoftwareDev = () => {
         mainHeadB2="  for your Business"
         bannerDesc="Elevate your business with Erisntech, a theme design for all types of modern degital agencies, whatever their expertise might be!"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
-        img={banner1}
-       
-        bannerStyle="banner-content-left"
-        bannerBG={bannerBG}
         bannerImg={<SoftwareDevBanner/>}
       /> 
       <SoftwareDeBlk1 
