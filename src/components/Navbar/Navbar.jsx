@@ -32,7 +32,6 @@ const Menu = () => {
     setBranding(!branding);
     setWebApp(false)
     setMobileDev(false)
-    
   }
   return (
     <>
@@ -48,19 +47,19 @@ const Menu = () => {
             <h5>Services</h5>
             <div className="submenu_block">
               <ul className="submenu_main">
-                <Link to="/webdev/">
-                  <li className="web_app" onClick={submenuwebShow}>
+                <Link to="/webdev">
+                  <li className="web_app" onMouseEnter={submenuwebShow}  >
                     <h6>Web Application Development</h6>
                     <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
-                <Link to="/mobiledev" onClick={submenuMobShow}>
+                <Link to="/mobiledev" onMouseEnter={submenuMobShow}>
                   <li>
                     <h6>Mobile Application Development</h6>
                     <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
-                <Link to="/uxdesign" onClick={submenuBrandingShow}>
+                <Link to="/uxdesign" onMouseEnter={submenuBrandingShow}>
                   <li>
                     <h6>Branding & Designing</h6>
                     <p>We build digital platforms that drive the value chain for global </p>
@@ -87,17 +86,19 @@ const Menu = () => {
               ) : (
                 ""
               )}
-              {mobileDev? <ul className="submenu_sub_right">
+              {mobileDev ? <ul className="submenu_sub_right">
                   <Link to="/androiddev" onClick={submenuClose}>
                     <li>
                       <h6>Android App Development</h6>
                       <p> We build digital platforms that drive the value chain for global </p>
                     </li>
                   </Link>
+                  <Link to="" onClick={submenuClose}> 
                   <li>
                     <h6>IOS App Development</h6>
                     <p>We build digital platforms that drive the value chain for global </p>
                   </li>
+                  </Link>
                   <Link to="/hybridapp" onClick={submenuClose}>
                   <li>
                     <h6>Hybrid App Development</h6>
