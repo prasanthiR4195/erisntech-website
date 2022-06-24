@@ -27,9 +27,9 @@ function App() {
       <Navbar/>
       <Routes> 
         <Route path="/*" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<About />} />
-        <Route path='/webdev' element={<WebDev/>} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="about" element={<About />} />
+        <Route path='webdev' element={<WebDev/>} />
         <Route path='/mobiledev' element={<MobileDev/>} />
         <Route path='/uxdesign' element={<UXDesign/>}/>
         <Route path='/softwaredev' element={<SoftwareDev/>}/> 
