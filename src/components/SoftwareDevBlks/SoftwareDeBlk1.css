@@ -40,8 +40,11 @@
     width: 70%;
     margin: auto;
     font-weight: 900;
+    display: block;
 }
-
+.software_innr_wrap_right .SwMoving span {
+    text-align: right;
+}
 .swInnerRight {
     display: flex;
     flex-wrap: wrap;

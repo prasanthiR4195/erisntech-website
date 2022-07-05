@@ -103,6 +103,9 @@
     justify-content: center;
     align-items: center;
   }
+  .andorid .banner_img {
+    flex: 47% 1; 
+}
   .banner_content {
     display: flex;
     align-items: flex-end;

@@ -1,11 +1,11 @@
 .software_dev_wrap .swInnerRightBlk h5 { 
     width: 94%; 
 }
-.software_dev_wrap span.heading_underline:before { 
-    bottom: 12px;
+.software_dev_wrap span.heading_underline:before {
+    bottom: -8px;
 }
 .software_dev_wrap span.heading_underline:after { 
-    bottom: 12px;
+    bottom: -8px;
 }
 @media screen and (max-width:1200px) {
     .software_dev_wrap .banner_content {

@@ -168,26 +168,33 @@ p.submenu {
   background: #F5F5F5;
   transition: .5s;
 }
- 
-.submenu_sub_right li h6 {
+.submenu_sub_left {
+  position: absolute;
+  left: 6px;
+  width: 50%;
+  background: #fff;
+  list-style-type: none;
+  border-right: 1px solid #ddd;
+}
+.submenu_sub_right li h6,.submenu_sub_left li h6 {
   font-weight: 300;
   font-size: 13px;
   margin-bottom: 3px;
   color:#F27D84;
 }
-.submenu_sub_right li p {
+.submenu_sub_right li p,.submenu_sub_left li p {
   font-size: 12px;
   margin: 0 0;
   font-weight: 300;
   color: #000 !important;
   line-height: 20px;
 }
-ul.submenu_sub_right li {
+ul.submenu_sub_right li ,.submenu_sub_left li{
   margin-bottom: 10px;
   padding:0  10px;
   transition: .5s;
 } 
-ul.submenu_sub_right li:hover {
+ul.submenu_sub_right li:hover ,.submenu_sub_left  li:hover{
   margin-bottom: 10px; 
   background: whitesmoke;
   transition: .5s;

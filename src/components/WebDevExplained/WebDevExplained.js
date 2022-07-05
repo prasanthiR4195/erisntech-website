@@ -15,6 +15,8 @@ const WebDevExplained = ({
   subhead,
   subhead2,
   subhead3,
+  subhead4,
+  para3
 }) => { 
   AOS.init()
   return (
@@ -29,6 +31,8 @@ const WebDevExplained = ({
           <p>{para}</p> 
           <h5>{subhead3}</h5>
           <p>{para2}</p>
+          <h5>{subhead4}</h5>
+          <p>{para3}</p>
           {btn ? (
             <Button>
               Contact Us <AiOutlineArrowRight className="arrow" />

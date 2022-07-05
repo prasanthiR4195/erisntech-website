@@ -1,0 +1,276 @@
+/****************specialist banner*****************/
+img.specialist_screen {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    animation: float 18s ease-in-out infinite;
+}
+
+.specialistBanner_cover {width: 560px;height: 400px;position: relative;margin-top: 100px;}
+
+.specialist_top1,.specialist_top2 {
+    width: 24%;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+img.specialist_top1 {
+    bottom: 52%;
+    right: 26%;
+    animation: float 15s ease-in-out infinite;
+}
+
+img.specialist_top2 {
+    bottom: 60%;
+    right: 43%;
+    z-index: 0;
+    animation: float 16s ease-in-out infinite;
+}
+
+.specialist_left1,.specialist_left2,.specialist_left3 {
+    width: 11%;
+    left: 0;
+    position: absolute;
+}
+
+img.specialist_left1 {
+    bottom: 51%;
+    left: 11%;
+    animation: floatX 14s ease-in-out infinite;
+}
+
+img.specialist_left2 {
+    bottom: 34%;
+    left: 11%;
+    animation: floatX 13s ease-in-out infinite;
+}
+
+img.specialist_left3 {
+    bottom: 17%;
+    left: 11%;
+    animation: floatX 12s ease-in-out infinite;
+}
+
+.specialist_cloud1,.specialist_cloud2 {
+    width: 34%;
+    position: absolute;
+}
+
+img.specialist_cloud1 {
+    left: 9%;
+    bottom: 78%;
+    animation: floatX 13s ease-in-out infinite;
+}
+
+img.specialist_cloud2 {
+    right: 21%;
+    bottom: 87%;
+    animation: floatX 13s ease-in-out infinite;
+}
+
+/****************specialist banner*****************/
+.heading_underline {
+    width: 86%;
+    margin: 50px auto;
+    display: flex;
+    background: #fff3e0;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
+}
+.SpecialistBlk1_cover {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.SpecialistBlk1_left {
+    background: #fcc7ab3d;
+}
+.SpecialistBlk1_left {
+    flex: 50% 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SpecialistBlk1_right {
+    flex: 50% 1;
+    padding: 40px;
+    background: linear-gradient(180deg, #f8660957 0%, #ec463c70 47%, #eb35427a 100%) 0% 0% no-repeat padding-box;
+}
+.SpecialistBlk1_left_inner {
+    margin-left: 100px;
+    position: relative;
+    width: 72%;
+}
+
+.SpecialistBlk1_left_inner:before {
+    position: absolute;
+    background: red;
+    content: "";
+    height: 50px;
+    width: 50px;
+    left: -28px;
+    top: -14px;
+    filter: blur(32px);
+}
+.SpecialistBlk1_left_inner h2 {
+    font-size: 26px;
+    font-weight: 800;
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.SpecialistBlk1_left_inner .heading_underline {
+    margin: -25px 0 49px 0;
+}
+.SpecialistBlk1_left_inner p {
+    font-size: 14px;
+} 
+.SpecialistBlk2_inner .left_block_wrap {
+    border: 0;
+    background: #fbd5d4;
+    margin: 8px;
+}
+
+.SpecialistBlk2_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.SpecialistBlk2_cover {
+    background: linear-gradient(180deg, #f8660966 0%, #ec463c6b 47%, #eb354269 100%) 0% 0% no-repeat padding-box;
+    padding: 70px 0;
+} 
+.SpecialistBlk2_para {
+    margin: 30px auto 10px;
+    text-align: center;
+    width: 40%;
+    font-size: 14px;
+    color: #747474;
+}
+.specialist_cover .web_dev_heading h4 { 
+    width: 80%;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (max-width: 1200px) {
+    .specialist_cover .banner_img {
+        flex: 55% 1; 
+    }
+    .specialistBanner_cover {
+        width: 510px;
+        height: 388px; 
+    }
+    .specialist_cover .banner_content_inner { 
+        margin-left: 38px; 
+    }
+    .specialist_cover .banner_content { 
+        flex: 37% 1;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .specialistBanner_cover {
+        width: 480px;
+        height: 367px;
+    }
+    .specialist_cover .banner_img {
+        flex: 52% 1;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .specialist_cover .banner_img {
+        flex: 48% 1;
+    }
+    .SpecialistBlk1_left_inner {
+        margin-left: 40px; 
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .specialistBanner_cover {
+        width: 375px;
+        height: 297px;
+    }
+    .specialist_cover .banner_content_inner {
+        margin-left: 26px;
+        margin-bottom: 0;
+       
+    }
+    .specialist_cover .banner_main_cover { 
+        margin-bottom: 80px;
+    }
+    .SpecialistBlk1_right { 
+        padding: 24px 0px; 
+    }
+    .swInnerRightBlk h5 { 
+        width: 68%; 
+    }
+}
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 768px) {
+    .specialistBanner_cover {
+        width: 345px;
+        height: 277px;
+    }
+    .SpecialistBlk1_left_inner h2 {
+        font-size: 22px; 
+        width: 96%; 
+    }
+    .SpecialistBlk2_para { 
+        width: 80%; 
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .specialistBanner_cover {
+        width: 273px;
+        height: 208px;
+        margin-top: 142px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .specialistBanner_cover {
+        width: 263px;
+        height: 181px;
+        margin-top: 17px;
+    }.specialist_cover .banner_content_inner {
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+ 
+    .SpecialistBlk1_left_inner {
+        margin-left: 39px; 
+        margin-top: 42px;
+    }
+    .SpecialistBlk1_left_inner h2 {
+        font-size: 21px;
+        width: 100%;
+    }
+    .contact_right { 
+        padding-bottom: 15px;
+    }
+    .software_dev_blk_1_wrap {
+        margin: 60px 0 0;
+    }
+    .SwMoving img {
+        margin: 16px auto 28px;
+        width: 250px;
+    }
+    .mobileSlider_cover {
+        padding: 50px 20px;
+    }
+}

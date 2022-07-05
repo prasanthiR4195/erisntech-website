@@ -1,7 +1,8 @@
-.CorporateBanner_cover{
+.CorporateBanner_cover {
     position: relative;
-    width:500px;
-    height:500px;
+    width: 420px;
+    height: 450px;
+    margin-top: 55px;
 }
 .corporate_screen {
     animation: float 18s ease-in-out infinite;

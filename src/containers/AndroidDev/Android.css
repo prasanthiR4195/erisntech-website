@@ -14,7 +14,7 @@
 }
 
 .android_mobile {
-    animation: float 10s ease-in-out infinite;
+    animation: float 16s ease-in-out infinite;
     width: 31%;
     position: absolute;
     right: 0;
@@ -52,7 +52,7 @@
     bottom: 56%;
     right: 31%;
     width: 36%;
-    animation: float 10s ease-in-out infinite;
+    animation: floatX 15s ease-in-out infinite;
 }
 
 .android__bottom {
@@ -60,7 +60,7 @@
     bottom: 24%;
     left: 5%;
     width: 36%;
-    animation: float 11s ease-in-out infinite;
+    animation: floatX 15s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -81,7 +81,11 @@
 .andorid .banner_main_cover {
     overflow: initial;
 }
-
+.andorid .mobiledev_banner_cover img.banner_background {
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
 
 
 @media screen and (min-width: 1200px) {
@@ -96,7 +100,21 @@
     }
    
 }
-
+@media screen and (max-width: 1150px) {
+    .andorid .banner_content_inner {
+        width: 89%;
+        margin-left: 35px;  
+    }
+    .andorid .banner_img {
+        flex: 53% 1;
+    }
+    .andorid .banner_content { 
+        flex: 38% 1;
+    }
+    .andorid .mobiledev_banner_cover img.banner_background { 
+        width: 102%; 
+    }
+}
 @media screen and (max-width: 1100px) {
     .andorid .bannerBG {
         width: 60%;
@@ -104,21 +122,36 @@
     .andorid .banner_content_inner { 
         margin-left: 43px; 
     }
+    .androidDev_banner { 
+        width: 455px;
+        height: 475px;
+    }
+    .andorid .banner_content {
+        flex: 35% 1;
+    }
 }
 @media screen and (max-width: 1050px) {
     .androidDev_banner {
-        width: 460px;
-        height: 460px; 
+        width: 420px;
+        height: 420px;
     }
     .andorid .bannerBG {
         width: 56%;
     }
+    .andorid .banner_img {
+        flex: 35% 1;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .andorid .content-center .banner_content {
+        align-items: flex-end;
+    }
 }
 @media screen and (max-width: 992px) {
-.androidDev_banner {
-    width: 320px;
-    height: 320px;
-}
+    .androidDev_banner {
+        width: 396px;
+        height: 377px;
+    }
 .andorid .banner_content_inner {
     margin-left: 25px;
     margin-top: 87px;
@@ -126,8 +159,8 @@
 }
 @media screen and (max-width: 768px) {
     .androidDev_banner {
-        width: 210px;
-        height: 210px;
+        width: 330px;
+        height: 330px;
     }
     .andorid .banner_content_inner {
         margin-left: 25px;
@@ -135,9 +168,19 @@
         width: 87%;
     }
 }
+@media screen and (max-width: 700px) {
+.androidDev_banner {
+    width: 300px;
+    height: 300px;
+}
+}
 @media screen and (max-width: 600px) {
     .andorid .slider_head h2 {
         font-size: 20px;
+    }
+    .androidDev_banner {
+        width: 268px;
+        height: 268px;
     }
 }
 @media screen and (max-width: 500px) {

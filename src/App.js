@@ -18,6 +18,7 @@ import LogoDesigning from "./containers/LogoDesigning/LogoDesigning";
 import HybridApp from "./containers/HybridApp/HybridApp";
 import BrochureDesign from "./containers/BrochureDesign/BrochureDesign";
 import CorporateDesign from "./containers/CorporateDesign/CorporateDesign";
+import Specialist from "./containers/Specialist/Specialist";
 
  
 function App() { 
@@ -40,6 +41,8 @@ function App() {
         <Route path='/hybridapp' element={<HybridApp/>}/> 
         <Route path='/brochure' element={<BrochureDesign/>}/> 
         <Route path='/corporate' element={<CorporateDesign/>}/>
+        <Route path='/specialist' element={<Specialist/>}/>
+
 
         <Route path='/contactus' element={<ContactUs />}/>
         <Route path="/term" element={<TermOfPayment/>} />

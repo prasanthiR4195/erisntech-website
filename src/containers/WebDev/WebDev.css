@@ -83,14 +83,9 @@
         width: 95%;
         margin-left: 40px;
     }
-    .webdev .webdev_banner { 
-        height: 470px;
-        width: 400px;
-    }
-    .webdev .sw1 { 
-        width: 372px; 
-        right: 13px;
-        bottom: 30%;
+   
+    .webdev .sw1 {  
+        bottom: 9%;
     } 
     .web_dev_heading h4 {
         font-size: 23px; 
@@ -102,6 +97,18 @@
     .web_dev_explained .web_dev_right img {
         width: 315px;
     }
+    .web_dev_explained {
+        padding: 50px 50px;
+    }
+    .webdev .swDevBlk3_inner .swInnerRightBlk p { 
+        width: 48%; 
+    }
+}
+@media screen and (max-width:850px) {
+    .webdev_banner { 
+        height: 470px;
+        width: 460px;
+    }
 }
 @media screen and (max-width:768px) {
     .web_dev_explained {
@@ -110,27 +117,33 @@
     }
     .webdev .sw1 {
         width: 300px; 
-    }
-    .webdev .webdev_banner {
-        height: 470px;
-        width: 316px;
-    }
+    }  
     .webdev .banner_content_inner { 
         margin-left: 30px;
+    } 
+    .webdev_banner_cover { 
+        height: 400px;
     }
+    .webdev .webdev_banner {
+        height: 390px;
+        width: 316px;
+    }
+    .banner_main_cover { 
+        margin-bottom: 40px;
+    }
+   
 }
 @media screen and (max-width:600px) {
-    .webdev .webdev_banner {
-        height: 200px;
-        width: 200px;
-    }
-    .webdev .sw1 {
-        width: 200px;
-        right: 13px;
+  
+    .webdev .sw1 { 
         bottom: 0;
     }
     .banner_img {
         flex: 40% 1; 
+    }
+    .webdev .webdev_banner {
+        height: 335px;
+        width: 277px;
     }
 }
 @media screen and (max-width:500px) {
@@ -144,16 +157,19 @@
         width: 228px;
         margin-top: 10px;
     }
-    .webdev .banner_content { 
-        margin-top: 108px;
-    }
+  
     .webdev .webdev_banner {
-        height: 255px;
-        width: 299px;
+        width: 92%; 
+        margin: auto;
+    } 
+    .webdev .banner_content_inner {
+        margin-left: 30px;
+        margin-top: 75px;
     }
-    .webdev .sw1 {
-        width: 372px;
-        right: 13px;
-        bottom: 0;
+    .webdev .swDevBlk3_inner .swInnerRightBlk p {
+        width: 92%;
+    }
+    .tech_slider_wrap .item img {
+        width: 100px !important; 
     }
 }

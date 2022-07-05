@@ -9,6 +9,7 @@ const Menu = () => {
   const [webApp, setWebApp] = useState(false);
   const [mobileDev, setMobileDev] = useState(false);
   const [branding,setBranding] = useState(false);
+  const [digital,setDigital] = useState(false);
   const submenuHandler = () => {
     setShowmenu(!showmenu);
   };
@@ -17,23 +18,32 @@ const Menu = () => {
     setWebApp(false);
     setMobileDev(false)
     setBranding(false)
+    setDigital(false)
   };
   const submenuwebShow = () => {
     setWebApp(!webApp);
     setMobileDev(false)
     setBranding(false)
+    setDigital(false)
   };
   const submenuMobShow =() =>{
     setMobileDev(!mobileDev);
     setWebApp(false)
     setBranding(false)
+    setDigital(false)
   }
   const submenuBrandingShow = () =>{
     setBranding(!branding);
     setWebApp(false)
     setMobileDev(false)
   }
-  return (
+  const submenuDigitalShow = () =>{
+    setDigital(!digital)
+    setWebApp(false)
+    setMobileDev(false)
+    setBranding(false)
+  }
+   return (
     <>
       <p>
         <Link to="/erisntech-website/">Home</Link>
@@ -48,7 +58,7 @@ const Menu = () => {
             <div className="submenu_block">
               <ul className="submenu_main">
                 <Link to="/webdev">
-                  <li className="web_app" onMouseEnter={submenuwebShow}  >
+                  <li className="web_app" onMouseEnter={submenuwebShow} >
                     <h6>Web Application Development</h6>
                     <p>We build digital platforms that drive the value chain for global</p>
                   </li>
@@ -142,13 +152,39 @@ const Menu = () => {
                     <p> We build digital platforms that drive the value chain for global </p>
                   </li>
                 </Link>
-                <Link to="/digitalmarketing" onClick={submenuClose}>
+                <Link to="/digitalmarketing" onMouseEnter={submenuDigitalShow}>
                   <li>
                     <h6>Digital marketing</h6>
                     <p>We build digital platforms that drive the value chain for global</p>
                   </li>
                 </Link>
               </ul>
+              {digital ? <ul className="submenu_sub_left">
+                  <Link to="/uxdev" onClick={submenuClose}>
+                    <li>
+                      <h6>Website/App UI/UX Designing </h6>
+                      <p> We build digital platforms that drive the value chain for global </p>
+                    </li>
+                  </Link>
+                  <Link to="/brochure" onClick={submenuClose}> 
+                  <li>
+                    <h6>Brochures Designing </h6>
+                    <p>We build digital platforms that drive the value chain for global </p>
+                  </li>
+                  </Link>
+                  <Link to="/logodesign" onClick={submenuClose}>
+                  <li>
+                    <h6>Logo Designing</h6>
+                    <p>We build digital platforms that drive the value chain for global</p>
+                  </li>
+                  </Link>
+                  <Link to="/corporate" onClick={submenuClose}> 
+                  <li>
+                    <h6>Corporate Designs</h6>
+                    <p>We build digital platforms that drive the value chain for global</p>
+                  </li>
+                  </Link>
+                </ul> : "" }
             </div>
           </div>
         ) : (

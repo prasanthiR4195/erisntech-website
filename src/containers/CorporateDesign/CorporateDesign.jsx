@@ -22,7 +22,7 @@ const CorporateDesign = () => {
     <div className="CorporateDesign">
       <MainBanner
         smallhead="UIUX & Branding Design"
-        mainHeadB1="Corporate Identity Design"
+        mainHeadB1="Corporate Identity Design" 
         bannerDesc="Lorem ipsum dolor in sit amet, consetetursadip scing elitr, sed diam nonumy eirmod temporod.Lorem ipsum dolor in sit amet, consetetursadip scing elitr, sed diam nonumy eirmod temporod"
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
         bannerImg={<CorporateBanner />}

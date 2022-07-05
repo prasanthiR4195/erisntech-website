@@ -46,11 +46,17 @@
       transform: translatey(0px);
     }
   }
+  .uiux_cover  .mobiledev_banner_cover img.banner_background {
+    width: 111%;
+}
   @media screen and (max-width:1024px) {
    .uiux_cover .UxBanner_cover { 
       width: 413px;
       height: 413px;
   } 
+  .uiux_cover .mobiledev_banner_cover img.banner_background {
+    width: 100%;
+}
   }
   @media screen and (max-width:992px) {
   .uiux_cover .UxBanner_cover {
@@ -60,8 +66,8 @@
   }
   @media screen and (max-width:768px) {
     .uiux_cover .UxBanner_cover {
-      width: 250px;
-      height: 250px;
+      width: 295px;
+      height: 295px;
   }
  
 .uiux_cover .banner_content_inner {
@@ -72,6 +78,10 @@
   margin-top: 95px;
 }
   }
-  @media screen and (max-width:500px) {
- 
+  @media screen and (max-width:600px) {
+    .uiux_cover .UxBanner_cover {
+      width: 226px;
+      height: 264px;
+      margin-top: 57px;
+  }
 }

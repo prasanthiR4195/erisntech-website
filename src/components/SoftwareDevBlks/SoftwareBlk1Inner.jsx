@@ -40,7 +40,7 @@ const SoftwareBlk1Inner = ({ block1 }) => {
               </div>
             </div>
 
-            <div className="software_innr_wrap">
+            <div className="software_innr_wrap software_innr_wrap_right">
               <div className="swInnerRight">
                 <div className="swInnerRightBlk">
                   <MovingBlk icon={index.icon5} color={color4} />

@@ -45,7 +45,8 @@ img.mobiledev {
 .mobiledev_cover  .bannerBG {
   width: 63%;
   top: -85px;
-}
+} 
+
 }
 @media screen and (max-width: 1300px) {
   .andorid .android_cover_one {
@@ -84,8 +85,22 @@ img.mobiledev {
   .andorid .androidDevBlk1_inner {
     padding: 20px 25px;
 }
+.mobiledev_banner_cover img.banner_background { 
+  width: 100%; 
 }
-
+.mobiledev_cover .banner_content { 
+  flex: 38% 1;
+}
+}
+@media screen and (max-width: 1150px) {
+  .mobiledev_cover  .banner_img {
+  flex: 60% 1; 
+}
+.mobiledev_cover .banner_content {
+  flex: 40% 1;
+}
+ 
+}
 @media screen and (max-width: 1100px) {
   .andorid .banner_content h1 {
     font-size: 38px;
@@ -123,6 +138,9 @@ img.mobiledev {
 }
 .mobiledev_cover .banner_img {
   flex: 45% 1; 
+} 
+.mobiledev_banner_cover img.banner_background {
+  width: 118%;
 }
 } 
 
@@ -188,19 +206,33 @@ img.mobiledev {
 .andorid .web_dev_left {
   flex: 61% 1;
 }
-.mobiledev_cover .mobiledev_banner_cover { 
-  width: 410px;
-  height: 410px;
-}
-.mobiledev_cover img.mobiledev {
-  width: 250px; 
-}
+  
 .mobiledev_cover .banner_content_inner {
   width: 95%;
   margin-left: 38px;
 }
 }
-
+@media screen and (max-width: 920px) {
+  .mobiledev_banner_cover img.banner_background {
+    width: 100%;
+}
+.mobiledev_banner {
+  width: 385px;
+  height: 415px;
+}
+.mobiledev_banner_cover { 
+  height: 500px;
+}
+.mobiledev_cover img.mobiledev {
+  width: 280px; 
+}
+.mobiledev_cover .banner_img {
+  flex: 37% 1;
+}
+.banner_main_cover { 
+  margin-bottom: 35px;
+}
+}
 @media screen and (max-width: 800px) {
   .andorid .banner_content h1 {
     font-size: 30px;
@@ -230,19 +262,11 @@ img.mobiledev {
 .andorid .contact_wrap {
   padding: 50px 10px 0 !important;
 }
+ 
 }
 
 @media screen and (max-width: 768px) {
-  .mobiledev_cover .mobiledev_banner_cover {
-    width: 250px;
-    height: 250px;
-}
-.mobiledev_cover img.mobiledev {
-  width: 199px;
-  left: auto;
-  right: 19px;
-  bottom: 2px;
-}
+ 
 .mobiledev_cover .banner_content_inner {
     width: 95%;
     margin-left: 20px;
@@ -251,5 +275,33 @@ img.mobiledev {
 .banner_content p {
   font-size: 13px !important;
   margin-bottom: 12px !important;
+}
+}
+@media screen and (max-width: 700px) {
+  .mobiledev_banner_cover img.banner_background {
+    width: 94%;
+}
+.mobiledev_banner {
+  width: 310px;
+  height: 300px;
+}
+.mobiledev_cover img.mobiledev {
+  width: 72%;
+  bottom: 1%;
+}
+.mobile_dev_blk1_cover {
+  margin-top: 50px !important;
+}
+.mobiledev_banner_cover {
+  height: 443px;
+}
+}
+@media screen and (max-width: 600px) {
+.mobiledev_banner {
+  width: 268px;
+  height: 262px;
+}
+.mobiledev_banner_cover {
+  height: 390px;
 }
 }

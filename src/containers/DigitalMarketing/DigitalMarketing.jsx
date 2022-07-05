@@ -43,6 +43,10 @@ import Contact from '../../components/Contact/Contact';
 import WebDevExplained from "../../components/WebDevExplained/WebDevExplained";
 import digital_explained from '../../assets/digitalmarketing/digital_explained.png'
 
+import product1 from "../../assets/digitalmarketing/tab1.png";
+import product2 from "../../assets/digitalmarketing/tab2.png";
+import product3 from "../../assets/digitalmarketing/tab3.png";
+
 const DigitalMarketing = () => {
   const block1 = [
     {
@@ -119,7 +123,8 @@ const DigitalMarketing = () => {
      
       /> 
       <SwBandSection para="Want to learn more about our software development expertise?" />
-      <DigitalSlider/>
+      <DigitalSlider product1={product1} product2={product2} product3={product3}/>
+
       <DigitalWorks/>
       <WebDevClients/>
       <WebDevExplained 

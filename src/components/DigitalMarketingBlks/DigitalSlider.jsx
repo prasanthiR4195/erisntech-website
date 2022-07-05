@@ -2,17 +2,15 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import product1 from "../../assets/digitalmarketing/tab1.png";
-import product2 from "../../assets/digitalmarketing/tab2.png";
-import product3 from "../../assets/digitalmarketing/tab3.png";
+
 import CommonHeading from "../commonHeading/CommonHeading";
 import "./DigitalSlider.css";
 import sliderleft from "../../assets/digitalmarketing/leftcorner.png";
 import sliderright from "../../assets/digitalmarketing/rightcorner.png";
 
-const DigitalSlider = () => {
+const DigitalSlider = ({product1,product2,product3}) => {
   const responsive ={
-    0:{
+    0:{ 
       items:1
   },
   600:{
