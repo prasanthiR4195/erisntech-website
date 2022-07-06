@@ -15,7 +15,7 @@ import LogoOurWork from './LogoOurWork';
 
 const LogoDesigning = () => {
   return (
-    <div className='logo_design'>
+    <div className='logo_design content-center'>
           <MainBanner
             smallhead="UIUX Design Services"
             mainHeadB1="Logo Design"
@@ -35,5 +35,5 @@ const LogoDesigning = () => {
     </div>
   )
 }
-
+ 
 export default LogoDesigning

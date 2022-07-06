@@ -571,6 +571,7 @@
     font-size: 36px;
     width: 50%;
     display: inline-block;
+    text-align: right;
 }
 }
 @media screen and (max-width:600px) {
@@ -644,5 +645,11 @@
     }
     .SwMoving img{
         margin: 16px auto 40px;
+    }
+    .swInnerRightBlk {
+        margin: 0 15px 60px;
+    }
+    .SwMoving img {
+        margin: 16px auto 55px !important; 
     }
 }

@@ -100,47 +100,63 @@ img.corporate_circle {
     margin: 10px auto;
 }
 @media screen and (max-width: 1200px) {
-    .CorporateBanner_cover { 
-        width: 450px;
-        height: 450px;
-    }
+     
 }
 @media screen and (max-width: 1100px) {
-    .CorporateBanner_cover {
-        width: 370px;
-        height: 370px;
+    .CorporateBlk1_inner { 
+        width: 90%; 
     }
-    .CorporateDesign .banner_content_inner { 
-        margin-top: 80px;
+    .CorporateDesign .web_dev_explained .web_dev_right img {
+        width: 355px;
     }
 }
 
 @media screen and (max-width:1024px) {
+    .web_dev_explained {
+        padding: 50px 40px;
+    }
+    .web_dev_heading h4 { 
+        width: 75% !important;
+    }
+    .CorporateBlk2_inner { 
+        width: 100%; 
+    }
 
 }
+
 @media screen and (max-width:992px) {
-    .CorporateBanner_cover {
-        width: 320px;
-        height: 320px;
+    .CorporateDesign .web_dev_explained .web_dev_right img {
+        width: 295px !important;
+    }
+    .CorporateBlk1_inner {
+        width: 98%;
+    }
+}
+@media screen and (max-width:900px) {
+    .CorporateDesign .web_dev_explained .web_dev_right img {
+        width: 251px !important;
     }
 }
 @media screen and (max-width:768px) {
-    .CorporateBanner_cover {
-        width: 260px;
-        height: 260px;
-    }
-    .CorporateDesign .banner_content_inner {
-        margin-top: 98px;
-    }
+ 
 
 }
 @media screen and (max-width: 600px) {
-    .CorporateBanner_cover {
-        width: 210px;
-        height: 210px;
+    .CorporateDesign   .business_blk_wrap {
+        width: 270px;
+    }
+    .CorporateDesign  .iconBlock {
+        width: 135px; 
+    }
+    .CorporateDesign  .iconBlock h5 { 
+        width: 100%; 
+        font-size: 13px;
+    }
+    .CorporateBlk2_cover { 
+        padding: 35px 0 20px;
     }
 }
 
 @media screen and (max-width: 500px) {
-
+ 
 }

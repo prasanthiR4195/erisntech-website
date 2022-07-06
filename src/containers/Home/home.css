@@ -70,32 +70,8 @@
 .erisn__home .banner_img { 
   justify-content: flex-end; 
 }
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
+ 
 
-  50% {
-    transform: translatey(-20px);
-  }
-
-  100% {
-    transform: translatey(0px);
-  }
-}
-@keyframes floatX {
-  0% {
-    transform: translatex(0px);
-  }
-
-  50% {
-    transform: translatex(-20px);
-  }
-
-  100% {
-    transform: translatex(0px);
-  }
-}
 
 /****************media query*******************/
 
@@ -119,10 +95,7 @@
   .testimonial_left p {
     text-align: justify;
   }
-  .erisn__home .banner_content { 
-    flex: 47% 1;
-}
-
+ 
 }
 
 @media screen and (max-width: 1150px) {
@@ -146,9 +119,7 @@
     padding: 50px 100px 0;
   }
 
-  .banner_content h1 {
-    font-size: 40px;
-  }
+ 
 
   .erisn__home .home_block_wrap {
     padding: 0 70px;
@@ -160,13 +131,7 @@
   }
 }
 @media screen and (max-width: 1100px) {
-.home_banner_cover { 
-  width: 500px;
-  height: 483px;
-}
-.banner_img {
-  flex: 50% 1; 
-}
+ 
 }
 @media screen and (max-width: 1050px) {
   .submenu_inner {
@@ -217,24 +182,7 @@
 }
 
 @media screen and (max-width: 992px) {
- 
-  .banner_content h1 {
-    font-size: 32px;
-  }
-
- 
-
-  .erisn__home .banner_content p {
-    font-size: 14px;
-  }
- 
-  .erisn__home .banner_content_inner {
-    margin-top: 92px;
-}
-  .erisn__home .pinkC {
-    right: 40px;
-    bottom: 70%;
-}
+  
  
   .block_section_two_head h2 {
     font-size: 23px;
@@ -367,65 +315,28 @@
   .contact_sec .MuiBox-root {
     font-size: 12px;
   }
-  .erisn__home .banner_img {
-    flex: 66% 1;
-}
+ 
 }
 @media screen and (max-width: 900px) {
-  .erisn__home  .banner_content_inner { 
-    margin-left: 40px; 
-}
-.home_banner_cover {
-  width: 420px;
-  height: 370px;
-}
-.erisn__home .banner_img {
-  flex: 58% 1;
-}
+ 
 }
 @media screen and (max-width: 800px) {
-  .erisn__home .banner_content_inner {
-    margin-left: 30px;
-}
+ 
 }
 @media screen and (max-width: 768px) {
 .tab_content_right img {
   width: 260px;
 } 
-.home_banner_cover {
-  height: 286px;
-  width: 398px;
-}
+ 
 }
 @media screen and (max-width: 650px) {
-  .home_banner_cover {
-    height: 273px;
-    width: 350px;
-}
+ 
 }
 @media screen and (max-width: 600px) {
   .erisn__home .testimonial_inner { 
     display: block;
 }
  
-.banner_content h1 {
-  font-size: 20px !important;
-}
-.banner_content_inner h5 {
-  font-size: 15px;
-}
-.erisn__home .banner_content p {
-  font-size: 13px;
-  line-height: 23px;
-}
-.home_banner_cover {
-  height: 220px;
-  width: 275px;
-}
-  
-.erisn__home .banner_content_inner {
-  margin-top: 91px;
-}
 .business_blk_wrap { 
   width: 220px;
 }
@@ -524,18 +435,7 @@
   .testimonial_main {
     width: 100%;
 }
-.banner_main_cover { 
-  display: block;     position: relative;
-}
-.banner_img {
-  opacity: .2;
-  position: absolute;
-  top: 0;
-  display: block;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
+
 .erisn__home .tech_slider_wrap .item h5 {
   font-size: 9px;
 }

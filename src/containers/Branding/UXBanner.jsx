@@ -8,7 +8,7 @@ import bannerBG from "../../assets/uiux/banner-bg.png";
 const UXBanner = () => {
   return (
     <div className="webdev_banner_cover mobiledev_banner_cover">
-      <img src={bannerBG} className="banner_background" />
+      <img src={bannerBG} className="banner_background" alt="" />
       <div className="UxBanner_cover">
         <img src={UX1} className="UX1" alt="" />
         <img src={UX2} className="UX2" alt="" />

@@ -11,11 +11,7 @@ import icon6 from '../../assets/UXDev/crossplatform_compatibility.png'
 
 
 
-import color1 from '../../assets/webdev/color1.png'
-import color2 from '../../assets/webdev/color2.png'
-import color3 from '../../assets/webdev/color3.png'
-import color4 from '../../assets/webdev/color4.png'
-import color5 from '../../assets/webdev/color5.png'
+import color1 from '../../assets/webdev/color1.png' 
 
 const UXDevBlk2 = () => {
   return (

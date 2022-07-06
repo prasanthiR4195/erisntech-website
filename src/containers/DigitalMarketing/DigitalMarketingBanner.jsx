@@ -1,6 +1,4 @@
-import React from "react";
-
-import classes from "./DigitalMarketingBanner.css";
+import React from "react"; 
 import digital from "../../assets/digitalmarketing/digital.png";
 import man from "../../assets/digitalmarketing/man.png";
 import love from "../../assets/digitalmarketing/love.png";
@@ -12,7 +10,7 @@ import bannerBG from "../../assets/digitalmarketing/banner-bg.png";
 const DigitalMarketingBanner = () => {
   return (
     <div className="webdev_banner_cover mobiledev_banner_cover" style={{justifyContent:"center"}}>
-      <img src={bannerBG} className="banner_background" />
+      <img src={bannerBG} className="banner_background" alt=""  />
       <div className="digitalmarketingCover">
         <img src={digital} className="digital1" alt="" />
         <img src={man} className="digital2" alt="" />

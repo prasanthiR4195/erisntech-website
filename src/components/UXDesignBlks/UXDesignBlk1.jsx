@@ -9,7 +9,7 @@ const UXDesignBlk1 = ({ block1 }) => {
       {block1.map((index) => {
       return(  <div className="UXdesignBlk1_cover">
           <div className="UXDesignBlk1_left">
-            <img src={index.leftImg} />
+            <img src={index.leftImg} alt="" />
           </div>
           <div className="UXDesignBlk1_right">
             <h3>{index.heading}</h3>

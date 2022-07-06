@@ -189,9 +189,7 @@ b.brochure_bold {
 }
 @media screen and (max-width: 1100px) {
  
-.brochure .bannerBG {
-    width: 68%;
-}
+ 
 .web_dev_explained {
     padding: 50px 90px; 
 }
@@ -218,22 +216,10 @@ b.brochure_bold {
 }
 }
 @media screen and (max-width: 1024px) {
-    .brochure_banner_cover {
-        width: 450px;
-        height: 450px; 
-    }
- 
-    .brochure .bannerBG {
-        width: 60%;
-    }
  
 }
 @media screen and (max-width: 992px) {
-    .brochure_banner_cover {
-        width: 365px;
-        height: 365px;
-    }
- 
+   
     .BrochureBlk1_inner { 
         width: 90%;
     }
@@ -267,10 +253,7 @@ b.brochure_bold {
    
 }
 @media screen and (max-width: 768px) {
-.brochure_banner_cover {
-    width: 310px;
-    height: 310px;
-}
+ 
 .BrochureBlk1_inner { 
     flex-wrap: wrap;
     justify-content: center;
@@ -289,10 +272,7 @@ b.brochure_bold {
 }
 }
 @media screen and (max-width: 600px) {
-    .brochure_banner_cover {
-        width: 235px;
-        height: 235px;
-    }
+   
     .BrochureBlk2_second { 
         display: block;
     }
@@ -305,10 +285,7 @@ b.brochure_bold {
     }
 }
 @media screen and (max-width: 500px) {
-    .brochure .bannerBG { 
-        display: none;
-    }
-  
+ 
     .BrochureSlider_inner .owl-carousel {
         width: 100%;
     }

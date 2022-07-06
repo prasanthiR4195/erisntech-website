@@ -4,13 +4,7 @@ import "./Slider.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-import react from '../../assets/homepage/react.png'
-import swift from '../../assets/homepage/swift.png'
-import flutter from '../../assets/homepage/flutter.png'
-import kotlin from '../../assets/homepage/kotlin.png'
-import codeigniter from '../../assets/homepage/codeigniter.png'
-import php from '../../assets/homepage/php.png'  
-const Techslider = () => {
+const Techslider = ({product1,product2,product3,product4,product5,product6,product_name1,product_name2,product_name3,product_name4,product_name5,product_name6}) => {
   const responsive ={
     0:{
       items:1
@@ -35,29 +29,30 @@ const Techslider = () => {
         responsive ={responsive}
       >
         <div className="item">
-          <img src={react} alt="product" />
-          <h5>React JS</h5>
+          <img src={product1} alt="product" />
+          <h5>{product_name1}</h5>
         </div>
         <div className="item">
-          <img src={swift} alt="product" />
-          <h5>Swift</h5>
+          <img src={product2} alt="product" />
+          <h5>{product_name2}</h5>
         </div>
         <div className="item">
-          <img src={flutter} alt="product" />
-          <h5>Flutter</h5>
+          <img src={product3} alt="product" />
+          <h5>{product_name3}</h5>
         </div>
         <div className="item">
-          <img src={kotlin} alt="product" />
-          <h5>Kotlin</h5>
+          <img src={product4} alt="product" />
+          <h5>{product_name4}</h5>
         </div>
         <div className="item">
-          <img src={codeigniter} alt="product" />
-          <h5>Codeigniter</h5>
+          <img src={product5} alt="product" />
+          <h5>{product_name5}</h5>
         </div>
-        <div className="item">
-          <img src={php} alt="product" />
-          <h5>PHP</h5>
-        </div> 
+        {product6 ?  <div className="item">
+          <img src={product6} alt="product" />
+          <h5>{product_name6}</h5>
+        </div>  : ""}
+       
       
       </OwlCarousel>
      

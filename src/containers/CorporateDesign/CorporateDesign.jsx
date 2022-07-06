@@ -19,7 +19,7 @@ import CorporateBlk2 from "../../components/Corporate/CorporateBlk2";
 
 const CorporateDesign = () => {
   return (
-    <div className="CorporateDesign">
+    <div className="CorporateDesign"> 
       <MainBanner
         smallhead="UIUX & Branding Design"
         mainHeadB1="Corporate Identity Design" 

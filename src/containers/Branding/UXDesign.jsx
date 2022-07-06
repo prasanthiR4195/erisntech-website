@@ -2,8 +2,7 @@ import React from "react";
 import MainBanner from "../../components/Banner/MainBanner";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-import UXDesignBlk1 from "../../components/UXDesignBlks/UXDesignBlk1";
-import UXDesignBlk2 from "../../components/UXDesignBlks/UXDesignBlk2";
+import UXDesignBlk1 from "../../components/UXDesignBlks/UXDesignBlk1"; 
 import UXDesignBlk3 from "../../components/UXDesignBlks/UXDesignBlk3";
 import UXDesignBlk4 from "../../components/UXDesignBlks/UXDesignBlk4";
 import UXBanner from "./UXBanner";

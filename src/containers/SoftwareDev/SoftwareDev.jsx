@@ -1,7 +1,6 @@
 import React from "react";
 import "./SoftwareDev.css";
-import MainBanner from "../../components/Banner/MainBanner";
-import banner1 from "../../assets/homepage/header-banner.png";  
+import MainBanner from "../../components/Banner/MainBanner"; 
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import SoftwareDeBlk1 from "../../components/SoftwareDevBlks/SoftwareDeBlk1";

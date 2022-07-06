@@ -12,7 +12,7 @@ import bannerBG from "../../assets/UXDev/banner-bg.png";
 const UXDevBanner = () => {
   return (
     <div className="webdev_banner_cover">
-    <img src={bannerBG} className="banner_background" />
+    <img src={bannerBG} className="banner_background" alt="" />
     <div className='uxbanner_img_cover'>
         <img src={left} className="uxLeft" alt="" />
         <img src={top} className="uxTop" alt="" />

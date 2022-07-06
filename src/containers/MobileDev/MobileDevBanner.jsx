@@ -6,9 +6,9 @@ import bannerBG from "../../assets/mobiledev/banner-bg.png";
 const MobileDevBanner = () => {
   return (
     <div className="webdev_banner_cover mobiledev_banner_cover">
-      <img src={bannerBG} className="banner_background" />
+      <img src={bannerBG} className="banner_background" alt="" />
       <div className="mobiledev_banner">
-        <img src={sw1} className="mobiledev" />
+        <img src={sw1} className="mobiledev" alt=""  />
       </div>
     </div>
   );

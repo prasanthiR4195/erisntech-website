@@ -1,9 +1,6 @@
 .faq_wrap {
     padding: 50px 100px;
-}
-.faq_inner_wrap{
-    padding: 30px 100px;
-}
+} 
 .faq_wrap  .MuiAccordionSummary-content {
     margin: 21px 0 12px;
     font-weight: 600;
@@ -12,6 +9,9 @@
 .faq_wrap .MuiPaper-elevation1 {
     box-shadow: none;
     border-bottom: 1px solid rgb(183 183 183);
+}
+.faq_inner_wrap {
+    padding: 30px 30px;
 }
 @media screen and (max-width:1024px) {
     .faq_wrap .block_section_two_head {
@@ -24,6 +24,9 @@
 @media screen and (max-width:992px) {
 .faq_inner_wrap {
     padding: 30px 0;
+}
+.faq_wrap {
+    padding: 50px 64px;
 }
 }
 @media screen and (max-width:768px) {

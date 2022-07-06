@@ -19,6 +19,7 @@ import HybridApp from "./containers/HybridApp/HybridApp";
 import BrochureDesign from "./containers/BrochureDesign/BrochureDesign";
 import CorporateDesign from "./containers/CorporateDesign/CorporateDesign";
 import Specialist from "./containers/Specialist/Specialist";
+import IosDev from "./containers/ios/IosDev";
 
  
 function App() { 
@@ -42,6 +43,7 @@ function App() {
         <Route path='/brochure' element={<BrochureDesign/>}/> 
         <Route path='/corporate' element={<CorporateDesign/>}/>
         <Route path='/specialist' element={<Specialist/>}/>
+        <Route path='/iosdev' element={<IosDev/>}/>
 
 
         <Route path='/contactus' element={<ContactUs />}/>

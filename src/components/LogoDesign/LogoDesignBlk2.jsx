@@ -16,7 +16,7 @@ const LogoDesignBlk2 = () => {
             with a digital agency. 8 of 10 Business Leaders Prefer Agency
             Partner
           </p>
-        </div>
+        </div> 
       </div>
       <div className="LogoDesignBlk2_right">
         <LogoRightBlks

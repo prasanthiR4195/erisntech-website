@@ -7,7 +7,7 @@ img.specialist_screen {
 }
 
 .specialistBanner_cover {width: 560px;height: 400px;position: relative;margin-top: 100px;}
-
+ 
 .specialist_top1,.specialist_top2 {
     width: 24%;
     position: absolute;
@@ -164,33 +164,13 @@ img.specialist_cloud2 {
 
 }
 @media screen and (max-width: 1200px) {
-    .specialist_cover .banner_img {
-        flex: 55% 1; 
-    }
-    .specialistBanner_cover {
-        width: 510px;
-        height: 388px; 
-    }
-    .specialist_cover .banner_content_inner { 
-        margin-left: 38px; 
-    }
-    .specialist_cover .banner_content { 
-        flex: 37% 1;
-    }
+   
 }
 @media screen and (max-width: 1100px) {
-    .specialistBanner_cover {
-        width: 480px;
-        height: 367px;
-    }
-    .specialist_cover .banner_img {
-        flex: 52% 1;
-    }
+ 
 }
 @media screen and (max-width: 1024px) {
-    .specialist_cover .banner_img {
-        flex: 48% 1;
-    }
+   
     .SpecialistBlk1_left_inner {
         margin-left: 40px; 
         width: 80%;
@@ -198,33 +178,25 @@ img.specialist_cloud2 {
 
 }
 @media screen and (max-width: 992px) {
-    .specialistBanner_cover {
-        width: 375px;
-        height: 297px;
-    }
-    .specialist_cover .banner_content_inner {
-        margin-left: 26px;
-        margin-bottom: 0;
-       
-    }
-    .specialist_cover .banner_main_cover { 
-        margin-bottom: 80px;
-    }
+ 
     .SpecialistBlk1_right { 
         padding: 24px 0px; 
     }
     .swInnerRightBlk h5 { 
         width: 68%; 
     }
+    .SpecialistBlk1_left_inner h2 { 
+        width: 97%; 
+    }
+    .specialist_cover .SwMoving span {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 800px) {
-
+  
 }
 @media screen and (max-width: 768px) {
-    .specialistBanner_cover {
-        width: 345px;
-        height: 277px;
-    }
+  
     .SpecialistBlk1_left_inner h2 {
         font-size: 22px; 
         width: 96%; 
@@ -235,22 +207,10 @@ img.specialist_cloud2 {
 
 }
 @media screen and (max-width: 600px) {
-    .specialistBanner_cover {
-        width: 273px;
-        height: 208px;
-        margin-top: 142px;
-    }
+ 
 
 }
 @media screen and (max-width: 500px) {
-    .specialistBanner_cover {
-        width: 263px;
-        height: 181px;
-        margin-top: 17px;
-    }.specialist_cover .banner_content_inner {
-        margin-left: 10px;
-        margin-bottom: 0;
-    }
  
     .SpecialistBlk1_left_inner {
         margin-left: 39px; 

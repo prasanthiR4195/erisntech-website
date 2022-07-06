@@ -1,5 +1,4 @@
-import React from "react";
-import CommonHeading from "../commonHeading/CommonHeading";
+import React from "react"; 
 
 const UXDesignBlk2 = () => {
   return (

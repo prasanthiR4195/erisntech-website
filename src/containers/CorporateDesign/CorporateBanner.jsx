@@ -11,7 +11,7 @@ import bannerBG from "../../assets/corporate/banner-bg.png";
 const CorporateBanner = () => {
   return (
     <div className="webdev_banner_cover">
-    <img src={bannerBG} className="banner_background" />
+    <img src={bannerBG} className="banner_background" alt="" />
     <div className='CorporateBanner_cover'>
       <img src={screen} className="corporate_screen" alt="" />
       <img src={top} className="corporate_top" alt="" />

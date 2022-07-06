@@ -7,9 +7,7 @@ import UX3 from "../../assets/uiux/UX3.png";
 import './UXdesignBlk6.css'
 import color1 from "../../assets/softwaredev/color1.png";
 import color2 from "../../assets/softwaredev/color2.png";
-import color3 from "../../assets/softwaredev/color3.png";
-import color4 from "../../assets/softwaredev/color4.png";
-import color5 from "../../assets/softwaredev/color5.png";
+import color3 from "../../assets/softwaredev/color3.png"; 
 
 const UXdesignBlk6 = () => {
   return (

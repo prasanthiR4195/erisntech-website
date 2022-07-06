@@ -1,8 +1,7 @@
 import React from 'react'
 import MainBanner from '../../components/Banner/MainBanner'
 import DigitalMarketingBanner from './DigitalMarketingBanner'
-import './DigitalMarketingBanner.css'
-import banner1 from "../../assets/homepage/header-banner.png"; 
+import './DigitalMarketingBanner.css' 
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import SoftwareDeBlk1 from '../../components/SoftwareDevBlks/SoftwareDeBlk1';
@@ -10,10 +9,7 @@ import digital1 from "../../assets/digitalmarketing/digital1.png";
 import digital2 from "../../assets/digitalmarketing/digital2.png";
 import digital3 from "../../assets/digitalmarketing/digital3.png";
 import digital4 from "../../assets/digitalmarketing/digital4.png";
-import digital5 from "../../assets/digitalmarketing/digital5.png";
-import sw1 from '../../assets/softwaredev/sw1.png'
-import MovingBlk from '../../components/SoftwareDevBlks/MovingBlk';
-import SoftwareDevMoving from '../../components/SoftwareDevBlks/SoftwareDevMoving';
+import digital5 from "../../assets/digitalmarketing/digital5.png"; 
 import SwBandSection from '../../components/SoftwareDevBlks/SwBandSection';
 import DigitalWorks from '../../components/DigitalMarketingBlks/DigitalWorks'; 
 import blk1 from '../../assets/digitalmarketing/block2.png'

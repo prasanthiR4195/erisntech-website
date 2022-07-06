@@ -122,9 +122,6 @@ a {
  
 @media screen and (min-width: 1350px) {
  
-  .erisn__navbar { 
-    position: initial !important;
-  }
   }
 
 @media screen and (min-width: 1300px) {

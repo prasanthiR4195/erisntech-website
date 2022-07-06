@@ -54,10 +54,11 @@
     animation: float 17s ease-in-out infinite;
 }
 
-.uxbanner_img_cover{
-    width: 500px;
-    height: 500px;
+.uxbanner_img_cover {
+    width: 455px;
+    height: 445px;
     position: relative;
+    margin-top: 95px;
 }
 @keyframes float {
     0% {
@@ -78,7 +79,15 @@
     align-items: center;
     justify-content: center;
 }
-
+.uxdev_cover .banner_main_cover{
+ 
+}
+.uxdev_cover .banner_content_inner {
+    width: 57%; 
+}
+.uxdev_cover .banner_img {
+    flex: 54% 1; 
+}
 .UXDevBlk1_cover {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -287,9 +296,7 @@ img.themeChange_bg {
 /*******************DARK THEME********************/
 
 @media screen and (min-width: 1200px) {
-    .uxdev_cover .bannerBG {
-        width: 60%;
-    }
+ 
 }
 @media screen and (max-width: 1200px) {
     .theme_change_top_left {
@@ -307,10 +314,7 @@ img.themeChange_bg {
 }
 }
 @media screen and (max-width: 1100px) {
-.uxbanner_img_cover {
-    width: 460px;
-    height: 460px; 
-}
+ 
 .themeChange_top {
     width: 88%;
 }
@@ -326,40 +330,24 @@ img.themeChange_bg {
 .change_theme_middle:after { 
     left: 145px; 
 }
+ 
 }
 @media screen and (max-width: 1050px) {
-    .uxbanner_img_cover {
-        width: 410px;
-        height: 410px;
-    }
+ 
 }
 @media screen and (max-width: 1024px) {
-    .uxbanner_img_cover {
-        width: 360px;
-        height: 360px;
-    }
-    .uxdev_cover .bannerBG { 
-        width: 47%;
-    }
-    .uxdev_cover .banner_img { 
-        justify-content: flex-end; 
-    }
+    
     .change_theme_middle h2 {
         width: 50%; 
     }
     .change_theme_bottom {
         padding: 0 65px;
     }
+  
 }
 @media screen and (max-width: 992px) {
-.uxbanner_img_cover {
-    width: 283px;
-    height: 283px;
-}
-.uxdev_cover .banner_content_inner {
-    width: 80%; 
-    margin-top: 76px;
-}
+ 
+ 
 .theme_change_top_right {
     width: 270px; 
 }
@@ -385,19 +373,13 @@ img.themeChange_bg {
 .themechange_button {
     padding: 20px 50px; 
 }
+ 
+}
+@media screen and (max-width: 900px) {
+ 
 }
 @media screen and (max-width: 768px) {
-.uxdev_cover .bannerBG {
-    width: 57%;
-}
-.uxbanner_img_cover {
-    width: 270px;
-    height: 270px;
-}
-.uxdev_cover .banner_content_inner { 
-    margin-top: 76px;
-    margin-left: 30px;
-}
+ 
 .UXDevBlk1 { 
     flex-wrap: wrap;
 }
@@ -424,17 +406,14 @@ img.themeChange_mob_screen {
 .change_theme_bottom {
     padding: 0 10px; 
 }
+ 
+
+}
+@media screen and (max-width: 700px) {
+ 
 }
 @media screen and (max-width: 600px) {
-    .uxbanner_img_cover {
-        width: 225px;
-        height: 234px;
-    }
-    .uxdev_cover .banner_content_inner {
-        margin-top: 64px;
-        margin-left: 30px;
-        width: 79%;
-    }
+ 
     .themeChange_top { 
         display: block;
     }
@@ -468,11 +447,13 @@ img.themeChange_mob_screen {
         padding: 15px;
         margin-bottom: 15px;
     }
+  
+    .uxdev_cover .UXDevBlk1_cover {
+        margin-top: 60px; 
+    }
 }
 @media screen and (max-width: 500px) {
-    .uxdev_cover .bannerBG { 
-        display: none;
-    }
+  
     .themechange_cover { 
         padding: 35px 0; 
     }
@@ -497,4 +478,5 @@ img.themeChange_mob_screen {
     .change_theme_bottom_blk {
         width: 260px; 
     }
+ 
 }

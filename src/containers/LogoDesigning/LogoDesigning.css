@@ -390,9 +390,7 @@ p.logo_ourwork_para {
 
 /***************    MEDIA QUERIES   *****************/
 @media screen and (max-width: 1300px) {
-    .logo_design .bannerBG { 
-        width: 63%; 
-    }
+ 
     .logo_design .logo_right_cover {
         width: 265px; 
     }
@@ -432,16 +430,10 @@ p.logo_ourwork_para {
     .logo_design .logo_blackSection_inner {
         width: 65%; 
     }
-    .logo_banner_cover {
-        width: 440px;
-        height: 440px;
-        position: relative;
-    }
+ 
 }
 @media screen and (min-width: 1050px) {
-.logo_design .bannerBG {
-    width: 70%;
-}
+ 
 }
 @media screen and (max-width: 1024px) {
  
@@ -528,19 +520,11 @@ p.logo_ourwork_para {
     .logo_design .wrk_color { 
         width: 48px; 
     }
-    .logo_banner_cover {
-        width: 350px;
-        height: 315px;
-    }
+ 
 }
 @media screen and (max-width: 800px) {
-    .logo_design .banner_content h1 { 
-        font-size: 30px; 
-    }
-   
-    .logo_design .banner-content-left { 
-        bottom: 35%;
-    }
+ 
+    
     .logo_design .LogoDesignBlk2_cover { 
         display: block;
     }
@@ -582,15 +566,7 @@ p.logo_ourwork_para {
     .logo_design .logo_black_head {
         width: 70%;
     }
-    .logo_banner_cover {
-        width: 263px;
-        height: 257px;
-    }
- 
- 
-    .banner_content p { 
-        line-height: 23px;
-    }
+  
     .logo_design .LogoDesignBlk2_left_inner {
         margin-left: 0px;
         width: 50%;
@@ -649,14 +625,7 @@ p.logo_ourwork_para {
     }
 }
 @media screen and (max-width: 500px) {
-    .logo_design .bannerBG {
-        width: 63%;
-        display: none;
-    }
-    .logo_banner_cover {
-        width: 210px;
-        height: 286px;
-    }
+   
  
     .logo_design .LogoDesignBlk2_left_inner {
         margin-left: 13px;

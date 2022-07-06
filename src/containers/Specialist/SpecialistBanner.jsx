@@ -14,7 +14,7 @@ import bannerBG from "../../assets/specialist/banner-bg.png";
 const SpecialistBanner = () => {
   return (
     <div className="webdev_banner_cover">
-    <img src={bannerBG} className="banner_background" />
+    <img src={bannerBG} className="banner_background" alt="" />
     <div className='specialistBanner_cover'>
       <img src={screen} className="specialist_screen" alt="" /> 
       <img src={top1} className="specialist_top1" alt="" /> 

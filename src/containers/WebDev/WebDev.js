@@ -1,13 +1,10 @@
 import React from "react"; 
 import "./WebDev.css";
-import CommonHeading from "../../components/commonHeading/CommonHeading";
-import Block from "../../components/BlockSection/Block";
+import CommonHeading from "../../components/commonHeading/CommonHeading"; 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import WebDevExplained from "../../components/WebDevExplained/WebDevExplained";
 import WebDevServices from "../../components/WebDevServices/WebDevServices";
-import WorkIcons from "../../components/WorkIcons/WorkIcons";
-import Tabsection from "../../components/Tab/Tab";
-import Technologies from "../../components/Technologies/Technologies";
+import WorkIcons from "../../components/WorkIcons/WorkIcons"; 
 import WebDevClients from "../../components/WebDevClients/WebDevClients";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
@@ -24,8 +21,7 @@ import icon2 from '../../assets/webdev/icon2.png'
 import icon3 from '../../assets/webdev/icon3.png'
 import color1 from '../../assets/webdev/color1.png'
 import color2 from '../../assets/webdev/color2.png'
-import color3 from '../../assets/webdev/color3.png'
-import color4 from '../../assets/webdev/color4.png' 
+import color3 from '../../assets/webdev/color3.png' 
 
 import webdevExp from '../../assets/webdev/web_dev_explained.png'
 

@@ -16,6 +16,7 @@ import webdevExp from "../../assets/androiddev/img2.png";
 import Faq from "../../components/Faq/Faq";
 import Contact from "../../components/Contact/Contact";
 
+
 const Android = () => { 
   const block1 = [
     {

@@ -9,7 +9,7 @@ import bannerBG from "../../assets/hybridapp/banner-bg.png";
 const HybridAppBanner = () => {
   return (
     <div className="webdev_banner_cover">
-    <img src={bannerBG} className="banner_background" />
+    <img src={bannerBG} className="banner_background" alt="" />
     <div className='hybridapp_banner_cover'>
       <img src={hand} className="hybrid_banner_hand" alt=""/>
       <img src={phone} className="hybrid_banner_phone" alt=""/>

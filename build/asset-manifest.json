@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/erisntech-website/static/css/main.ce274ab2.css",
-    "main.js": "/erisntech-website/static/js/main.cad8c643.js",
+    "main.css": "/erisntech-website/static/css/main.e13cd5e5.css",
+    "main.js": "/erisntech-website/static/js/main.6b9378a5.js",
     "static/media/SEO-Banner.png": "/erisntech-website/static/media/SEO-Banner.bf6a1d90722a0752960b.png",
     "static/media/screen.png": "/erisntech-website/static/media/screen.0d06647e294a179f2c50.png",
     "static/media/ecommerce_seo_services.png": "/erisntech-website/static/media/ecommerce_seo_services.4bb2726b1e6cc2564080.png",
@@ -18,7 +18,6 @@
     "static/media/center.png": "/erisntech-website/static/media/center.923f87ae75e2af34ea37.png",
     "static/media/corporate3.png": "/erisntech-website/static/media/corporate3.21aaaaff568323ec414c.png",
     "static/media/img2.png": "/erisntech-website/static/media/img2.f47144ac90325c6ff4e8.png",
-    "static/media/product-4.png": "/erisntech-website/static/media/product-4.59e09ba6188d5370e763.png",
     "static/media/corporate_img.png": "/erisntech-website/static/media/corporate_img.4ffdaceccb03a20a0c7c.png",
     "static/media/mobiledev.png": "/erisntech-website/static/media/mobiledev.c49d839d34074e2128bb.png",
     "static/media/global_seo_services.png": "/erisntech-website/static/media/global_seo_services.9aa03343702d4e1c1000.png",
@@ -55,11 +54,13 @@
     "static/media/top.png": "/erisntech-website/static/media/top.ac8f0171566f3ad92a49.png",
     "static/media/table.png": "/erisntech-website/static/media/table.f9d871a026730b3ca0f7.png",
     "static/media/tab3.png": "/erisntech-website/static/media/tab3.f80b64e8c8c53bc394a1.png",
+    "static/media/mac.png": "/erisntech-website/static/media/mac.fd471ebcf6c6506999f2.png",
     "static/media/UXImg1.png": "/erisntech-website/static/media/UXImg1.f33fff89437b8b9007ae.png",
     "static/media/back_section_top_img.png": "/erisntech-website/static/media/back_section_top_img.f801827f92613425f886.png",
     "static/media/POS.png": "/erisntech-website/static/media/POS.26c11ea2e4832ea5c373.png",
     "static/media/digital3.png": "/erisntech-website/static/media/digital3.98cf9fca5b4f02aac5e4.png",
     "static/media/product-3.png": "/erisntech-website/static/media/product-3.41296ccc0c38c3d4aa20.png",
+    "static/media/ipad.png": "/erisntech-website/static/media/ipad.487fc60a42b0942ca95e.png",
     "static/media/innovate_your_way.png": "/erisntech-website/static/media/innovate_your_way.fd0d0d2bfae9eb765c58.png",
     "static/media/digital2.png": "/erisntech-website/static/media/digital2.f0512ef79a1226b7d288.png",
     "static/media/brochure3.png": "/erisntech-website/static/media/brochure3.6ddb6f56b2cf46b7d37f.png",
@@ -67,6 +68,8 @@
     "static/media/leftcorner.png": "/erisntech-website/static/media/leftcorner.b51ab0d40b6334dc4fff.png",
     "static/media/rightcorner.png": "/erisntech-website/static/media/rightcorner.5b0eb4e5d4f62ff1d6d3.png",
     "static/media/product-1.png": "/erisntech-website/static/media/product-1.1206a0279c85176f3133.png",
+    "static/media/apple_tv.png": "/erisntech-website/static/media/apple_tv.b9ef1633773845725ad0.png",
+    "static/media/iphone.png": "/erisntech-website/static/media/iphone.719ed0ff0cab52444246.png",
     "static/media/HMS1.png": "/erisntech-website/static/media/HMS1.9dc5b0b4f14d41d45620.png",
     "static/media/ux_left_img.png": "/erisntech-website/static/media/ux_left_img.abfb956753ca4b281841.png",
     "static/media/HRM.png": "/erisntech-website/static/media/HRM.08c50f852724a9683d76.png",
@@ -77,6 +80,7 @@
     "static/media/slider_left.png": "/erisntech-website/static/media/slider_left.c4b548fe92805325122f.png",
     "static/media/person1.png": "/erisntech-website/static/media/person1.9b8dfde5a8d96154464b.png",
     "static/media/person3.png": "/erisntech-website/static/media/person3.31597765ce5eedd1131c.png",
+    "static/media/apple_watch.png": "/erisntech-website/static/media/apple_watch.5514ec1f3b2cc2db50ea.png",
     "static/media/left2.png": "/erisntech-website/static/media/left2.f1a95203d609b281b301.png",
     "static/media/left1.png": "/erisntech-website/static/media/left1.960b098f6c01fcd7aaac.png",
     "static/media/main.png": "/erisntech-website/static/media/main.8f824b1d1ee50e9a049b.png",
@@ -84,11 +88,11 @@
     "static/media/person2.png": "/erisntech-website/static/media/person2.2ca6613ec11ff01e3786.png",
     "static/media/cloud1.png": "/erisntech-website/static/media/cloud1.c1f381e30f32e61af03c.png",
     "index.html": "/erisntech-website/index.html",
-    "main.ce274ab2.css.map": "/erisntech-website/static/css/main.ce274ab2.css.map",
-    "main.cad8c643.js.map": "/erisntech-website/static/js/main.cad8c643.js.map"
+    "main.e13cd5e5.css.map": "/erisntech-website/static/css/main.e13cd5e5.css.map",
+    "main.6b9378a5.js.map": "/erisntech-website/static/js/main.6b9378a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce274ab2.css",
-    "static/js/main.cad8c643.js"
+    "static/css/main.e13cd5e5.css",
+    "static/js/main.6b9378a5.js"
   ]
 }

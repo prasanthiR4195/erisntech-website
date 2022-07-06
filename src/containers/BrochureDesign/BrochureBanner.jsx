@@ -8,7 +8,7 @@ import bannerBG from "../../assets/brochure/banner-bg.png";
 const BrochureBanner = () => {
   return (
     <div className="webdev_banner_cover">
-    <img src={bannerBG} className="banner_background" />
+    <img src={bannerBG} className="banner_background" alt="" />
     <div className="brochure_banner_cover">
       <img src={screen} className="bannerScreen" alt="" />
       <img src={screenRight} className="screenRight" alt="" />

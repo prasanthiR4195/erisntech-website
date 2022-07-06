@@ -13,15 +13,15 @@ import "./Android.css";
 const AndroidBanner = () => {
   return (
     <div className="webdev_banner_cover  mobiledev_banner_cover">
-      <img src={bannerBG} className="banner_background" />
+      <img src={bannerBG} className="banner_background" alt="" />
       <div className="androidDev_banner">
-        <img src={hand} className="android_hand" />
-        <img src={mobile} className="android_mobile" />
-        <img src={left} className="android__left" />
-        <img src={top} className="android__top" />
-        <img src={right} className="android__right" />
-        <img src={block} className="android__block" />
-        <img src={bottom} className="android__bottom" />
+        <img src={hand} className="android_hand" alt=""/>
+        <img src={mobile} className="android_mobile" alt=""/>
+        <img src={left} className="android__left" alt=""/>
+        <img src={top} className="android__top" alt=""/>
+        <img src={right} className="android__right" alt=""/>
+        <img src={block} className="android__block" alt=""/>
+        <img src={bottom} className="android__bottom" alt=""/>
       </div>
     </div>
   );

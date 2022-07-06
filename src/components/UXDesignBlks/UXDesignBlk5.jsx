@@ -9,8 +9,7 @@ import UX4 from "../../assets/uiux/UX4.png";
 import color1 from "../../assets/softwaredev/color1.png";
 import color2 from "../../assets/softwaredev/color2.png";
 import color3 from "../../assets/softwaredev/color3.png";
-import color4 from "../../assets/softwaredev/color4.png";
-import color5 from "../../assets/softwaredev/color5.png";
+import color4 from "../../assets/softwaredev/color4.png"; 
 const UXDesignBlk5 = () => {
   return (
     <div className="UXDesignBlk5_cover">

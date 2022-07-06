@@ -99,47 +99,16 @@
   animation: floatr 15s ease-in-out infinite;
 }
 @media screen and (max-width:1100px) {
-.swDevBanner_cover {
-  height: 470px;
-  width: 470px; 
-}
+ 
 }
 @media screen and (max-width:1024px) {
-.swDevBanner_cover {
-  height: 450px;
-  width: 450px;
-}
+ 
 }
 @media screen and (max-width:992px) {
-.swDevBanner_cover {
-  height: 400px;
-  width: 400px;
-}
+ 
 }
 @media screen and (max-width:768px) {
-.swDevBanner_cover {
-  height: 260px;
-  width: 100%; 
-}
-.swDevBanner_cover {
-  height: 260px;
-  width: 100%;
-  position: absolute;
-  right: -38px;
-}
-.software_dev_wrap .banner_content_inner {
-  margin-left: 25px;
-  margin-top: 90px;
-}
-.software_dev_wrap .banner_content {
-  flex: 46% 1;
-}
-.swDevBanner_cover {
-  height: 304px;
-  width: 304px;
-  position: absolute;
-  right: -9px;
-}
+ 
 }
 @media screen and (max-width:600px) {
 .swDevBanner_cover {
@@ -149,17 +118,5 @@
 }
 }
 @media screen and (max-width:500px) {
-  .swDevBanner_cover {
-    height: 304px;
-    width: 286px;
-    position: absolute;
-    right: 0;
-    top: -57px;
-}
-.software_dev_wrap .banner_main_cover { 
-  overflow: initial;
-}
-.software_dev_wrap .bannerBG { 
-  display: none;
-}
+ 
 }
