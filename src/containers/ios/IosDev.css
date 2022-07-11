@@ -1,0 +1,134 @@
+/*******************IOS DEVELOPMNT BANNER************************/
+.ios_dev_banner_cover{width: 560px;height: 400px;position: relative;margin-top: 100px;}
+.iosdev_center{
+    animation: float 16s ease-in-out infinite;
+    position: absolute;
+    width:96%;
+    bottom:-16%;
+    animation: float 18s ease-in-out infinite;
+
+}
+.iosdev_bird {
+    position: absolute;
+    width: 16%;
+    opacity: .8;
+    right: 34%;
+    bottom: 70%;
+    animation: float 18s ease-in-out infinite;
+}
+
+ .iosdev_cloud {
+    position: absolute;
+    width: 23%;
+    right: 0;
+    bottom: 65%;
+    animation: floatX 14s ease-in-out infinite;
+}
+ .iosdev_cloud_left {
+    position: absolute;
+    width: 20%;
+    left: 10%;
+    bottom: 46%;
+    animation: floatX 15s ease-in-out infinite;
+}
+
+
+.IosDevBlk1_inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 130px;
+    justify-content: center;
+}
+
+.IosDevBlk1_inner .normal_block_cover {
+    width: 43%;
+    text-align: left;
+    margin: 20px;
+}
+.IosDevBlk2_cover {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 130px 0;
+}
+ 
+ 
+
+ 
+ 
+.IosDevBlk2_cover {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 130px 0;
+    align-items: flex-end;
+}
+
+.IosDevBlk2_left {
+    width: 42%;
+    margin-bottom: 50px;
+}
+
+.IosDevBlk2_right {
+    width: 58%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.IosDevBlk2_right img {
+    width: 95%;
+}
+
+.IosDevBlk2_left h2 {
+    font-weight: 800;
+    font-size: 24px;
+    width: 80%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.IosDevBlk2_left h2:before {
+    position: absolute;
+    height: 2px;
+    width: 45px;
+    content: "";
+    background-color: #000000;
+    left: 0;
+    bottom: -17px;
+}
+
+.IosDevBlk2_left h2:after {
+    position: absolute;
+    height: 2px;
+    width: 45px;
+    content: "";
+    background-color: #EB3542;
+    left: 56px;
+    bottom: -17px;
+}
+
+.IosDevBlk2_left p {
+    font-size: 14px;
+}
+
+.IosDevBlk3_cover {
+    padding: 50px 100px;
+}
+
+p.IosDevBlk3_para {
+    margin: 44px auto;
+    text-align: center;
+    width: 77%;
+    font-size: 14px;
+}
+
+.IosDevBlk3_inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.IosDevBlk3_inner .sawBlkWrap {
+    border: 0;
+}
+
+.IosDevBlk3_inner .sawBlkWrap:hover {
+    box-shadow: none;
+}

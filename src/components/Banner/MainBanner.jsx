@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../CommonButton/Button";
 import "./MainBanner.css";
+import Fade from 'react-reveal/Fade';
 
 const MainBanner = ({
   mainHeadB1,
@@ -10,7 +11,7 @@ const MainBanner = ({
   btnOrang,
   btnGrey,
   img,
-  subHeadB1,
+  subHeadB1, 
   subHeadB2,
   subHeadR,
   bannerStyle,
@@ -26,6 +27,7 @@ const MainBanner = ({
   return (
     <div className="banner_main_cover">
       {/* <img src={bannerBG} className={`bannerBG ${uxclass}`} /> */}
+      <Fade bottom>
       <div className={`banner_content` }>
         <div className="banner_content_inner">
         <h5>{smallhead}</h5>
@@ -53,6 +55,7 @@ const MainBanner = ({
         )}
         </div>
       </div>
+      </Fade>
       <div className="banner_img">
         {bannerImg}
         {/* <img src={BannerE1} alt="banner" className="bannerFloatingE bannerFloatingE1" />

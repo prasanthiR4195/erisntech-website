@@ -8,7 +8,7 @@ import "./DigitalSlider.css";
 import sliderleft from "../../assets/digitalmarketing/leftcorner.png";
 import sliderright from "../../assets/digitalmarketing/rightcorner.png";
 
-const DigitalSlider = ({product1,product2,product3}) => {
+const DigitalSlider = ({product1,product2,product3,subhead,head}) => {
   const responsive ={
     0:{ 
       items:1
@@ -23,8 +23,8 @@ const DigitalSlider = ({product1,product2,product3}) => {
   return (
     <div className="mobileSlider_cover">
         <CommonHeading
-       subHead="OUR WORKS"
-       mainB1="Our Digital Marketing Portfolios"
+       subHead={subhead}
+       mainB1={head}
        />
 
       <div className="digitalSlider_inner">

@@ -1,0 +1,173 @@
+/**********ECOMMERCE BANNER***********/
+
+.ecommerce_banner_cover {
+    width: 500px;
+    position: relative;
+    height: 500px;
+    margin-top: 100px;
+}
+
+img.ecommerce_main {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    animation: float 18s ease-in-out infinite;
+}
+
+img.ecommerce_balloon {
+    position: absolute;
+    right: 0%;
+    width: 11%;
+    animation: floatX 16s ease-in-out infinite;
+}
+
+img.ecommerce_heart {
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+    width: 12%;
+    animation: float 14s ease-in-out infinite;
+}
+
+img.ecommerce_like {
+    position: absolute;
+    left: 14%;
+    bottom: 41%;
+    width: 9%;
+    animation: float 14s ease-in-out infinite;
+}
+
+img.ecommerce_buynow {
+    position: absolute;
+    right: 7%;
+    bottom: 40%;
+    width: 23%;
+    animation: float 18s ease-in-out infinite;
+} 
+/*****************************/
+.EcommerceBlk1_cover {
+    margin: 50px 0;
+}
+
+p.EcommerceBlk1_para {
+    font-size: 14px;
+    text-align: center;
+    margin: 40px auto;
+    width: 60%;
+}
+
+.EcommerceBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 100px;
+}
+
+.EcommerceBlock_Left {
+    width: 48%;
+}
+
+.EcommerceBlock_Left img {
+    width: 170px;
+}
+
+.EcommerceBlock_Left h4 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.EcommerceBlock_Left p {
+    font-size: 14px;
+    width: 80%;
+}
+
+.EcommerceBlock_Right {
+    border-left: 2px solid #ddd;
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 51%;
+    justify-content: flex-end;
+}
+
+.EcommerceIcon_wrap {
+    background: red;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EcommerceIcon_wrap img {
+    width: 30px;
+}
+
+.Ecommerce_icon_blk h5 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 8px;
+    width: 78%;
+}
+
+.Ecommerce_icon_blk {
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.EcommerceBlock:nth-child(2) .EcommerceBlock_Right {
+    border-left: 0;
+    padding-left: 0;
+    width: 48%;
+}
+
+.EcommerceBlock:nth-child(2) .EcommerceBlock_Left {
+    border-left: 2px solid #ddd;
+    width: 52%;
+    padding-left: 90px;
+}
+
+.EcommerceBlock:nth-child(2) {
+    margin-top: 50px;
+}
+
+.EcommerceBlock:nth-child(2) .EcommerceBlock_Left img {
+    width: 90px;
+    margin-bottom: 13px;
+}
+.Ecommerce_enquiry {
+    margin: 0 100px;
+}
+
+p.Ecommerce_enquiry_para {
+    width: 64%;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Ecommerce_enquiry .homeEnquiry_wrap {
+    margin: 65px 0;
+}
+
+.Ecommerce_enquiry .block_section_two_head h2 {
+    width: 59%;
+    margin: auto;
+}
+/******************************************/
+.EcommerceBlk2_cover {
+    padding: 50px;
+    background: linear-gradient(180deg, #f866096e 0%, #ec463c73 47%, #eb35424f 100%) 0% 0%;
+}
+
+.EcommerceBlk2_inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 30px;
+    justify-content: center;
+}
+
+.EcommerceBlk2_inner .work_icon {
+    width: 240px;
+    margin: 20px 60px;
+}

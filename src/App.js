@@ -20,6 +20,9 @@ import BrochureDesign from "./containers/BrochureDesign/BrochureDesign";
 import CorporateDesign from "./containers/CorporateDesign/CorporateDesign";
 import Specialist from "./containers/Specialist/Specialist";
 import IosDev from "./containers/ios/IosDev";
+import Ecommerce from "./containers/Ecommerce/Ecommerce";
+import PPCServices from "./containers/PPCServices/PPCServices";
+ 
 
  
 function App() { 
@@ -44,6 +47,8 @@ function App() {
         <Route path='/corporate' element={<CorporateDesign/>}/>
         <Route path='/specialist' element={<Specialist/>}/>
         <Route path='/iosdev' element={<IosDev/>}/>
+        <Route path='/ecommerce' element={<Ecommerce/>}/>
+        <Route path='/ppc' element={<PPCServices/>}/>
 
 
         <Route path='/contactus' element={<ContactUs />}/>

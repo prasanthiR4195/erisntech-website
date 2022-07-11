@@ -119,7 +119,8 @@ const DigitalMarketing = () => {
      
       /> 
       <SwBandSection para="Want to learn more about our software development expertise?" />
-      <DigitalSlider product1={product1} product2={product2} product3={product3}/>
+      <DigitalSlider product1={product1} product2={product2} product3={product3} subhead="OUR WORKS"
+       head="Our Digital Marketing Portfolios"/>
 
       <DigitalWorks/>
       <WebDevClients/>
