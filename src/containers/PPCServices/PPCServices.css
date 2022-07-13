@@ -1,0 +1,178 @@
+.ppc_banner_cover {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+img.ppc_screen {
+    position: absolute;
+    bottom: 0%;
+    width: 111%;
+    left: 0;
+    animation: float 18s ease-in-out infinite;
+}
+.PPCBlk1_cover {
+    padding: 50px 140px;
+}
+
+p.PPCBlk1_para {
+    margin: 50px auto;
+    width: 73%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.PPCBlock_cover {
+    background: #fef4f4;
+    width: 354px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+
+.PPCBlk1_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.ppcIcon {
+    width: 40px;
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+img.ppcColor {
+    position: absolute;
+    width: 40px;
+    left: 19px;
+    z-index: 0;
+}
+
+.PPCBlock_cover h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 11px;
+    margin-bottom: 0;
+}
+
+.ppcBlock_head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.PPCBlock_cover p {
+    font-size: 14px;
+}
+.PPCBlk1_cover {
+    padding: 50px 140px;
+}
+
+p.PPCBlk1_para {
+    margin: 50px auto;
+    width: 73%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.PPCBlock_cover {
+    background: #fef4f4;
+    width: 354px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+
+.PPCBlk1_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.ppcIcon {
+    width: 40px;
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+img.ppcColor {
+    position: absolute;
+    width: 40px;
+    left: 19px;
+    z-index: 0;
+}
+
+.PPCBlock_cover h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 11px;
+    margin-bottom: 0;
+}
+
+.ppcBlock_head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.PPCBlock_cover p {
+    font-size: 14px;
+}
+
+.PPCServicesSection {
+    margin-top: 50px;
+    background: linear-gradient(180deg, #f866094a 0%, #ec463c80 47%, #eb35425e 100%) 0% 0%;
+    padding: 50px;
+}
+/********ppc ads*************/
+.PPCAds_inner {
+    margin: 50px 0;
+}
+
+.PPCAds_img img {
+    width: 300px;
+}
+
+.PPCAds_img span {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    color: #CCCCCC;
+    top: -71px;
+    width: 50%;
+    line-height: 43px;
+    left: 56px;
+}
+
+.PPCAds_row {
+    margin: 90px auto 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PPCAds_img {
+    margin-top: 50px;
+    position: relative;
+    width: 40%;
+}
+
+.PPCAds_para p {
+    font-size: 14px;
+}
+
+.PPCAds_para {
+    width: 50%;
+}
+p.PPCAds_head_para {
+    font-size: 14px;
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}

@@ -8,7 +8,7 @@ import {
   FormControlLabel,Box
 } from "@material-ui/core";
 
-const SpecialistBlk1 = () => {
+const SpecialistBlk1 = ({head,para}) => { 
  
     const useStyle = makeStyles((theme) => ({
         textField: {
@@ -43,9 +43,9 @@ const SpecialistBlk1 = () => {
 
         <div className='SpecialistBlk1_left'>
             <div className="SpecialistBlk1_left_inner">
-                <h2>Search Engine Optimization Services</h2>
+                <h2>{head}</h2>
                 <span className='heading_underline'></span>
-                <p>Hiring Erisn, a leading SEO service provider company, can let your business gain a solid foothold in today’s digital landscape. Our affordable, professional, and effective Search Engine Optimization services can help your digital marketing campaign succeed.</p>
+                <p>{para}</p>
             </div>
         </div>
         <div className='SpecialistBlk1_right'>

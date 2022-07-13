@@ -3,9 +3,11 @@ import "./HomeEnquiry.css";
 import Button from "../CommonButton/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import cube from "../../assets/homepage/work-inquiry-decor.png";
+import Fade from 'react-reveal/Fade';
 
 const HomeEnquiry = () => {
   return (
+    <Fade bottom>
     <div className="homeEnquiry_wrap">
       <div className="homeEnquiry_inner">
         <img src={cube} className="home_cube" />
@@ -16,6 +18,7 @@ const HomeEnquiry = () => {
         </Button>
       </div>
     </div>
+    </Fade>
   );
 };
 

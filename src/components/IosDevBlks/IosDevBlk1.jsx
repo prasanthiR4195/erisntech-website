@@ -14,7 +14,7 @@ const IosDevBlk1 = () => {
         head: "iPhone App Testing",
         para:"Our analysts know the latest industry standards for the development, testing, and release of modern iOS apps. As an experienced mobile app development agency, we’ll guide you through all the latest quality assurance (QA) requirements and even shorten your development lifecycle by avoiding common pitfalls."
     },
-{
+{ 
     img: icon2,
     head:"iPhone App Support And Maintenance",
     para:"Once we’ve built your iOS app, we can also provide all the support and maintenance you need to ensure it continues to run smoothly. Agency Partner will work with your team to update your app as new features or components become available."

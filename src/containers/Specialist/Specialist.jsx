@@ -114,7 +114,7 @@ const Specialist = () => {
         btnOrang={["Get a Quote", <AiOutlineArrowRight className="arrow" />]}
         bannerImg={<SpecialistBanner />}
       />
-      <SpecialistBlk1 />
+      <SpecialistBlk1 head="Search Engine Optimization Services" para="Hiring Erisn, a leading SEO service provider company, can let your business gain a solid foothold in today’s digital landscape. Our affordable, professional, and effective Search Engine Optimization services can help your digital marketing campaign succeed."/>
       <SoftwareDeBlk1
         subHead="OUR SERVICES"
         mainHead="Search Engine Optimization Solutions"

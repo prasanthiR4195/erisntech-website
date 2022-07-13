@@ -44,10 +44,11 @@ const Techslider = ({product1,product2,product3,product4,product5,product6,produ
           <img src={product4} alt="product" />
           <h5>{product_name4}</h5>
         </div>
-        <div className="item">
+        {product5 ? <div className="item">
           <img src={product5} alt="product" />
           <h5>{product_name5}</h5>
-        </div>
+        </div> : ""}
+        
         {product6 ?  <div className="item">
           <img src={product6} alt="product" />
           <h5>{product_name6}</h5>

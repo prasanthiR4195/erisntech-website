@@ -9,10 +9,9 @@ import business3 from "../../assets/homepage/design.png";
 import business4 from "../../assets/homepage/ecommerce.png"; 
 import business5 from "../../assets/homepage/digital.png"; 
 import BusinessBlk from "../Business/BusinessBlk";
-import AOS from 'aos'
 
-const HomeBlock = () => {
-  AOS.init()
+
+const HomeBlock = () => { 
   return (
     <div className="home_block_outer"> 
       <CommonHeading
@@ -20,6 +19,7 @@ const HomeBlock = () => {
         mainB1="What Services We Offering"   
       />
       <div className="home_block_wrap" >
+       
         <BusinessBlk
             img={business0}
             title="Web Development"

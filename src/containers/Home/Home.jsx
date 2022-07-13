@@ -21,7 +21,7 @@ import kotlin from "../../assets/homepage/kotlin.png";
 import codeigniter from "../../assets/homepage/codeigniter.png";
 import php from "../../assets/homepage/php.png";
 
-
+ 
 const Home = () => {
   return (
     <div className="erisn__home">

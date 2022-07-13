@@ -22,6 +22,9 @@ import Specialist from "./containers/Specialist/Specialist";
 import IosDev from "./containers/ios/IosDev";
 import Ecommerce from "./containers/Ecommerce/Ecommerce";
 import PPCServices from "./containers/PPCServices/PPCServices";
+import ContentMarketing from "./containers/ContentMarketing/ContentMarketing";
+import SocialMediaMarketing from "./containers/SocialMediaMarketing/SocialMediaMarketing";
+import HospitalManagement from "./containers/Products/HospitalManagement";
  
 
  
@@ -49,7 +52,9 @@ function App() {
         <Route path='/iosdev' element={<IosDev/>}/>
         <Route path='/ecommerce' element={<Ecommerce/>}/>
         <Route path='/ppc' element={<PPCServices/>}/>
-
+        <Route path='/contentmarketing' element={<ContentMarketing/>}/>
+        <Route path='/socialmedia' element={<SocialMediaMarketing/>}/>
+        <Route path='/hms' element={<HospitalManagement/>}/>
 
         <Route path='/contactus' element={<ContactUs />}/>
         <Route path="/term" element={<TermOfPayment/>} />

@@ -12,11 +12,11 @@ import icon7 from "../../assets/specialist/fitness.png";
 import icon8 from "../../assets/specialist/insurance.png";
 import color1 from "../../assets/webdev/color1.png";
 import color2 from "../../assets/webdev/color2.png";
-import color3 from "../../assets/webdev/color3.png";
+import color3 from "../../assets/webdev/color3.png"; 
 import color4 from "../../assets/webdev/color4.png";
 import color5 from "../../assets/webdev/color5.png";
 
-const SpecialistBlk2 = () => {
+const SpecialistBlk2 = () => { 
   return (
     <div className="SpecialistBlk2_cover">
       <CommonHeading

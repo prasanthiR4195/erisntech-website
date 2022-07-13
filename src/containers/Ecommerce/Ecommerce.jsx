@@ -42,9 +42,7 @@ const Ecommerce = () => {
         </p>
         <HomeEnquiry />
       </div>
-
-      <EcommerceBlk2/>
-
+      <EcommerceBlk2 />
       <Faq />
       <Contact />
     </div>
